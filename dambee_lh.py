@@ -273,12 +273,14 @@ while True:
           os.system("aplay -D plughw:1,0 /home/pi/dambee_lh/music/beep.wav")
           DEBUGPrint("UID :", l)
           nfcbusy = True
-          if len(l) > 12:
-            mysocket.webcmd[7]["cardNumber"] = l[0:12]
-          elif len(l) < 12:
-            mysocket.webcmd[7]["cardNumber"] = "0000"+l
-          else:
-            mysocket.webcmd[7]["cardNumber"] = l
+        
+          mysocket.webcmd[7]["cardNumber"] = "00AABBCCDDEE"#l      
+          #if len(l) > 12:
+          #  mysocket.webcmd[7]["cardNumber"] = l[0:12]
+          #elif len(l) < 12:
+          #  mysocket.webcmd[7]["cardNumber"] = "0000"+l
+          #else:
+          #  mysocket.webcmd[7]["cardNumber"] = l
           mysocket.SendMessage(7)
           
       else:
