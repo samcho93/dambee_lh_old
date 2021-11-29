@@ -1,0 +1,29 @@
+[2021-11-27 23:43:53][COMMAND]Read System Configuration File
+[2021-11-27 23:43:53][MAIN]입출력 초기화
+[2021-11-27 23:43:53][MAIN]LCD 초기화
+[2021-11-27 23:43:53][MAIN]사운드 초기화
+[2021-11-27 23:43:53][MAIN]네트워크 정보 로드
+[2021-11-27 23:43:53][MAIN]Send to BLE
+[2021-11-27 23:43:53][COMMAND]##################################################
+[2021-11-27 23:43:53][COMMAND]> CMD : Get BLE Infor.
+[2021-11-27 23:43:53][COMMAND]{'enckey': 'BBCCD728663FF5F2', 'mac': 'D3:68:BF:B2:F2:5C'}
+[2021-11-27 23:43:53][COMMAND]##################################################
+[2021-11-27 23:43:53][COMMAND]Write System Configuration File
+[2021-11-27 23:43:53][UTIL]key : 20D368BFB2F25CBBCCD728663FF5F221
+[2021-11-27 23:43:53][UTIL]iv : BBCCD728663FF5F2
+[2021-11-27 23:43:54][MAIN]터치초기화
+[2021-11-27 23:43:56][MAIN]카드리더초기화
+[2021-11-27 23:43:56][MAIN]소켓서버 연결
+[2021-11-27 23:43:56][MYSOCKET]접속 완료
+[2021-11-27 23:43:57][MYSOCKET]{'result': 0}
+[2021-11-27 23:43:57][MYSOCKET]## Send Message ##
+[2021-11-27 23:43:57][MYSOCKET]orig : {'method': 'getDeviceFcltInfo', 'macAddr': 'D3:68:BF:B2:F2:5C'}
+[2021-11-27 23:43:57][MYSOCKET]dec : {"resulttime":"20211127234357","fcltSn":5,"errorCode":0,"orgnztSn":3}
+[2021-11-27 23:43:57][MYSOCKET]recvData : b'\xcd\x9b\xcbw\x7f,\xeb\x8f(\x9bk\x12\x83\x85#\xe2\x93a\xf1\x80\x81\xf2c5\x9f\x13\xde\x15\x08r\xdfQ)T\xd5\xeb\xeb\xd9\xc4\x8a\x97\x8a\xf3m\xeb\xa9"\x91\xff\xa2\x15\xa8S\xe0\x04\x96\xf8\x95[e\xd5\xf8\xe1P\xbcW\xa4\x8f|\xd9>\xb9\xec__\xd2>A]1'
+[2021-11-27 23:43:57][MYSOCKET]dicdata : {'resulttime': '20211127234357', 'fcltSn': 5, 'errorCode': 0, 'orgnztSn': 3}
+[2021-11-27 23:43:57][MYSOCKET]resulttime : 20211127234357
+[2021-11-27 23:43:57][MYSOCKET]Receive Socket
+[2021-11-27 23:43:57][MYSOCKET]Decoding : {"resulttime":"20211127234357","fcltSn":5,"errorCode":0,"orgnztSn":3}
+[2021-11-27 23:43:57][MYSOCKET]Call taskProcess
+[2021-11-27 23:43:57][TASK]taskProcess dic : {'resulttime': '20211127234357', 'fcltSn': 5, 'errorCode': 0, 'orgnztSn': 3}
+[2021-11-27 23:43:57][COMMAND]Write System Configuration File

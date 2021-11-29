@@ -1,0 +1,54 @@
+[2021-11-18 20:09:02][COMMAND]Read System Configuration File
+[2021-11-18 20:09:02][MAIN]입출력 초기화
+[2021-11-18 20:09:02][MAIN]LCD 초기화
+[2021-11-18 20:09:03][MAIN]사운드 초기화
+[2021-11-18 20:09:03][MAIN]네트워크 정보 로드
+[2021-11-18 20:09:03][MAIN]Send to BLE
+[2021-11-18 20:09:03][COMMAND]##################################################
+[2021-11-18 20:09:03][COMMAND]> CMD : Get BLE Infor.
+[2021-11-18 20:09:03][COMMAND]{'enckey': '2D65F6C9F0DF759A', 'mac': 'FD:09:2F:DC:7A:56'}
+[2021-11-18 20:09:03][COMMAND]##################################################
+[2021-11-18 20:09:03][COMMAND]Write System Configuration File
+[2021-11-18 20:09:03][UTIL]key : 20FD092FDC7A562D65F6C9F0DF759A21
+[2021-11-18 20:09:03][UTIL]iv : 2D65F6C9F0DF759A
+[2021-11-18 20:09:04][MAIN]터치초기화
+[2021-11-18 20:09:07][MAIN]소켓서버 연결
+[2021-11-18 20:09:07][MYSOCKET]접속 완료
+[2021-11-18 20:09:08][MYSOCKET]{'result': 0}
+[2021-11-18 20:09:08][MYSOCKET]## Send Message ##
+[2021-11-18 20:09:08][MYSOCKET]orig : {'method': 'getDeviceFcltInfo', 'macAddr': 'FD:09:2F:DC:7A:56'}
+[2021-11-18 20:09:08][MYSOCKET]dec : {"resulttime":"20211118200908","fcltSn":1,"errorCode":0,"orgnztSn":2}
+[2021-11-18 20:09:08][MYSOCKET]recvData : b".\x02\xe2e?\xce\x92\xad\x10k-C\xe0\xaaq\xa0b\x18\xca\xf0.\xe8[\x9f\x13\x13\xfc\x92\x04\xf8q@\xc6<\x04\xda\x8e\x99b\x85\xaagu\xbbFE\xc8\x18F\xd2AW\x9c j\xe07\xaeWoo\x96@\x90\x07\xb5\x92\x11)\xcdG\xf6\x1c\x9cp!\xd3'J\x8e"
+[2021-11-18 20:09:08][MYSOCKET]dicdata : {'resulttime': '20211118200908', 'fcltSn': 1, 'errorCode': 0, 'orgnztSn': 2}
+[2021-11-18 20:09:08][MYSOCKET]resulttime : 20211118200908
+[2021-11-18 20:09:08][MYSOCKET]Receive Socket
+[2021-11-18 20:09:08][MYSOCKET]Decoding : {"resulttime":"20211118200908","fcltSn":1,"errorCode":0,"orgnztSn":2}
+[2021-11-18 20:09:08][MYSOCKET]Call taskProcess
+[2021-11-18 20:09:08][TASK]taskProcess dic : {'resulttime': '20211118200908', 'fcltSn': 1, 'errorCode': 0, 'orgnztSn': 2}
+[2021-11-18 20:09:08][COMMAND]Write System Configuration File
+[2021-11-18 20:09:12][COMMAND]+067cmd:setsyn,authkey:0905142444RYSTWU,timesync:20211118200912fcltsn:1
+[2021-11-18 20:09:13][COMMAND]+071cmd:setope,authkey:0905142444RYSTWU,gender:1,reqtime:20211118200912,cardcnt:0001,pw1:167494,pw2:653793,pw3:584617,btry:0,error:0
+[2021-11-18 20:09:13][COMMAND]##################################################
+[2021-11-18 20:09:13][COMMAND]> CMD : door open
+[2021-11-18 20:09:13][COMMAND]> Authkey : 0905142444RYSTWU
+[2021-11-18 20:09:13][COMMAND]> Gender : Man
+[2021-11-18 20:09:13][COMMAND]> Request Time : 20211118200912
+[2021-11-18 20:09:13][COMMAND]> pw1 : 167494
+[2021-11-18 20:09:13][COMMAND]> pw2 : 653793
+[2021-11-18 20:09:13][COMMAND]> pw3 : 584617
+[2021-11-18 20:09:13][COMMAND]> Current Time : 20211118200913
+[2021-11-18 20:09:13][COMMAND]Respons Time(sec) : 1(s)
+[2021-11-18 20:09:13][COMMAND]##################################################
+[2021-11-18 20:09:13][COMMAND]BLE인증완료
+[2021-11-18 20:09:21][MYSOCKET]## Send Message ##
+[2021-11-18 20:09:21][MYSOCKET]orig : {'method': 'getAuthKeyInfo', 'orgnztSn': 1, 'fcltSn': 1}
+[2021-11-18 20:09:21][MYSOCKET]dec : {"authKey":"0905142444RYSTWU","resulttime":"20211118200921","errorCode":0}
+[2021-11-18 20:09:21][MYSOCKET]recvData : b"\xc6a\xf0>\xecX\xe9\xc8\x82\xe5c]\xd7|\xa8(\x13XgM\xb8\xe4\xa8=\n\x7f\xb2\xe1Q\xf0\x96r\x93\xed\xa4\x91\xcf\\\xb9\xbd\xe3\xaa'y\xbb\x13\xf9\x17Ekp\xa8\x89;\x8f\xcaBKOnzo\x0c\xd3\n\xa0~\x00m3\xeb\xc4\xcc\xb7\xb5\xff\xdf\xf6\x12\xea"
+[2021-11-18 20:09:21][MYSOCKET]dicdata : {'authKey': '0905142444RYSTWU', 'resulttime': '20211118200921', 'errorCode': 0}
+[2021-11-18 20:09:21][MYSOCKET]resulttime : 20211118200921
+[2021-11-18 20:09:21][MYSOCKET]Receive Socket
+[2021-11-18 20:09:21][MYSOCKET]Decoding : {"authKey":"0905142444RYSTWU","resulttime":"20211118200921","errorCode":0}
+[2021-11-18 20:09:21][MYSOCKET]Invalid Authkey...
+[2021-11-18 20:09:21][MYSOCKET]Call taskProcess
+[2021-11-18 20:09:21][TASK]taskProcess dic : {'authKey': '0905142444RYSTWU', 'resulttime': '20211118200921', 'errorCode': 0}
+[2021-11-18 20:10:19][MAIN]접속 종료

@@ -1,0 +1,29 @@
+[2021-11-28 14:01:37][COMMAND]Read System Configuration File
+[2021-11-28 14:01:37][MAIN]입출력 초기화
+[2021-11-28 14:01:37][MAIN]LCD 초기화
+[2021-11-28 14:01:37][MAIN]사운드 초기화
+[2021-11-28 14:01:37][MAIN]네트워크 정보 로드
+[2021-11-28 14:01:37][MAIN]Send to BLE
+[2021-11-28 14:01:37][COMMAND]##################################################
+[2021-11-28 14:01:37][COMMAND]> CMD : Get BLE Infor.
+[2021-11-28 14:01:37][COMMAND]{'enckey': 'BBCCD728663FF5F2', 'mac': 'D3:68:BF:B2:F2:5C'}
+[2021-11-28 14:01:37][COMMAND]##################################################
+[2021-11-28 14:01:37][COMMAND]Write System Configuration File
+[2021-11-28 14:01:37][UTIL]key : 20D368BFB2F25CBBCCD728663FF5F221
+[2021-11-28 14:01:37][UTIL]iv : BBCCD728663FF5F2
+[2021-11-28 14:01:38][MAIN]터치초기화
+[2021-11-28 14:01:40][MAIN]카드리더초기화
+[2021-11-28 14:01:40][MAIN]소켓서버 연결
+[2021-11-28 14:01:40][MYSOCKET]접속 완료
+[2021-11-28 14:01:41][MYSOCKET]{'result': 0}
+[2021-11-28 14:01:41][MYSOCKET]## Send Message ##
+[2021-11-28 14:01:41][MYSOCKET]orig : {'method': 'getDeviceFcltInfo', 'macAddr': 'D3:68:BF:B2:F2:5C'}
+[2021-11-28 14:01:41][MYSOCKET]dec : {"resulttime":"20211128140141","fcltSn":5,"errorCode":0,"orgnztSn":3}
+[2021-11-28 14:01:41][MYSOCKET]recvData : b'\xcd\x9b\xcbw\x7f,\xeb\x8f(\x9bk\x12\x83\x85#\xe2\x92\xa3\xc8Y\xbe\x1b\xcdw\xeb\xe4\x85o\xe0\xbfg\x86@\x19mV\x82\x1d\xd6MB\x9dw\x7f\xa6\xe7\xfa>\xeb\x9b+\xcf\x91\xe0!z.\x106\xebC\x86\x13:\xbd\xd5\xa9f\x00\xa4B\xd7lo7\xba\x0f\t\xb5H'
+[2021-11-28 14:01:41][MYSOCKET]dicdata : {'resulttime': '20211128140141', 'fcltSn': 5, 'errorCode': 0, 'orgnztSn': 3}
+[2021-11-28 14:01:41][MYSOCKET]Receive Socket
+[2021-11-28 14:01:41][MYSOCKET]resulttime : 20211128140141
+[2021-11-28 14:01:41][MYSOCKET]Decoding : {"resulttime":"20211128140141","fcltSn":5,"errorCode":0,"orgnztSn":3}
+[2021-11-28 14:01:41][MYSOCKET]Call taskProcess
+[2021-11-28 14:01:41][TASK]taskProcess dic : {'resulttime': '20211128140141', 'fcltSn': 5, 'errorCode': 0, 'orgnztSn': 3}
+[2021-11-28 14:01:41][COMMAND]Write System Configuration File

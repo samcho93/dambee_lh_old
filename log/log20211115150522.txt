@@ -1,0 +1,81 @@
+[2021-11-15 15:05:22][COMMAND]Read System Configuration File
+[2021-11-15 15:05:22][MAIN]입출력 초기화
+[2021-11-15 15:05:22][MAIN]LCD 초기화
+[2021-11-15 15:05:22][MAIN]사운드 초기화
+[2021-11-15 15:05:22][MAIN]네트워크 정보 로드
+[2021-11-15 15:05:22][MAIN]Send to BLE
+[2021-11-15 15:05:22][COMMAND]##################################################
+[2021-11-15 15:05:22][COMMAND]> CMD : Get BLE Infor.
+[2021-11-15 15:05:22][COMMAND]{'enckey': '9873CE4DAB0BCF6F', 'mac': 'C0:BD:9B:84:CF:F7'}
+[2021-11-15 15:05:22][COMMAND]##################################################
+[2021-11-15 15:05:22][COMMAND]Write System Configuration File
+[2021-11-15 15:05:22][UTIL]key : 20C0BD9B84CFF79873CE4DAB0BCF6F21
+[2021-11-15 15:05:22][UTIL]iv : 9873CE4DAB0BCF6F
+[2021-11-15 15:05:23][MAIN]소켓서버 연결
+[2021-11-15 15:05:23][MYSOCKET]접속 완료
+[2021-11-15 15:05:23][MYSOCKET]{'result': 0}
+[2021-11-15 15:05:23][MYSOCKET]## Send Message ##
+[2021-11-15 15:05:23][MYSOCKET]orig : {'method': 'getDeviceFcltInfo', 'macAddr': 'C0:BD:9B:84:CF:F7'}
+[2021-11-15 15:05:23][MYSOCKET]dec : {"resulttime":"20211115150523","fcltSn":1,"errorCode":0,"orgnztSn":2}
+[2021-11-15 15:05:24][MYSOCKET]recvData : b'\x88\xe7O\x84#\xb9\xefX*\xb1\xbf\xc3VCtD\x17h\xb5\x01\xb1@\xa2\xb9\x1a.\xb72\x01\x06\x05\xce\x89\xea\xc3\x02X\xfe\xc67\x1fl\xae\x89\x90(}2V[\x98\x81\xa1}\xc0\x9dV\x8b\xd5#\xeb\xfb\x17\xa8U\tg\xd5\xad\xc6_\xa7\x89/\x81\xb4}\xc6 g'
+[2021-11-15 15:05:24][MYSOCKET]dicdata : {'resulttime': '20211115150523', 'fcltSn': 1, 'errorCode': 0, 'orgnztSn': 2}
+[2021-11-15 15:05:24][MYSOCKET]resulttime : 20211115150523
+[2021-11-15 15:05:24][MYSOCKET]Receive Socket
+[2021-11-15 15:05:24][MYSOCKET]Decoding : {"resulttime":"20211115150523","fcltSn":1,"errorCode":0,"orgnztSn":2}
+[2021-11-15 15:05:24][MYSOCKET]Call taskProcess
+[2021-11-15 15:05:24][TASK]taskProcess dic : {'resulttime': '20211115150523', 'fcltSn': 1, 'errorCode': 0, 'orgnztSn': 2}
+[2021-11-15 15:05:24][COMMAND]Write System Configuration File
+[2021-11-15 15:06:41][COMMAND]+067cmd:setsyn,authkey:0905142444RYSTWU,timesync:20211115150641fcltsn:1
+[2021-11-15 15:06:42][COMMAND]+071cmd:setope,authkey:0905142444RYSTWU,gender:1,reqtime:20211115150641,cardcnt:0001,pw1:053138,pw2:970429,pw3:318869,btry:0,error:0
+[2021-11-15 15:06:42][COMMAND]##################################################
+[2021-11-15 15:06:42][COMMAND]> CMD : door open
+[2021-11-15 15:06:42][COMMAND]> Authkey : setope,authkey:0905142444RYSTWU,gender:1,reqtime:20211115150641,cardcnt:0001,pw1:053138,pw2:970429,pw3:318869,btry:0,error:0
+[2021-11-15 15:06:42][COMMAND]> Gender : Man
+[2021-11-15 15:06:42][COMMAND]> Request Time : 20211115150641
+[2021-11-15 15:06:42][COMMAND]> pw1 : 053138
+[2021-11-15 15:06:42][COMMAND]> pw2 : 970429
+[2021-11-15 15:06:42][COMMAND]> pw3 : 318869
+[2021-11-15 15:06:42][COMMAND]> Current Time : 20211115150642
+[2021-11-15 15:06:42][COMMAND]Respons Time(sec) : 1(s)
+[2021-11-15 15:06:42][COMMAND]##################################################
+[2021-11-15 15:06:42][MAIN]Door Open
+[2021-11-15 15:06:47][MAIN]Door Close
+[2021-11-15 15:06:47][MAIN]Display Init...
+[2021-11-15 15:06:57][COMMAND]+067cmd:setsyn,authkey:0905142444RYSTWU,timesync:20211115150656fcltsn:1
+[2021-11-15 15:06:57][COMMAND]+071cmd:setope,authkey:0905142444RYSTWU,gender:1,reqtime:20211115150657,cardcnt:0001,pw1:936627,pw2:085587,pw3:733738,btry:0,error:0
+[2021-11-15 15:06:57][COMMAND]##################################################
+[2021-11-15 15:06:57][COMMAND]> CMD : door open
+[2021-11-15 15:06:57][COMMAND]> Authkey : setope,authkey:0905142444RYSTWU,gender:1,reqtime:20211115150657,cardcnt:0001,pw1:936627,pw2:085587,pw3:733738,btry:0,error:0
+[2021-11-15 15:06:57][COMMAND]> Gender : Man
+[2021-11-15 15:06:57][COMMAND]> Request Time : 20211115150657
+[2021-11-15 15:06:57][COMMAND]> pw1 : 936627
+[2021-11-15 15:06:57][COMMAND]> pw2 : 085587
+[2021-11-15 15:06:57][COMMAND]> pw3 : 733738
+[2021-11-15 15:06:57][COMMAND]> Current Time : 20211115150657
+[2021-11-15 15:06:57][COMMAND]Respons Time(sec) : 0(s)
+[2021-11-15 15:06:57][COMMAND]##################################################
+[2021-11-15 15:06:57][MAIN]Door Open
+[2021-11-15 15:07:02][MAIN]Door Close
+[2021-11-15 15:07:02][MAIN]Display Init...
+[2021-11-15 15:15:07][COMMAND]+067cmd:setsyn,authkey:0905142444RYSTWU,timesync:20211115151507fcltsn:1
+[2021-11-15 15:15:07][COMMAND]+071cmd:setope,authkey:0905142444RYSTWU,gender:1,reqtime:20211115151507,cardcnt:0001,pw1:067866,pw2:320613,pw3:674653,btry:0,error:0
+[2021-11-15 15:15:07][COMMAND]##################################################
+[2021-11-15 15:15:07][COMMAND]> CMD : door open
+[2021-11-15 15:15:07][COMMAND]> Authkey : setope,authkey:0905142444RYSTWU,gender:1,reqtime:20211115151507,cardcnt:0001,pw1:067866,pw2:320613,pw3:674653,btry:0,error:0
+[2021-11-15 15:15:07][COMMAND]> Gender : Man
+[2021-11-15 15:15:07][COMMAND]> Request Time : 20211115151507
+[2021-11-15 15:15:07][COMMAND]> pw1 : 067866
+[2021-11-15 15:15:07][COMMAND]> pw2 : 320613
+[2021-11-15 15:15:07][COMMAND]> pw3 : 674653
+[2021-11-15 15:15:07][COMMAND]> Current Time : 20211115151507
+[2021-11-15 15:15:07][COMMAND]Respons Time(sec) : 0(s)
+[2021-11-15 15:15:07][COMMAND]##################################################
+[2021-11-15 15:15:08][MAIN]Door Open
+[2021-11-15 15:15:13][MAIN]Door Close
+[2021-11-15 15:15:13][MAIN]Display Init...
+[2021-11-15 15:15:51][MAIN][Key] K2
+[2021-11-15 15:15:52][MAIN][Key] K2
+[2021-11-15 15:15:54][MAIN][Key] K2
+[2021-11-15 15:15:54][MAIN][Key] K5
+[2021-11-15 15:15:55][MAIN][Key] K8
+[2021-11-15 15:15:55][MAIN][Key] K0

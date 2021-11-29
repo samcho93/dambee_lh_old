@@ -1,0 +1,48 @@
+[2021-11-13 15:12:26][COMMAND]Read System Configuration File
+[2021-11-13 15:12:26][MAIN]입출력 초기화
+[2021-11-13 15:12:26][MAIN]LCD 초기화
+[2021-11-13 15:12:27][MAIN]사운드 초기화
+[2021-11-13 15:12:27][MAIN]네트워크 정보 로드
+[2021-11-13 15:12:27][MAIN]Send to BLE
+[2021-11-13 15:12:27][MAIN]소켓서버 연결
+[2021-11-13 15:12:27][COMMAND]##################################################
+[2021-11-13 15:12:27][COMMAND]> CMD : Get BLE Infor.
+[2021-11-13 15:12:27][COMMAND]{'enckey': '9873CE4DAB0BCF6F', 'mac': 'C0:BD:9B:84:CF:F7'}
+[2021-11-13 15:12:27][COMMAND]##################################################
+[2021-11-13 15:12:27][COMMAND]Write System Configuration File
+[2021-11-13 15:12:27][UTIL]key : 20C0BD9B84CFF79873CE4DAB0BCF6F21
+[2021-11-13 15:12:27][UTIL]iv : 9873CE4DAB0BCF6F
+[2021-11-13 15:12:27][MYSOCKET]접속 완료
+[2021-11-13 15:12:32][MYSOCKET]{'result': 0}
+[2021-11-13 15:12:32][MYSOCKET]## Send Message ##
+[2021-11-13 15:12:32][MYSOCKET]orig : {'method': 'getDeviceFcltInfo', 'macAddr': 'C0:BD:9B:84:CF:F7'}
+[2021-11-13 15:12:32][MYSOCKET]dec : {"resulttime":"20211113151232","fcltSn":1,"errorCode":0,"orgnztSn":2}
+[2021-11-13 15:12:32][MYSOCKET]recvData : b'\x88\xe7O\x84#\xb9\xefX*\xb1\xbf\xc3VCtDic\n:\x95j\xf0\xc9ic\xefh\xbf\xfc\x9b\xfc5i\xb8\xdbz}P\xac\xd5\x95D\xa7\xa7m\x18\x9e\x81T[]\xba\x8a\xcf\xac\xc4Wg\x0fH%\xf9yo\x8be\xf2\x92\xa9\xce\xbd\x92\x17\x8e\xd9SO\x0c\xb3'
+[2021-11-13 15:12:32][MYSOCKET]dicdata : {'resulttime': '20211113151232', 'fcltSn': 1, 'errorCode': 0, 'orgnztSn': 2}
+[2021-11-13 15:12:32][MYSOCKET]resulttime : 20211113151232
+[2021-11-13 15:12:32][MYSOCKET]Receive Socket
+[2021-11-13 15:12:32][MYSOCKET]Decoding : {"resulttime":"20211113151232","fcltSn":1,"errorCode":0,"orgnztSn":2}
+[2021-11-13 15:12:32][MYSOCKET]Call taskProcess
+[2021-11-13 15:12:32][TASK]taskProcess dic : {'resulttime': '20211113151232', 'fcltSn': 1, 'errorCode': 0, 'orgnztSn': 2}
+[2021-11-13 15:12:32][COMMAND]Write System Configuration File
+[2021-11-13 15:20:59][MYSOCKET]dec : {"method":"getDeviceOption","responseId":"c693fa852fc4432299469f6d5f0defb5"}
+[2021-11-13 15:20:59][MYSOCKET]recvData : b'\x91\x00\xb4\xcc\xad\x9cEv \xb5?\xc2\x06\x10\xf9\xae+\xba(\xfdb\xb6?\xfd\x89Y\x04z|c\t\xa1?\xb0>Py!\x10\x8e\x8f\xcd\xedT\xea\xe6?\xec\x81u\xa2\xd4\x16\xd9b\x85\xb1\xb9\xb6|m+\xa5\xe0\x86HT\x8c\xb9\xbb\xc6\xcb`u\x8akt\xb0\xb4k'
+[2021-11-13 15:20:59][MYSOCKET]dicdata : {'method': 'getDeviceOption', 'responseId': 'c693fa852fc4432299469f6d5f0defb5'}
+[2021-11-13 15:20:59][MYSOCKET]Method getDeviceOption
+[2021-11-13 15:20:59][MYSOCKET]{"responseId": "c693fa852fc4432299469f6d5f0defb5", "opetime": 5, "lcd": 5, "lcdtxt": 2, "spk": 3, "mic": 3, "bluepwr": 3, "brkyn": 0, "errorCode": 0}
+[2021-11-13 15:20:59][SOCKETCMD]> {'responseId': 'c693fa852fc4432299469f6d5f0defb5', 'opetime': 5, 'lcd': 5, 'lcdtxt': 2, 'spk': 3, 'mic': 3, 'bluepwr': 3, 'brkyn': 0, 'errorCode': 0}
+[2021-11-13 15:24:17][UTIL]Request Calling....
+[2021-11-13 15:24:17][TASK]TASK_REQUEST_CALL
+[2021-11-13 15:24:17][MYSOCKET]## Send Message ##
+[2021-11-13 15:24:17][MYSOCKET]orig : {'method': 'reqVideoCall', 'macAddr': 'C0:BD:9B:84:CF:F7'}
+[2021-11-13 15:24:18][MYSOCKET]dec : {"resulttime":"20211113152417","errorCode":0,"videocallSn":493}
+[2021-11-13 15:24:18][MYSOCKET]recvData : b'\x88\xe7O\x84#\xb9\xefX*\xb1\xbf\xc3VCtD\x7f\x86\xd5k\xa4\x89\x1b8\xfc\xa1\x889\x81\xdb\x01d\xefI6\x9c\xeaa\xc7\xf2\x08\xda\xe3W)\xf6\xc6\xaad\xa3\x1a\x0b\xc4\xe7f\x94\xb9\xffK\xa1\x8f\xa8\xfb\x08'
+[2021-11-13 15:24:18][MYSOCKET]dicdata : {'resulttime': '20211113152417', 'errorCode': 0, 'videocallSn': 493}
+[2021-11-13 15:24:18][MYSOCKET]resulttime : 20211113152417
+[2021-11-13 15:24:18][MYSOCKET]Receive Socket
+[2021-11-13 15:24:18][MYSOCKET]Decoding : {"resulttime":"20211113152417","errorCode":0,"videocallSn":493}
+[2021-11-13 15:24:18][MYSOCKET]Call taskProcess
+[2021-11-13 15:24:18][TASK]taskProcess dic : {'resulttime': '20211113152417', 'errorCode': 0, 'videocallSn': 493}
+[2021-11-13 15:24:18][TASK]TASK_REQUEST_CALL_RESP
+[2021-11-13 15:24:18][TASK]VideoCallSn : 493
+[2021-11-13 15:26:36][MAIN]접속 종료

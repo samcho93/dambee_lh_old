@@ -1,0 +1,69 @@
+[2021-11-28 16:32:34][COMMAND]Read System Configuration File
+[2021-11-28 16:32:34][MAIN]입출력 초기화
+[2021-11-28 16:32:34][MAIN]LCD 초기화
+[2021-11-28 16:32:35][MAIN]사운드 초기화
+[2021-11-28 16:32:35][MAIN]네트워크 정보 로드
+[2021-11-28 16:32:35][MAIN]Send to BLE
+[2021-11-28 16:32:35][COMMAND]##################################################
+[2021-11-28 16:32:35][COMMAND]> CMD : Get BLE Infor.
+[2021-11-28 16:32:35][COMMAND]{'enckey': 'BBCCD728663FF5F2', 'mac': 'D3:68:BF:B2:F2:5C'}
+[2021-11-28 16:32:35][COMMAND]##################################################
+[2021-11-28 16:32:35][COMMAND]Write System Configuration File
+[2021-11-28 16:32:35][UTIL]key : 20D368BFB2F25CBBCCD728663FF5F221
+[2021-11-28 16:32:35][UTIL]iv : BBCCD728663FF5F2
+[2021-11-28 16:32:36][MAIN]터치초기화
+[2021-11-28 16:32:38][MAIN]카드리더초기화
+[2021-11-28 16:32:38][MAIN]소켓서버 연결
+[2021-11-28 16:32:38][MYSOCKET]접속 완료
+[2021-11-28 16:32:38][COMMAND]Write System Configuration File
+[2021-11-28 16:32:41][MYSOCKET]dec : 
+[2021-11-28 16:32:41][MYSOCKET]recvData : b''
+[2021-11-28 16:32:41][MYSOCKET]소켓스래드를 종료합니다
+[2021-11-28 16:32:42][MAIN]접속이 끊겼습니다.
+[2021-11-28 16:32:47][MYSOCKET]연결이 거부 되었습니다
+[2021-11-28 16:32:47][MAIN]접속이 끊겼습니다.
+[2021-11-28 16:32:52][MYSOCKET]연결이 거부 되었습니다
+[2021-11-28 16:32:52][MAIN]접속이 끊겼습니다.
+[2021-11-28 16:32:55][MYSOCKET]접속 완료
+[2021-11-28 16:33:00][MYSOCKET]Socket Receved Errro!!!
+[2021-11-28 16:33:05][MYSOCKET]Socket Receved Errro!!!
+[2021-11-28 16:33:10][MYSOCKET]Socket Receved Errro!!!
+[2021-11-28 16:33:15][MYSOCKET]Socket Receved Errro!!!
+[2021-11-28 16:33:20][MYSOCKET]Socket Receved Errro!!!
+[2021-11-28 16:33:25][MYSOCKET]Socket Receved Errro!!!
+[2021-11-28 16:33:30][MYSOCKET]Socket Receved Errro!!!
+[2021-11-28 16:33:35][MYSOCKET]Socket Receved Errro!!!
+[2021-11-28 16:33:37][MYSOCKET]dec : M**>ø%LTMXîXÚ/×[@\÷|óùâÀÌ»Ðõqx6¨º¶nÏ¤ØÐÈéIæJ0ùÖP©\AQ z@,ÅG¡
+[2021-11-28 16:33:37][MYSOCKET]recvData : b'{"responseId": "76b9e29dc1b8418a9dee1a0300880f44","method":"getDeviceOption"}'
+[2021-11-28 16:33:37][MYSOCKET]Error!!!!!
+[2021-11-28 16:33:37][MYSOCKET]b'{"responseId": "76b9e29dc1b8418a9dee1a0300880f44","method":"getDeviceOption"}'M**>ø%LTMXîXÚ/×[@\÷|óùâÀÌ»Ðõqx6¨º¶nÏ¤ØÐÈéIæJ0ùÖP©\AQ z@,ÅG¡
+[2021-11-28 16:33:42][MYSOCKET]Socket Receved Errro!!!
+[2021-11-28 16:33:44][MYSOCKET]dec : 
+[2021-11-28 16:33:44][MYSOCKET]recvData : b''
+[2021-11-28 16:33:44][MYSOCKET]소켓스래드를 종료합니다
+[2021-11-28 16:33:45][MAIN]접속이 끊겼습니다.
+[2021-11-28 16:33:50][MYSOCKET]연결이 거부 되었습니다
+[2021-11-28 16:33:50][MAIN]접속이 끊겼습니다.
+[2021-11-28 16:33:55][MYSOCKET]연결이 거부 되었습니다
+[2021-11-28 16:33:55][MAIN]접속이 끊겼습니다.
+[2021-11-28 16:33:58][MYSOCKET]접속 완료
+[2021-11-28 16:34:03][MYSOCKET]Socket Receved Errro!!!
+[2021-11-28 16:34:08][MYSOCKET]Socket Receved Errro!!!
+[2021-11-28 16:34:13][MYSOCKET]Socket Receved Errro!!!
+[2021-11-28 16:34:18][MYSOCKET]Socket Receved Errro!!!
+[2021-11-28 16:34:23][MYSOCKET]Socket Receved Errro!!!
+[2021-11-28 16:34:28][MYSOCKET]Socket Receved Errro!!!
+[2021-11-28 16:34:33][MYSOCKET]Socket Receved Errro!!!
+[2021-11-28 16:34:38][MYSOCKET]Socket Receved Errro!!!
+[2021-11-28 16:34:43][MYSOCKET]Socket Receved Errro!!!
+[2021-11-28 16:34:48][MYSOCKET]Socket Receved Errro!!!
+[2021-11-28 16:34:53][MYSOCKET]Socket Receved Errro!!!
+[2021-11-28 16:34:58][MYSOCKET]Socket Receved Errro!!!
+[2021-11-28 16:35:03][MYSOCKET]Socket Receved Errro!!!
+[2021-11-28 16:35:08][MYSOCKET]Socket Receved Errro!!!
+[2021-11-28 16:35:13][MYSOCKET]Socket Receved Errro!!!
+[2021-11-28 16:35:18][MYSOCKET]Socket Receved Errro!!!
+[2021-11-28 16:35:23][MYSOCKET]Socket Receved Errro!!!
+[2021-11-28 16:35:28][MYSOCKET]Socket Receved Errro!!!
+[2021-11-28 16:35:33][MYSOCKET]Socket Receved Errro!!!
+[2021-11-28 16:35:37][MAIN]접속 종료

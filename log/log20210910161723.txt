@@ -1,0 +1,52 @@
+[2021-09-10 16:17:23][COMMAND]Read System Configuration File
+[2021-09-10 16:17:23][MAIN]입출력 초기화
+[2021-09-10 16:17:23][MAIN]LCD 초기화
+[2021-09-10 16:17:24][MAIN]사운드 초기화
+[2021-09-10 16:17:24][MAIN]네트워크 정보 로드
+[2021-09-10 16:17:24][MAIN]Send to BLE
+[2021-09-10 16:17:24][COMMAND]##################################################
+[2021-09-10 16:17:24][COMMAND]> CMD : Get BLE Infor.
+[2021-09-10 16:17:24][COMMAND]{'enckey': '9873CE4DAB0BCF6F', 'mac': 'C0:BD:9B:84:CF:F7'}
+[2021-09-10 16:17:24][COMMAND]##################################################
+[2021-09-10 16:17:24][COMMAND]Write System Configuration File
+[2021-09-10 16:17:24][UTIL]key : 20C0BD9B84CFF79873CE4DAB0BCF6F21
+[2021-09-10 16:17:24][UTIL]iv : 9873CE4DAB0BCF6F
+[2021-09-10 16:17:26][MAIN]소켓서버 연결
+[2021-09-10 16:17:26][MYSOCKET]접속 완료
+[2021-09-10 16:17:26][MYSOCKET]{'result': 0}
+[2021-09-10 16:17:26][MYSOCKET]## Send Message ##
+[2021-09-10 16:17:26][MYSOCKET]orig : {'method': 'getDeviceFcltInfo', 'macAddr': 'C0:BD:9B:84:CF:F7'}
+[2021-09-10 16:17:26][MYSOCKET]dec : {"resulttime":"20210915173825","fcltSn":1,"errorCode":0,"orgnztSn":2}
+[2021-09-10 16:17:26][MYSOCKET]recvData : b'\x88\xe7O\x84#\xb9\xefX*\xb1\xbf\xc3VCtD\xf3\x07$-w\xc2\xf4\xe0\xd4\xa1\x17L\xdd~{C\xf8\xd5\xd5\x00s\x0eH\x9dd`\xab\xa1=F\x16\x98\xfe^\xbb9\xa0a\xd9\xe1\x9cf\xe9Q\xc8\x0eN+_\x0c\x1a\x02\x8a7u\xe8\xb4,@\xd9\xd4K\xfb\x19'
+[2021-09-10 16:17:26][MYSOCKET]dicdata : {'resulttime': '20210915173825', 'fcltSn': 1, 'errorCode': 0, 'orgnztSn': 2}
+[2021-09-10 16:17:26][MYSOCKET]resulttime : 20210915173825
+[2021-09-10 16:17:26][MYSOCKET]Receive Socket
+[2021-09-10 16:17:26][MYSOCKET]Decoding : {"resulttime":"20210915173825","fcltSn":1,"errorCode":0,"orgnztSn":2}
+[2021-09-10 16:17:26][MYSOCKET]Call taskProcess
+[2021-09-10 16:17:26][TASK]taskProcess dic : {'resulttime': '20210915173825', 'fcltSn': 1, 'errorCode': 0, 'orgnztSn': 2}
+[2021-09-10 16:17:26][COMMAND]Write System Configuration File
+[2021-09-15 18:01:46][MAIN][Key] Call
+[2021-09-15 18:01:46][TASK]TASK_REQUEST_CALL
+[2021-09-15 18:01:46][MYSOCKET]## Send Message ##
+[2021-09-15 18:01:46][MYSOCKET]orig : {'method': 'reqVideoCall', 'macAddr': 'C0:BD:9B:84:CF:F7'}
+[2021-09-15 18:01:46][MYSOCKET]dec : {"resulttime":"20210915180146","errorCode":0,"videocallSn":481}
+[2021-09-15 18:01:46][MYSOCKET]recvData : b'\x88\xe7O\x84#\xb9\xefX*\xb1\xbf\xc3VCtD\x99\x02Me\ng\xaca\x05\xeb\xacs\xbc\xe5S\x9d\xf3\xa3\xdem\xd4\xc40\x01\xa6\n\x1e\xdd\xb8\xb9\xe7\xdf?\t\xa1VI\xc3D\x86^/\xdf\xfa\x92\xa5\x8bm'
+[2021-09-15 18:01:46][MYSOCKET]dicdata : {'resulttime': '20210915180146', 'errorCode': 0, 'videocallSn': 481}
+[2021-09-15 18:01:46][MYSOCKET]resulttime : 20210915180146
+[2021-09-15 18:01:46][MYSOCKET]Receive Socket
+[2021-09-15 18:01:46][MYSOCKET]Decoding : {"resulttime":"20210915180146","errorCode":0,"videocallSn":481}
+[2021-09-15 18:01:46][MYSOCKET]Call taskProcess
+[2021-09-15 18:01:46][TASK]taskProcess dic : {'resulttime': '20210915180146', 'errorCode': 0, 'videocallSn': 481}
+[2021-09-15 18:01:46][TASK]TASK_REQUEST_CALL_RESP
+[2021-09-15 18:01:46][TASK]VideoCallSn : 481
+[2021-09-15 18:01:46][TASK]TASK_REQUEST_CALL_RESULT
+[2021-09-15 18:01:46][MYSOCKET]## Send Message ##
+[2021-09-15 18:01:46][MYSOCKET]orig : {'method': 'reqVideoCallResult', 'macAddr': 'C0:BD:9B:84:CF:F7', 'videocallSn': 481, 'videoCallResult': 0}
+[2021-09-15 18:01:46][MYSOCKET]dec : {"result":0,"resulttime":"20210915180146","errorCode":3}
+[2021-09-15 18:01:46][MYSOCKET]recvData : b'\xeb\xafAh\xe4o\xf5\r\x0e\xadu\xa5t\xda\x84~\xeb\xf7a\x98\xdd\x9fT\xfb\xbb\xfa\x18\xe8s\xff"\xac\x97\xcd\xe0oPLt\xdc\x93\xebJ\x18b\x1e\xff\xdf\xa8\x14Cw\xc9\xd5\x9c\xa1y4\xe0\xf9\xe2,;\x8b'
+[2021-09-15 18:01:46][MYSOCKET]dicdata : {'result': 0, 'resulttime': '20210915180146', 'errorCode': 3}
+[2021-09-15 18:01:46][MYSOCKET]resulttime : 20210915180146
+[2021-09-15 18:01:46][MYSOCKET]Receive Socket
+[2021-09-15 18:01:46][MYSOCKET]Decoding : {"result":0,"resulttime":"20210915180146","errorCode":3}
+[2021-09-15 18:01:46][MYSOCKET]Call taskProcess
+[2021-09-15 18:01:46][TASK]taskPr

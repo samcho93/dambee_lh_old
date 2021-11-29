@@ -1,0 +1,30 @@
+[2021-11-27 17:26:27][COMMAND]Read System Configuration File
+[2021-11-27 17:26:27][MAIN]입출력 초기화
+[2021-11-27 17:26:27][MAIN]LCD 초기화
+[2021-11-27 17:26:28][MAIN]사운드 초기화
+[2021-11-27 17:26:28][MAIN]네트워크 정보 로드
+[2021-11-27 17:26:28][MAIN]Send to BLE
+[2021-11-27 17:26:28][COMMAND]##################################################
+[2021-11-27 17:26:28][COMMAND]> CMD : Get BLE Infor.
+[2021-11-27 17:26:28][COMMAND]{'enckey': 'BBCCD728663FF5F2', 'mac': 'D3:68:BF:B2:F2:5C'}
+[2021-11-27 17:26:28][COMMAND]##################################################
+[2021-11-27 17:26:28][COMMAND]Write System Configuration File
+[2021-11-27 17:26:28][UTIL]key : 20D368BFB2F25CBBCCD728663FF5F221
+[2021-11-27 17:26:28][UTIL]iv : BBCCD728663FF5F2
+[2021-11-27 17:26:29][MAIN]터치초기화
+[2021-11-27 17:26:31][MAIN]카드리더초기화
+[2021-11-27 17:26:31][MAIN]소켓서버 연결
+[2021-11-27 17:26:31][MYSOCKET]접속 완료
+[2021-11-27 17:26:31][MYSOCKET]{'result': 0}
+[2021-11-27 17:26:31][MYSOCKET]## Send Message ##
+[2021-11-27 17:26:31][MYSOCKET]orig : {'method': 'getDeviceFcltInfo', 'macAddr': 'D3:68:BF:B2:F2:5C'}
+[2021-11-27 17:26:31][MYSOCKET]dec : {"resulttime":"20211127172631","fcltSn":5,"errorCode":0,"orgnztSn":3}
+[2021-11-27 17:26:31][MYSOCKET]recvData : b'\xcd\x9b\xcbw\x7f,\xeb\x8f(\x9bk\x12\x83\x85#\xe2*\x96\xb4%\x1d\xb1\x15\x9e.K\x18SbO\x16\x95\xa6\x06@k/\xb67t\x95\xd71\xd9x\xee\x8a7]\xf3p\x03\xa4%R\xb3\x81w\xb2\xc2|\xe3\xc2\xd7\xce\x97\xc2\xc8\x0ee,\xb4\xf8\xbcY\x98p!\xb2\r'
+[2021-11-27 17:26:31][MYSOCKET]dicdata : {'resulttime': '20211127172631', 'fcltSn': 5, 'errorCode': 0, 'orgnztSn': 3}
+[2021-11-27 17:26:31][MYSOCKET]resulttime : 20211127172631
+[2021-11-27 17:26:31][MYSOCKET]Receive Socket
+[2021-11-27 17:26:31][MYSOCKET]Decoding : {"resulttime":"20211127172631","fcltSn":5,"errorCode":0,"orgnztSn":3}
+[2021-11-27 17:26:31][MYSOCKET]Call taskProcess
+[2021-11-27 17:26:31][TASK]taskProcess dic : {'resulttime': '20211127172631', 'fcltSn': 5, 'errorCode': 0, 'orgnztSn': 3}
+[2021-11-27 17:26:31][COMMAND]Write System Configuration File
+[2021-11-27 17:26:33][MAIN][Key] K0

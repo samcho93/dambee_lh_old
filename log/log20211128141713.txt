@@ -1,0 +1,29 @@
+[2021-11-28 14:17:13][COMMAND]Read System Configuration File
+[2021-11-28 14:17:13][MAIN]입출력 초기화
+[2021-11-28 14:17:13][MAIN]LCD 초기화
+[2021-11-28 14:17:14][MAIN]사운드 초기화
+[2021-11-28 14:17:14][MAIN]네트워크 정보 로드
+[2021-11-28 14:17:14][MAIN]Send to BLE
+[2021-11-28 14:17:14][COMMAND]##################################################
+[2021-11-28 14:17:14][COMMAND]> CMD : Get BLE Infor.
+[2021-11-28 14:17:14][COMMAND]{'enckey': 'BBCCD728663FF5F2', 'mac': 'D3:68:BF:B2:F2:5C'}
+[2021-11-28 14:17:14][COMMAND]##################################################
+[2021-11-28 14:17:14][COMMAND]Write System Configuration File
+[2021-11-28 14:17:14][UTIL]key : 20D368BFB2F25CBBCCD728663FF5F221
+[2021-11-28 14:17:14][UTIL]iv : BBCCD728663FF5F2
+[2021-11-28 14:17:15][MAIN]터치초기화
+[2021-11-28 14:17:17][MAIN]카드리더초기화
+[2021-11-28 14:17:17][MAIN]소켓서버 연결
+[2021-11-28 14:17:17][MYSOCKET]접속 완료
+[2021-11-28 14:17:17][MYSOCKET]{'result': 0}
+[2021-11-28 14:17:17][MYSOCKET]## Send Message ##
+[2021-11-28 14:17:17][MYSOCKET]orig : {'method': 'getDeviceFcltInfo', 'macAddr': 'D3:68:BF:B2:F2:5C'}
+[2021-11-28 14:17:18][MYSOCKET]dec : {"resulttime":"20211128141718","fcltSn":5,"errorCode":0,"orgnztSn":3}
+[2021-11-28 14:17:18][MYSOCKET]recvData : b"\xcd\x9b\xcbw\x7f,\xeb\x8f(\x9bk\x12\x83\x85#\xe2f\x7f'\x1bn\x9d\xec\xc6\x17!\x05\x02\xc5\xb4%wO\xdf\xf2\xdc?\x9d0\xa6\x80d\x89\x15\xbd5\x8f\x1a3\xbc\x9e\x00\xdf6<\xecG5Trc\xa6\t\xa8\xfe\x08\x1c\r\xa8\x15w\x8b\x11\xf9\xa4\xe8A\xce:\xd6"
+[2021-11-28 14:17:18][MYSOCKET]dicdata : {'resulttime': '20211128141718', 'fcltSn': 5, 'errorCode': 0, 'orgnztSn': 3}
+[2021-11-28 14:17:18][MYSOCKET]resulttime : 20211128141718
+[2021-11-28 14:17:18][MYSOCKET]Receive Socket
+[2021-11-28 14:17:18][MYSOCKET]Decoding : {"resulttime":"20211128141718","fcltSn":5,"errorCode":0,"orgnztSn":3}
+[2021-11-28 14:17:18][MYSOCKET]Call taskProcess
+[2021-11-28 14:17:18][TASK]taskProcess dic : {'resulttime': '20211128141718', 'fcltSn': 5, 'errorCode': 0, 'orgnztSn': 3}
+[2021-11-28 14:17:18][COMMAND]Write System Configuration File

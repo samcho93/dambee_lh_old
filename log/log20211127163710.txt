@@ -1,0 +1,29 @@
+[2021-11-27 16:37:10][COMMAND]Read System Configuration File
+[2021-11-27 16:37:11][MAIN]입출력 초기화
+[2021-11-27 16:37:11][MAIN]LCD 초기화
+[2021-11-27 16:37:11][MAIN]사운드 초기화
+[2021-11-27 16:37:11][MAIN]네트워크 정보 로드
+[2021-11-27 16:37:11][MAIN]Send to BLE
+[2021-11-27 16:37:11][COMMAND]##################################################
+[2021-11-27 16:37:11][COMMAND]> CMD : Get BLE Infor.
+[2021-11-27 16:37:11][COMMAND]{'enckey': 'BBCCD728663FF5F2', 'mac': 'D3:68:BF:B2:F2:5C'}
+[2021-11-27 16:37:11][COMMAND]##################################################
+[2021-11-27 16:37:11][COMMAND]Write System Configuration File
+[2021-11-27 16:37:11][UTIL]key : 20D368BFB2F25CBBCCD728663FF5F221
+[2021-11-27 16:37:11][UTIL]iv : BBCCD728663FF5F2
+[2021-11-27 16:37:12][MAIN]터치초기화
+[2021-11-27 16:37:14][MAIN]카드리더초기화
+[2021-11-27 16:37:14][MAIN]소켓서버 연결
+[2021-11-27 16:37:14][MYSOCKET]접속 완료
+[2021-11-27 16:37:15][MYSOCKET]{'result': 0}
+[2021-11-27 16:37:15][MYSOCKET]## Send Message ##
+[2021-11-27 16:37:15][MYSOCKET]orig : {'method': 'getDeviceFcltInfo', 'macAddr': 'D3:68:BF:B2:F2:5C'}
+[2021-11-27 16:37:15][MYSOCKET]dec : {"resulttime":"20211127163715","fcltSn":5,"errorCode":0,"orgnztSn":3}
+[2021-11-27 16:37:15][MYSOCKET]recvData : b'\xcd\x9b\xcbw\x7f,\xeb\x8f(\x9bk\x12\x83\x85#\xe2\xfe\xb0\xb2o\x13\x90\x9cRF\x0c\x13H\x84o*w|uH \xd1\xb4\xb0\xa5\xed\xce\x81:\x0fut\x08P;\x0f\x97\xc8\xb7\xc4\xcd\xe3\xdcuvn\xd4\xa5 \x1cU\xcd\xa7\xd9\xa9t\xe3T[yp*\n\xe3\xd4'
+[2021-11-27 16:37:15][MYSOCKET]dicdata : {'resulttime': '20211127163715', 'fcltSn': 5, 'errorCode': 0, 'orgnztSn': 3}
+[2021-11-27 16:37:15][MYSOCKET]Receive Socket
+[2021-11-27 16:37:15][MYSOCKET]Decoding : {"resulttime":"20211127163715","fcltSn":5,"errorCode":0,"orgnztSn":3}
+[2021-11-27 16:37:15][MYSOCKET]Call taskProcess
+[2021-11-27 16:37:15][MYSOCKET]resulttime : 20211127163715
+[2021-11-27 16:37:15][TASK]taskProcess dic : {'resulttime': '20211127163715', 'fcltSn': 5, 'errorCode': 0, 'orgnztSn': 3}
+[2021-11-27 16:37:15][COMMAND]Write System Configuration File

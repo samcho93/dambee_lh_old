@@ -1,0 +1,29 @@
+[2021-11-28 14:02:09][COMMAND]Read System Configuration File
+[2021-11-28 14:02:09][MAIN]입출력 초기화
+[2021-11-28 14:02:09][MAIN]LCD 초기화
+[2021-11-28 14:02:09][MAIN]사운드 초기화
+[2021-11-28 14:02:09][MAIN]네트워크 정보 로드
+[2021-11-28 14:02:09][MAIN]Send to BLE
+[2021-11-28 14:02:09][COMMAND]##################################################
+[2021-11-28 14:02:09][COMMAND]> CMD : Get BLE Infor.
+[2021-11-28 14:02:09][COMMAND]{'enckey': 'BBCCD728663FF5F2', 'mac': 'D3:68:BF:B2:F2:5C'}
+[2021-11-28 14:02:09][COMMAND]##################################################
+[2021-11-28 14:02:09][COMMAND]Write System Configuration File
+[2021-11-28 14:02:09][UTIL]key : 20D368BFB2F25CBBCCD728663FF5F221
+[2021-11-28 14:02:09][UTIL]iv : BBCCD728663FF5F2
+[2021-11-28 14:02:10][MAIN]터치초기화
+[2021-11-28 14:02:13][MAIN]카드리더초기화
+[2021-11-28 14:02:13][MAIN]소켓서버 연결
+[2021-11-28 14:02:13][MYSOCKET]접속 완료
+[2021-11-28 14:02:13][MYSOCKET]{'result': 0}
+[2021-11-28 14:02:13][MYSOCKET]## Send Message ##
+[2021-11-28 14:02:13][MYSOCKET]orig : {'method': 'getDeviceFcltInfo', 'macAddr': 'D3:68:BF:B2:F2:5C'}
+[2021-11-28 14:02:13][MYSOCKET]dec : {"resulttime":"20211128140213","fcltSn":5,"errorCode":0,"orgnztSn":3}
+[2021-11-28 14:02:13][MYSOCKET]recvData : b'\xcd\x9b\xcbw\x7f,\xeb\x8f(\x9bk\x12\x83\x85#\xe2m\xa4hy\x143O\xac]\x9c\xab\t\x8b?j\x8bS\x16\x1a\xa9\xdc\x10\x9fG\x18dN%7\xe4e\xb4\xa3j%\xea\xf0L~\xa9\x1b\x7f\xf5\xff\xa0h\xca\xefj"\xd3^`\xc9N\xbc\n\xd7B9v\xb83%'
+[2021-11-28 14:02:13][MYSOCKET]dicdata : {'resulttime': '20211128140213', 'fcltSn': 5, 'errorCode': 0, 'orgnztSn': 3}
+[2021-11-28 14:02:13][MYSOCKET]Receive Socket
+[2021-11-28 14:02:13][MYSOCKET]resulttime : 20211128140213
+[2021-11-28 14:02:13][MYSOCKET]Decoding : {"resulttime":"20211128140213","fcltSn":5,"errorCode":0,"orgnztSn":3}
+[2021-11-28 14:02:13][MYSOCKET]Call taskProcess
+[2021-11-28 14:02:13][TASK]taskProcess dic : {'resulttime': '20211128140213', 'fcltSn': 5, 'errorCode': 0, 'orgnztSn': 3}
+[2021-11-28 14:02:13][COMMAND]Write System Configuration File

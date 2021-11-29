@@ -1,0 +1,24 @@
+[2021-10-27 12:53:12][COMMAND]Read System Configuration File
+[2021-10-27 12:53:12][MAIN]입출력 초기화
+[2021-10-27 12:53:12][MAIN]LCD 초기화
+[2021-10-27 12:53:13][MAIN]사운드 초기화
+[2021-10-27 12:53:13][MAIN]네트워크 정보 로드
+[2021-10-27 12:53:13][MAIN]Send to BLE
+[2021-10-27 12:53:13][MAIN]소켓서버 연결
+[2021-10-27 12:53:13][MYSOCKET]접속 완료
+[2021-10-27 12:53:14][MYSOCKET]{'result': 0}
+[2021-10-27 12:53:14][MYSOCKET]## Send Message ##
+[2021-10-27 12:53:14][MYSOCKET]orig : {'method': 'getDeviceFcltInfo', 'macAddr': 'AA:BB:CC:DD:EE:FF'}
+[2021-10-27 12:53:14][MYSOCKET]연결이 거부 되었습니다
+[2021-10-27 12:53:14][COMMAND]Write System Configuration File
+[2021-10-27 12:53:48][MAIN][Key] K8
+[2021-10-27 12:53:48][UTIL]Error Getkey
+[2021-10-27 12:53:48][MAIN]None
+[2021-10-27 12:53:48][UTIL]Error Getkey
+[2021-10-27 12:53:48][MAIN]None
+[2021-10-27 12:53:55][MAIN][Key] K3
+[2021-10-27 12:53:59][MAIN][Key] K1
+[2021-10-27 12:54:44][MAIN][Key] Call
+[2021-10-27 12:54:44][TASK]TASK_REQUEST_CALL
+[2021-10-27 12:54:44][MYSOCKET]## Send Message ##
+[2021-10-27 12:54:44][MYSOCKET]orig : {'method': 'reqVideoCall', 'macAddr': 'AA:BB:CC:DD:EE:FF'}

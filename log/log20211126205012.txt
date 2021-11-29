@@ -1,0 +1,72 @@
+[2021-11-26 20:50:12][COMMAND]Read System Configuration File
+[2021-11-26 20:50:12][MAIN]입출력 초기화
+[2021-11-26 20:50:12][MAIN]LCD 초기화
+[2021-11-26 20:50:13][MAIN]사운드 초기화
+[2021-11-26 20:50:13][MAIN]네트워크 정보 로드
+[2021-11-26 20:50:13][MAIN]Send to BLE
+[2021-11-26 20:50:13][COMMAND]##################################################
+[2021-11-26 20:50:13][COMMAND]> CMD : Get BLE Infor.
+[2021-11-26 20:50:13][COMMAND]{'enckey': 'BBCCD728663FF5F2', 'mac': 'D3:68:BF:B2:F2:5C'}
+[2021-11-26 20:50:13][COMMAND]##################################################
+[2021-11-26 20:50:13][COMMAND]Write System Configuration File
+[2021-11-26 20:50:13][UTIL]key : 20D368BFB2F25CBBCCD728663FF5F221
+[2021-11-26 20:50:13][UTIL]iv : BBCCD728663FF5F2
+[2021-11-26 20:50:14][MAIN]터치초기화
+[2021-11-26 20:50:16][MAIN]카드리더초기화
+[2021-11-26 20:50:16][MAIN]소켓서버 연결
+[2021-11-26 20:50:16][MYSOCKET]접속 완료
+[2021-11-26 20:50:16][MYSOCKET]{'result': 0}
+[2021-11-26 20:50:16][MYSOCKET]## Send Message ##
+[2021-11-26 20:50:16][MYSOCKET]orig : {'method': 'getDeviceFcltInfo', 'macAddr': 'D3:68:BF:B2:F2:5C'}
+[2021-11-26 20:50:16][MYSOCKET]dec : {"resulttime":"20211126205016","fcltSn":5,"errorCode":0,"orgnztSn":3}
+[2021-11-26 20:50:16][MYSOCKET]recvData : b'\xcd\x9b\xcbw\x7f,\xeb\x8f(\x9bk\x12\x83\x85#\xe2\xf4\x15F\xf2\x9f\x00[\x83\x82\x12"n\x128=\xaa\xd8\xc1-\x02o\x19J\x90\x96\x00~\x80\x0b\xefj\xf1w^\xeb\xd3i?\xacd&\xf3\xaa\x97Z\xa5\x15\xee"\x97/\x0f$#\xbb\x8bI(Vw7\x14\xa8W'
+[2021-11-26 20:50:16][MYSOCKET]dicdata : {'resulttime': '20211126205016', 'fcltSn': 5, 'errorCode': 0, 'orgnztSn': 3}
+[2021-11-26 20:50:16][MYSOCKET]resulttime : 20211126205016
+[2021-11-26 20:50:16][MYSOCKET]Receive Socket
+[2021-11-26 20:50:16][MYSOCKET]Decoding : {"resulttime":"20211126205016","fcltSn":5,"errorCode":0,"orgnztSn":3}
+[2021-11-26 20:50:16][MYSOCKET]Call taskProcess
+[2021-11-26 20:50:16][TASK]taskProcess dic : {'resulttime': '20211126205016', 'fcltSn': 5, 'errorCode': 0, 'orgnztSn': 3}
+[2021-11-26 20:50:16][COMMAND]Write System Configuration File
+[2021-11-26 20:50:18][MAIN]UID :4C297DE2
+[2021-11-26 20:50:18][MYSOCKET]## Send Message ##
+[2021-11-26 20:50:18][MYSOCKET]orig : {'method': 'reqFingerCardCheck', 'cardNumber': '4C297DE2', 'fcltSn': 5}
+[2021-11-26 20:50:18][MYSOCKET]dec : {"resulttime":"20211126205018","errorCode":1}
+[2021-11-26 20:50:18][MYSOCKET]recvData : b'\xcd\x9b\xcbw\x7f,\xeb\x8f(\x9bk\x12\x83\x85#\xe2\xef\xb8\xfa=\x06\xcf:\xaf\xd5\xfb\x07G\xbb\x96%?$;\xff\x1co\xab\xed^\x80\xf6\xa8#\xa1+\x14\xd9'
+[2021-11-26 20:50:18][MYSOCKET]dicdata : {'resulttime': '20211126205018', 'errorCode': 1}
+[2021-11-26 20:50:18][MYSOCKET]resulttime : 20211126205018
+[2021-11-26 20:50:18][MYSOCKET]Receive Socket
+[2021-11-26 20:50:18][MYSOCKET]Decoding : {"resulttime":"20211126205018","errorCode":1}
+[2021-11-26 20:50:18][MYSOCKET]Call taskProcess
+[2021-11-26 20:50:18][TASK]taskProcess dic : {'resulttime': '20211126205018', 'errorCode': 1}
+[2021-11-26 20:50:18][TASK]ErrorCode : 1
+[2021-11-26 20:50:23][MAIN]UID :4C297DE2
+[2021-11-26 20:50:23][MYSOCKET]## Send Message ##
+[2021-11-26 20:50:23][MYSOCKET]orig : {'method': 'reqFingerCardCheck', 'cardNumber': '4C297DE2', 'fcltSn': 5}
+[2021-11-26 20:50:23][MYSOCKET]dec : {"resulttime":"20211126205023","errorCode":1}
+[2021-11-26 20:50:23][MYSOCKET]recvData : b'\xcd\x9b\xcbw\x7f,\xeb\x8f(\x9bk\x12\x83\x85#\xe2^\x97\xee\xc2\x9c_\x0c]\xd8Si\xfb\xfbL6\xee\xbc\xf7\xe2\xc3\xdc\x1f\x18\xe5E\xf2\x8d\xbe\xa8\xa1"y'
+[2021-11-26 20:50:23][MYSOCKET]dicdata : {'resulttime': '20211126205023', 'errorCode': 1}
+[2021-11-26 20:50:23][MYSOCKET]resulttime : 20211126205023
+[2021-11-26 20:50:23][MYSOCKET]Receive Socket
+[2021-11-26 20:50:23][MYSOCKET]Decoding : {"resulttime":"20211126205023","errorCode":1}
+[2021-11-26 20:50:23][MYSOCKET]Call taskProcess
+[2021-11-26 20:50:23][TASK]taskProcess dic : {'resulttime': '20211126205023', 'errorCode': 1}
+[2021-11-26 20:50:23][TASK]ErrorCode : 1
+[2021-11-26 20:50:31][MAIN]UID :0494C53A435280
+[2021-11-26 20:50:31][MYSOCKET]## Send Message ##
+[2021-11-26 20:50:31][MYSOCKET]orig : {'method': 'reqFingerCardCheck', 'cardNumber': '0494C53A4352', 'fcltSn': 5}
+[2021-11-26 20:50:31][MYSOCKET]dec : {"resulttime":"20211126205031","errorCode":0}
+[2021-11-26 20:50:31][MYSOCKET]recvData : b'\xcd\x9b\xcbw\x7f,\xeb\x8f(\x9bk\x12\x83\x85#\xe25\xd8\x18X&\xf2\xf1n\x1bj\xc7\xda7\x15^\x07\x85\x1b\xf8\x14\xffN|Dn$\x19\x1f#\xa6\xb1\x0c'
+[2021-11-26 20:50:31][MYSOCKET]dicdata : {'resulttime': '20211126205031', 'errorCode': 0}
+[2021-11-26 20:50:31][MYSOCKET]resulttime : 20211126205031
+[2021-11-26 20:50:31][MYSOCKET]Receive Socket
+[2021-11-26 20:50:31][MYSOCKET]Decoding : {"resulttime":"20211126205031","errorCode":0}
+[2021-11-26 20:50:31][MYSOCKET]Call taskProcess
+[2021-11-26 20:50:31][TASK]taskProcess dic : {'resulttime': '20211126205031', 'errorCode': 0}
+[2021-11-26 20:50:31][MAIN]Door Open
+[2021-11-26 20:50:36][MAIN]Door Close
+[2021-11-26 20:50:36][MAIN]Display Init...
+[2021-11-26 20:51:03][MYSOCKET]dec : {"schedule":[{"dayOfWeek":"1,4","startDt":"20211126","endDt":"20211126","startTime":"00:00","endTime":"15:00"}],"method":"setSchedule","responseId":"1378f74b2dcf4420aabdb650e260922e"}
+[2021-11-26 20:51:03][MYSOCKET]recvData : b"^\xcf\xd3\x1b\xd5\x8f\x97|\x15\xa3:-!\x9f\x04';\xf5[fC\xfa\x1f\xd7\xf2\xcb\x9ca::[a\xc2\x9d\xacoEA\xb9\xcd\xd3\xd87@\x13\xc4\xf0[h\x00TC\x15m\xf9'\r$\xebs`=\x90HH\xc9\x8cOXF~\xbfwq8\xa2\n[\xbdc\xe0eY\xd4\x88\x99\x99\xbf\x92\xfb\xdeR\x02\xd3\x8eO\xf3\x0e\xea\xaf{T\xea\xe3o\x81\xf3\xe3\xdb\x1b\xeb\xb3\x05\xa6b\x9d\xadI\xd7\x80\x97Wo\x15\x87?\r\x10\xf6\x83\xef2\x91](\x93\xd6\xb8e\xdc\x07\xcd\x16!\x1c\xe1\xd7\x9eJ\xfe\xdfT\xb8\xcdSp\xe9$k\x0ct\xbb\xb8\xfe\x0e\x19\xed\xb2]\xbd\x02M\x96'\r\x00z\xa2\xaf\xa71\\\x1f\xe1\xf4\x7fBP\x15\xd7\x9c\xb4"
+[2021-11-26 20:51:03][MYSOCKET]dicdata : {'schedule': [{'dayOfWeek': '1,4', 'startDt': '20211126', 'endDt': '20211126', 'startTime': '00:00', 'endTime': '15:00'}], 'method': 'setSchedule', 'responseId': '1378f74b2dcf4420aabdb650e260922e'}
+[2021-11-26 20:51:03][MYSOCKET]Method setSchedule
+[2021-11-26 20:51:03][MYSOCKET]{"responseId": "1378f74b2dcf4420aabdb650e260922e", "errorCode": 0}

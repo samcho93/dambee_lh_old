@@ -1,0 +1,29 @@
+[2021-11-28 14:42:57][COMMAND]Read System Configuration File
+[2021-11-28 14:42:57][MAIN]입출력 초기화
+[2021-11-28 14:42:57][MAIN]LCD 초기화
+[2021-11-28 14:42:57][MAIN]사운드 초기화
+[2021-11-28 14:42:57][MAIN]네트워크 정보 로드
+[2021-11-28 14:42:57][MAIN]Send to BLE
+[2021-11-28 14:42:58][COMMAND]##################################################
+[2021-11-28 14:42:58][COMMAND]> CMD : Get BLE Infor.
+[2021-11-28 14:42:58][COMMAND]{'enckey': 'BBCCD728663FF5F2', 'mac': 'D3:68:BF:B2:F2:5C'}
+[2021-11-28 14:42:58][COMMAND]##################################################
+[2021-11-28 14:42:58][COMMAND]Write System Configuration File
+[2021-11-28 14:42:58][UTIL]key : 20D368BFB2F25CBBCCD728663FF5F221
+[2021-11-28 14:42:58][UTIL]iv : BBCCD728663FF5F2
+[2021-11-28 14:42:58][MAIN]터치초기화
+[2021-11-28 14:43:01][MAIN]카드리더초기화
+[2021-11-28 14:43:01][MAIN]소켓서버 연결
+[2021-11-28 14:43:01][MYSOCKET]접속 완료
+[2021-11-28 14:43:01][MYSOCKET]{'result': 0}
+[2021-11-28 14:43:01][MYSOCKET]## Send Message ##
+[2021-11-28 14:43:01][MYSOCKET]orig : {'method': 'getDeviceFcltInfo', 'macAddr': 'D3:68:BF:B2:F2:5C'}
+[2021-11-28 14:43:01][MYSOCKET]dec : {"resulttime":"20211128144301","fcltSn":5,"errorCode":0,"orgnztSn":3}
+[2021-11-28 14:43:01][MYSOCKET]recvData : b'\xcd\x9b\xcbw\x7f,\xeb\x8f(\x9bk\x12\x83\x85#\xe2VZw\x9e\xaa/\x89\x1e^\xc6\x1d\xeaA\x98\xa8B\x89\xc1\x89\xf7T\xed\x07$\xc92\xe3\xdf\x8f\x18R\x84\xc8\n\x94\xe9\xbb\x16yc\x15\xfe\xa0\xa8+\x88_"\xf0\xe8\x01\xc6\xb3\xb0\x93\x00\xd1\x15z\xe6k\xac\xbf$'
+[2021-11-28 14:43:01][MYSOCKET]dicdata : {'resulttime': '20211128144301', 'fcltSn': 5, 'errorCode': 0, 'orgnztSn': 3}
+[2021-11-28 14:43:01][MYSOCKET]Receive Socket
+[2021-11-28 14:43:01][MYSOCKET]resulttime : 20211128144301
+[2021-11-28 14:43:01][MYSOCKET]Decoding : {"resulttime":"20211128144301","fcltSn":5,"errorCode":0,"orgnztSn":3}
+[2021-11-28 14:43:01][MYSOCKET]Call taskProcess
+[2021-11-28 14:43:01][TASK]taskProcess dic : {'resulttime': '20211128144301', 'fcltSn': 5, 'errorCode': 0, 'orgnztSn': 3}
+[2021-11-28 14:43:01][COMMAND]Write System Configuration File

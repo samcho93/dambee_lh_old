@@ -1,0 +1,58 @@
+[2021-11-28 00:00:21][COMMAND]Read System Configuration File
+[2021-11-28 00:00:21][MAIN]입출력 초기화
+[2021-11-28 00:00:21][MAIN]LCD 초기화
+[2021-11-28 00:00:22][MAIN]사운드 초기화
+[2021-11-28 00:00:22][MAIN]네트워크 정보 로드
+[2021-11-28 00:00:22][MAIN]Send to BLE
+[2021-11-28 00:00:22][COMMAND]##################################################
+[2021-11-28 00:00:22][COMMAND]> CMD : Get BLE Infor.
+[2021-11-28 00:00:22][COMMAND]{'enckey': 'BBCCD728663FF5F2', 'mac': 'D3:68:BF:B2:F2:5C'}
+[2021-11-28 00:00:22][COMMAND]##################################################
+[2021-11-28 00:00:22][COMMAND]Write System Configuration File
+[2021-11-28 00:00:22][UTIL]key : 20D368BFB2F25CBBCCD728663FF5F221
+[2021-11-28 00:00:22][UTIL]iv : BBCCD728663FF5F2
+[2021-11-28 00:00:23][MAIN]터치초기화
+[2021-11-28 00:00:25][MAIN]카드리더초기화
+[2021-11-28 00:00:25][MAIN]소켓서버 연결
+[2021-11-28 00:00:25][MYSOCKET]접속 완료
+[2021-11-28 00:00:25][MYSOCKET]{'result': 0}
+[2021-11-28 00:00:25][MYSOCKET]## Send Message ##
+[2021-11-28 00:00:25][MYSOCKET]orig : {'method': 'getDeviceFcltInfo', 'macAddr': 'D3:68:BF:B2:F2:5C'}
+[2021-11-28 00:00:25][MYSOCKET]dec : {"resulttime":"20211128000025","fcltSn":5,"errorCode":0,"orgnztSn":3}
+[2021-11-28 00:00:25][MYSOCKET]recvData : b'\xcd\x9b\xcbw\x7f,\xeb\x8f(\x9bk\x12\x83\x85#\xe2\xde\xe5Fl\xe8v\xb5\xe1TZ(\x9dZ\xac\x9c#\xb5\xab\xcb\xa4\x06I\xf6\xc6_740\xffr\x9f\xb4\xbaE\x85]C\x85f\x7f\xbfZ\xae\x16\xb2\xefa\xfd\xa0\x88\x15\xf7X4\x94\x92\t\xa8?\xab\x92\xe07\x8a'
+[2021-11-28 00:00:25][MYSOCKET]dicdata : {'resulttime': '20211128000025', 'fcltSn': 5, 'errorCode': 0, 'orgnztSn': 3}
+[2021-11-28 00:00:25][MYSOCKET]resulttime : 20211128000025
+[2021-11-28 00:00:25][MYSOCKET]Receive Socket
+[2021-11-28 00:00:25][MYSOCKET]Decoding : {"resulttime":"20211128000025","fcltSn":5,"errorCode":0,"orgnztSn":3}
+[2021-11-28 00:00:25][MYSOCKET]Call taskProcess
+[2021-11-28 00:00:25][TASK]taskProcess dic : {'resulttime': '20211128000025', 'fcltSn': 5, 'errorCode': 0, 'orgnztSn': 3}
+[2021-11-28 00:00:25][COMMAND]Write System Configuration File
+[2021-11-28 02:52:28][MAIN][Key] K2
+[2021-11-28 07:06:45][MAIN][Key] K2
+[2021-11-28 11:11:48][MAIN][Key] K2
+[2021-11-28 12:21:41][MAIN][Key] K2
+[2021-11-28 12:45:18][MAIN][Key] K2
+[2021-11-28 13:23:32][MAIN][Key] K2
+[2021-11-28 13:25:06][MAIN][Key] K2
+[2021-11-28 13:29:10][MAIN]Door Open
+[2021-11-28 13:29:13][MAIN]Door Close
+[2021-11-28 13:29:15][MAIN]Display Init...
+[2021-11-28 13:29:57][MAIN][Key] K#
+[2021-11-28 13:30:15][MAIN][Key] K2
+[2021-11-28 13:30:17][MAIN]0
+[2021-11-28 13:30:22][MAIN][Key] K2
+[2021-11-28 13:30:24][MAIN][Key] K2
+[2021-11-28 13:30:24][MAIN][Key] K2
+[2021-11-28 13:30:25][MAIN][Key] K2
+[2021-11-28 13:30:39][MAIN]0
+[2021-11-28 13:30:40][MAIN][Key] K2
+[2021-11-28 13:30:42][MAIN][Key] K*
+[2021-11-28 13:30:42][TASK]TASK_REQUEST_CALL
+[2021-11-28 13:30:42][MYSOCKET]## Send Message ##
+[2021-11-28 13:30:42][MYSOCKET]orig : {'method': 'reqVideoCall', 'macAddr': 'D3:68:BF:B2:F2:5C'}
+[2021-11-28 13:30:42][MYSOCKET]Socket Receved Errro!!!
+[2021-11-28 13:30:42][MYSOCKET]dec : 
+[2021-11-28 13:30:42][MYSOCKET]recvData : b''
+[2021-11-28 13:30:42][MYSOCKET]소켓스래드를 종료합니다
+[2021-11-28 13:30:46][MYSOCKET]Socket Timeout
+[2021-11-28 13:39:02][MAIN]접속 종료

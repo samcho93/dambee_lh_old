@@ -1,0 +1,42 @@
+[2021-11-28 14:18:03][COMMAND]Read System Configuration File
+[2021-11-28 14:18:03][MAIN]입출력 초기화
+[2021-11-28 14:18:03][MAIN]LCD 초기화
+[2021-11-28 14:18:04][MAIN]사운드 초기화
+[2021-11-28 14:18:04][MAIN]네트워크 정보 로드
+[2021-11-28 14:18:04][MAIN]Send to BLE
+[2021-11-28 14:18:04][COMMAND]##################################################
+[2021-11-28 14:18:04][COMMAND]> CMD : Get BLE Infor.
+[2021-11-28 14:18:04][COMMAND]{'enckey': 'BBCCD728663FF5F2', 'mac': 'D3:68:BF:B2:F2:5C'}
+[2021-11-28 14:18:04][COMMAND]##################################################
+[2021-11-28 14:18:04][COMMAND]Write System Configuration File
+[2021-11-28 14:18:04][UTIL]key : 20D368BFB2F25CBBCCD728663FF5F221
+[2021-11-28 14:18:04][UTIL]iv : BBCCD728663FF5F2
+[2021-11-28 14:18:05][MAIN]터치초기화
+[2021-11-28 14:18:07][MAIN]카드리더초기화
+[2021-11-28 14:18:07][MAIN]소켓서버 연결
+[2021-11-28 14:18:07][MYSOCKET]접속 완료
+[2021-11-28 14:18:07][MYSOCKET]{'result': 0}
+[2021-11-28 14:18:07][MYSOCKET]## Send Message ##
+[2021-11-28 14:18:07][MYSOCKET]orig : {'method': 'getDeviceFcltInfo', 'macAddr': 'D3:68:BF:B2:F2:5C'}
+[2021-11-28 14:18:07][MYSOCKET]dec : {"resulttime":"20211128141807","fcltSn":5,"errorCode":0,"orgnztSn":3}
+[2021-11-28 14:18:07][MYSOCKET]recvData : b'\xcd\x9b\xcbw\x7f,\xeb\x8f(\x9bk\x12\x83\x85#\xe2o6\xb8&\xb9$p\xafn\xe8\xda\xd7!\xac>\xe5\xb0\x8e\x1d\xa6\xa63F\x18I-\xf0Y8Y\x8e:\x18\xe5\x108\xa6\xffA\xc7$\xb8\xe8\xc4\xe0%\xaf\xec(\xc2\xedW\x92H\xbe^\x94\x84b\xf1\x13hr\xbd'
+[2021-11-28 14:18:07][MYSOCKET]dicdata : {'resulttime': '20211128141807', 'fcltSn': 5, 'errorCode': 0, 'orgnztSn': 3}
+[2021-11-28 14:18:07][MYSOCKET]resulttime : 20211128141807
+[2021-11-28 14:18:07][MYSOCKET]Receive Socket
+[2021-11-28 14:18:07][MYSOCKET]Decoding : {"resulttime":"20211128141807","fcltSn":5,"errorCode":0,"orgnztSn":3}
+[2021-11-28 14:18:07][MYSOCKET]Call taskProcess
+[2021-11-28 14:18:07][TASK]taskProcess dic : {'resulttime': '20211128141807', 'fcltSn': 5, 'errorCode': 0, 'orgnztSn': 3}
+[2021-11-28 14:18:07][COMMAND]Write System Configuration File
+[2021-11-28 14:19:31][MYSOCKET]dec : {"method":"deleteSchedule","responseId":"8b6d643c70714309b706822b2b50b030"}
+[2021-11-28 14:19:31][MYSOCKET]recvData : b"\x88\xf8\xc5\xf8\xc9\x8f\x06\xa1\xc2\xb1\xfd\xd5l\xb5\x89'b\x91!_\xe8b\t\x16\x07f\xaf-\x94\xdb\x91/W\n\x1c.\xb8\x83\xffY\x84}\xb4c-#\xdaCjy\x96\xe0\xa6_i\xac\xefc\xfb\xba|\xd4jv\xcb*\n\x0e\xe5H\x13\x8c\x15x\xfe\xf7\x97?\xaf\x07"
+[2021-11-28 14:19:31][MYSOCKET]dicdata : {'method': 'deleteSchedule', 'responseId': '8b6d643c70714309b706822b2b50b030'}
+[2021-11-28 14:19:31][MYSOCKET]Method deleteSchedule
+[2021-11-28 14:19:31][MYSOCKET]{"responseId": "8b6d643c70714309b706822b2b50b030", "errorCode": 0}
+[2021-11-28 14:19:31][SOCKETCMD]> {'responseId': '8b6d643c70714309b706822b2b50b030', 'errorCode': 0}
+[2021-11-28 14:20:22][MYSOCKET]dec : {"schedule":[{"dayOfWeek":"0","startDt":"20211128","endDt":"20211204","startTime":"14:25","endTime":"14:30"}],"method":"setSchedule","responseId":"284863088e45438da648f31ee63fec98"}
+[2021-11-28 14:20:22][MYSOCKET]recvData : b"^\xcf\xd3\x1b\xd5\x8f\x97|\x15\xa3:-!\x9f\x04'\xbcb\xdfV\xafH<\r\xc5\x83\xc9!ZN\x08\xe7\xcaY\xe0\x84\x05\x1e\xa6\x072\n8u\x9a\xee\x7f\x1aOT\x82x5\xff\x96\x11V\xdd|R\xba>4U\xd8\xe4d5\xd0\x0c\xe9\xeb\x14\xc4muI\xdf\xa4SD,G\x9e\xbd6\x0fM\x89\xa3)&DPO\xd6\x0cJd\x0b\x8d\xe5\xa0m\x10\xee\xa8(\x8b\xe3\xe1\xc4\xd3L\x1e\xaaDa\x86\x1a\xee\x91\xd3\xbb\xb2\xed\xf7\xe2F@5\x08\x9d\x9bF\xe4\xa4]\xec\t\x9b\x19\x18\xcf\xca\xc4U\xbf\xbfc\x08n\rm?\x98\xbfl\xd4\xf4\xdc\x0f\xeal\xa0\xf0a\xe7\xee\x9b\xe8\x10\x01hwh`!k\xd0\xa5\x83\x95ohG\xd3S\x93\x83I\xfc"
+[2021-11-28 14:20:22][MYSOCKET]dicdata : {'schedule': [{'dayOfWeek': '0', 'startDt': '20211128', 'endDt': '20211204', 'startTime': '14:25', 'endTime': '14:30'}], 'method': 'setSchedule', 'responseId': '284863088e45438da648f31ee63fec98'}
+[2021-11-28 14:20:22][MYSOCKET]Method setSchedule
+[2021-11-28 14:20:22][SOCKETCMD]NetCommand error : setSchedule
+'list' object has no attribute 'readSchedule'
+[2021-11-28 14:21:40][MAIN]접속 종료

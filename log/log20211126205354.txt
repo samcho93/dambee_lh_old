@@ -1,0 +1,312 @@
+[2021-11-26 20:53:54][COMMAND]Read System Configuration File
+[2021-11-26 20:53:54][MAIN]입출력 초기화
+[2021-11-26 20:53:54][MAIN]LCD 초기화
+[2021-11-26 20:53:54][MAIN]사운드 초기화
+[2021-11-26 20:53:54][MAIN]네트워크 정보 로드
+[2021-11-26 20:53:54][MAIN]Send to BLE
+[2021-11-26 20:53:54][COMMAND]##################################################
+[2021-11-26 20:53:54][COMMAND]> CMD : Get BLE Infor.
+[2021-11-26 20:53:54][COMMAND]{'enckey': 'BBCCD728663FF5F2', 'mac': 'D3:68:BF:B2:F2:5C'}
+[2021-11-26 20:53:54][COMMAND]##################################################
+[2021-11-26 20:53:54][COMMAND]Write System Configuration File
+[2021-11-26 20:53:54][UTIL]key : 20D368BFB2F25CBBCCD728663FF5F221
+[2021-11-26 20:53:54][UTIL]iv : BBCCD728663FF5F2
+[2021-11-26 20:53:55][MAIN]터치초기화
+[2021-11-26 20:53:58][MAIN]카드리더초기화
+[2021-11-26 20:53:58][MAIN]소켓서버 연결
+[2021-11-26 20:53:58][MYSOCKET]접속 완료
+[2021-11-26 20:53:58][MYSOCKET]{'result': 0}
+[2021-11-26 20:53:58][MYSOCKET]## Send Message ##
+[2021-11-26 20:53:58][MYSOCKET]orig : {'method': 'getDeviceFcltInfo', 'macAddr': 'D3:68:BF:B2:F2:5C'}
+[2021-11-26 20:53:58][MYSOCKET]dec : {"resulttime":"20211126205358","fcltSn":5,"errorCode":0,"orgnztSn":3}
+[2021-11-26 20:53:58][MYSOCKET]recvData : b'\xcd\x9b\xcbw\x7f,\xeb\x8f(\x9bk\x12\x83\x85#\xe2\tX\xc2\xab$@F\x13e\xfa\xf7\x14\x9e\xdb\xff\xa3\xee\xc8\x80yr\xd0@\x99S\xe4\x1bI\xab\x10\xde8L\x98\x03\xcf?\x9ct\x94xK\xf0\xe2\xe8A\xc8\x90\xbe!\xed\x07h\x01K\xb7qT\x9a\xbd`B2\xd3'
+[2021-11-26 20:53:58][MYSOCKET]dicdata : {'resulttime': '20211126205358', 'fcltSn': 5, 'errorCode': 0, 'orgnztSn': 3}
+[2021-11-26 20:53:58][MYSOCKET]resulttime : 20211126205358
+[2021-11-26 20:53:58][MYSOCKET]Receive Socket
+[2021-11-26 20:53:58][MYSOCKET]Decoding : {"resulttime":"20211126205358","fcltSn":5,"errorCode":0,"orgnztSn":3}
+[2021-11-26 20:53:58][MYSOCKET]Call taskProcess
+[2021-11-26 20:53:58][TASK]taskProcess dic : {'resulttime': '20211126205358', 'fcltSn': 5, 'errorCode': 0, 'orgnztSn': 3}
+[2021-11-26 20:53:58][COMMAND]Write System Configuration File
+[2021-11-26 20:54:13][MYSOCKET]dec : {"schedule":[{"dayOfWeek":"1,4","startDt":"20211126","endDt":"20211126","startTime":"00:00","endTime":"15:00"},{"dayOfWeek":"1,4","startDt":"20211126","endDt":"20211130","startTime":"00:00","endTime":"08:00"},{"dayOfWeek":"2,5,0","startDt":"20211126","endDt":"20211202","startTime":"00:00","endTime":"18:00"}],"method":"setSchedule","responseId":"3fa3817cff9344c9b801ff0245d9de8f"}
+[2021-11-26 20:54:13][MYSOCKET]recvData : b"^\xcf\xd3\x1b\xd5\x8f\x97|\x15\xa3:-!\x9f\x04';\xf5[fC\xfa\x1f\xd7\xf2\xcb\x9ca::[a\xc2\x9d\xacoEA\xb9\xcd\xd3\xd87@\x13\xc4\xf0[h\x00TC\x15m\xf9'\r$\xebs`=\x90HH\xc9\x8cOXF~\xbfwq8\xa2\n[\xbdc\xe0eY\xd4\x88\x99\x99\xbf\x92\xfb\xdeR\x02\xd3\x8eOUe\xd0&\xcc[\xaaV?\xd0ED\xd9-5\xe1\xca\x9e\x02\xb4\xdd\x12ltF\xb8\x15`\x90\x1el\x05\x858\xc1A\xc6\xfe\x1ar\xa6\x90*\xccEa&_\xe16c\xd0}\x880\xdf\xa09\x1a\xd2\xa0,+]\x00\x9dE\xcd\xb5\xb3L\x01\x9f\xe7l\x8b\xec\xe1\x05\x8b\xdeO\xbay\xa7~\x1e\xa8h\xffc\xce<@\x85wWH\xa8\x13\x80\x86.s\x93\xb8iO\xf2M\xb9\xa5c\x83\x14\x18\xf0\x9a[\xbc\xc1F\xfcJ-$\xdb\xa8\t\x9f]\x00\x9c\xd6\xa6\x95\xbefU]\xa1\xd5\x192~\r@\xf4eKt\xb8\x01\xc0IY=\xd6\xa3\x0c\xdd\xfb\xb8\xcb\x05\xa8B\x0eT\xee&\xdc7\xc3\x98\xc7n \xbeT\x88\x87<-=+\xb6\r\x9c\xd1B{\xd0#\xbe#\x9eL\xfd\n\xbb\x96@V\x90=3#G\xe6\xf9\xda\x1f6\xc1g\xaa7\xe8\x9d\x14\xd9\x11\xe0c\x16?\xea8\x1b\x8d\x17\xc5\xb0\xa4\xf7\x0e\r+\xa1\x95\x8c\x93\x91\xd3\xa9G\x12\x85#R\x05\xdayp\xdd\xe9m\xee\xa4~\x87j\x8d&\xe8\xd1W\xa4\xd1\x9d\xdb\xce\xd2.\xb6\n\xe2j\x9b\x0b\x19:\xce{4\xf3 "
+[2021-11-26 20:54:13][MYSOCKET]dicdata : {'schedule': [{'dayOfWeek': '1,4', 'startDt': '20211126', 'endDt': '20211126', 'startTime': '00:00', 'endTime': '15:00'}, {'dayOfWeek': '1,4', 'startDt': '20211126', 'endDt': '20211130', 'startTime': '00:00', 'endTime': '08:00'}, {'dayOfWeek': '2,5,0', 'startDt': '20211126', 'endDt': '20211202', 'startTime': '00:00', 'endTime': '18:00'}], 'method': 'setSchedule', 'responseId': '3fa3817cff9344c9b801ff0245d9de8f'}
+[2021-11-26 20:54:13][MYSOCKET]Method setSchedule
+[2021-11-26 20:54:13][MYSOCKET]{"responseId": "3fa3817cff9344c9b801ff0245d9de8f", "errorCode": 0}
+[2021-11-26 20:54:13][SOCKETCMD]> {'responseId': '3fa3817cff9344c9b801ff0245d9de8f', 'errorCode': 0}
+[2021-11-26 21:03:45][MYSOCKET]dec : {"method":"getDeviceOption","responseId":"2bd009bdf8e0466ca311585568cfee52"}
+[2021-11-26 21:03:45][MYSOCKET]recvData : b']s\xa1\x82\rM38\xc39)]\xfb\x83E\n\x19\xc2\x85\xc0\xbe \xde\x89\t&\r\x15,J6\x93\xf4~@\xbc\r\xca\xe9j\xc0 \x17A\xe2.\xac\xdd\xeb\xa5\xd0m\x08\x14\xef\xe7\xeb\xf4\xcc\xe6\xa2\xfd\x18[t$5\xd5)\xf3\xaat`\xec\xe8\xa5\xb8\x0b\xe1\xe6'
+[2021-11-26 21:03:45][MYSOCKET]dicdata : {'method': 'getDeviceOption', 'responseId': '2bd009bdf8e0466ca311585568cfee52'}
+[2021-11-26 21:03:45][MYSOCKET]Method getDeviceOption
+[2021-11-26 21:03:45][MYSOCKET]{"responseId": "2bd009bdf8e0466ca311585568cfee52", "opetime": 5, "lcd": 5, "lcdtxt": 2, "spk": 3, "mic": 3, "bluepwr": 3, "brkyn": 1, "errorCode": 0}
+[2021-11-26 21:03:45][SOCKETCMD]> {'responseId': '2bd009bdf8e0466ca311585568cfee52', 'opetime': 5, 'lcd': 5, 'lcdtxt': 2, 'spk': 3, 'mic': 3, 'bluepwr': 3, 'brkyn': 1, 'errorCode': 0}
+[2021-11-26 21:03:50][MYSOCKET]dec : {"method":"getDeviceOption","responseId":"ae04d41fbd79416ea80f57a48f3dbb0e"}
+[2021-11-26 21:03:50][MYSOCKET]recvData : b']s\xa1\x82\rM38\xc39)]\xfb\x83E\n\x19\xc2\x85\xc0\xbe \xde\x89\t&\r\x15,J6\x93u\xa9\xf8\x1c\xda\xf3d\xc5\x85\xa1\x07\x80ndI4\x9b\xc8]\xe7\x13\x8d\xef\xf6!\xb7\x95:\x9f\xb0\x1b\x90ZX\xbb,|\xff\xa6SY\x99\xddp\xa4[\x0b\xa2'
+[2021-11-26 21:03:50][MYSOCKET]dicdata : {'method': 'getDeviceOption', 'responseId': 'ae04d41fbd79416ea80f57a48f3dbb0e'}
+[2021-11-26 21:03:50][MYSOCKET]Method getDeviceOption
+[2021-11-26 21:03:50][MYSOCKET]{"responseId": "ae04d41fbd79416ea80f57a48f3dbb0e", "opetime": 5, "lcd": 5, "lcdtxt": 2, "spk": 3, "mic": 3, "bluepwr": 3, "brkyn": 1, "errorCode": 0}
+[2021-11-26 21:03:50][SOCKETCMD]> {'responseId': 'ae04d41fbd79416ea80f57a48f3dbb0e', 'opetime': 5, 'lcd': 5, 'lcdtxt': 2, 'spk': 3, 'mic': 3, 'bluepwr': 3, 'brkyn': 1, 'errorCode': 0}
+[2021-11-26 21:04:13][MYSOCKET]dec : {"method":"getDeviceOption","responseId":"10111332a2874905a569d730fdf7b788"}
+[2021-11-26 21:04:13][MYSOCKET]recvData : b']s\xa1\x82\rM38\xc39)]\xfb\x83E\n\x19\xc2\x85\xc0\xbe \xde\x89\t&\r\x15,J6\x93\x0f\x9b\xe5dz/_E\xdb\xb4<|\xe6\xaf\x85\xe2\x8e!N\x94\x83\xad\x00\x8d%\xb9;\xb8\x90\x15\x17`\xbb\xb1\xb2\x99\xd9G\xa7\xc4 \xd8Y\xa3I]"\xc7'
+[2021-11-26 21:04:13][MYSOCKET]dicdata : {'method': 'getDeviceOption', 'responseId': '10111332a2874905a569d730fdf7b788'}
+[2021-11-26 21:04:13][MYSOCKET]Method getDeviceOption
+[2021-11-26 21:04:13][MYSOCKET]{"responseId": "10111332a2874905a569d730fdf7b788", "opetime": 5, "lcd": 5, "lcdtxt": 2, "spk": 3, "mic": 3, "bluepwr": 3, "brkyn": 1, "errorCode": 0}
+[2021-11-26 21:04:13][SOCKETCMD]> {'responseId': '10111332a2874905a569d730fdf7b788', 'opetime': 5, 'lcd': 5, 'lcdtxt': 2, 'spk': 3, 'mic': 3, 'bluepwr': 3, 'brkyn': 1, 'errorCode': 0}
+[2021-11-26 21:04:28][MYSOCKET]dec : {"schedule":[{"dayOfWeek":"1,4","startDt":"20211126","endDt":"20211126","startTime":"00:00","endTime":"15:00"},{"dayOfWeek":"1,4","startDt":"20211126","endDt":"20211130","startTime":"00:00","endTime":"08:00"},{"dayOfWeek":"2,5,0","startDt":"20211126","endDt":"20211202","startTime":"00:00","endTime":"18:00"},{"dayOfWeek":"4","startDt":"20211126","endDt":"20211126","startTime":"00:00","endTime":"00:00"}],"method":"setSchedule","responseId":"0768849517284fe399622a38d403cdd5"}
+[2021-11-26 21:04:28][MYSOCKET]recvData : b'^\xcf\xd3\x1b\xd5\x8f\x97|\x15\xa3:-!\x9f\x04\';\xf5[fC\xfa\x1f\xd7\xf2\xcb\x9ca::[a\xc2\x9d\xacoEA\xb9\xcd\xd3\xd87@\x13\xc4\xf0[h\x00TC\x15m\xf9\'\r$\xebs`=\x90HH\xc9\x8cOXF~\xbfwq8\xa2\n[\xbdc\xe0eY\xd4\x88\x99\x99\xbf\x92\xfb\xdeR\x02\xd3\x8eOUe\xd0&\xcc[\xaaV?\xd0ED\xd9-5\xe1\xca\x9e\x02\xb4\xdd\x12ltF\xb8\x15`\x90\x1el\x05\x858\xc1A\xc6\xfe\x1ar\xa6\x90*\xccEa&_\xe16c\xd0}\x880\xdf\xa09\x1a\xd2\xa0,+]\x00\x9dE\xcd\xb5\xb3L\x01\x9f\xe7l\x8b\xec\xe1\x05\x8b\xdeO\xbay\xa7~\x1e\xa8h\xffc\xce<@\x85wWH\xa8\x13\x80\x86.s\x93\xb8iO\xf2M\xb9\xa5c\x83\x14\x18\xf0\x9a[\xbc\xc1F\xfcJ-$\xdb\xa8\t\x9f]\x00\x9c\xd6\xa6\x95\xbefU]\xa1\xd5\x192~\r@\xf4eKt\xb8\x01\xc0IY=\xd6\xa3\x0c\xdd\xfb\xb8\xcb\x05\xa8B\x0eT\xee&\xdc7\xc3\x98\xc7n \xbeT\x88\x87<-=+\xb6\r\x9c\xd1B{\xd0#\xbe#\x9eL\xfd\n\xbb\x96@V\x90=3#\xd8\xbd\x05\x13\xb6\xb0_;]\x82%\xf2\x91_\xce\x89\xa5\xfd0\x8c\x81\xd7+"\xe6\x08rv\xbd\x19\xf5G\x87\xf1\x9b\x87^\xb0\xae%\xdce\xccu\x04;\x1a3\xff\xdc\\$\x058\xb6\x91i\x10M\x1d\x00\x12\xb6GF[\xa2\\\x10M\x83C\x7f\xae*\xb7\xe1_\'\xf5\xba\x91\xc6x\xb5k\xc0\xe1?\xc1`\xe4\xde\x06\xa5,s\xa5\x1d|\xd4\x12\x0b\x87\x11\tSdq,K\x82DP$\x85E\xd6\r\xdc\xc2\r%\xd8\xb6\x90\xc3\xc6\xafP\x05\x9c\xca\xf0\x82|\xd0Z\xdc$G\t\xa3\xff\xf9\xea\x87\x80\xd5\xfc\xb6\x00\xe2\xd1\xec\x07\xf6\x97i\x89\r\xbe\'\xa8R=\xde\x82\xc7z\xe1\xc46{\xa3 '
+[2021-11-26 21:04:28][MYSOCKET]dicdata : {'schedule': [{'dayOfWeek': '1,4', 'startDt': '20211126', 'endDt': '20211126', 'startTime': '00:00', 'endTime': '15:00'}, {'dayOfWeek': '1,4', 'startDt': '20211126', 'endDt': '20211130', 'startTime': '00:00', 'endTime': '08:00'}, {'dayOfWeek': '2,5,0', 'startDt': '20211126', 'endDt': '20211202', 'startTime': '00:00', 'endTime': '18:00'}, {'dayOfWeek': '4', 'startDt': '20211126', 'endDt': '20211126', 'startTime': '00:00', 'endTime': '00:00'}], 'method': 'setSchedule', 'responseId': '0768849517284fe399622a38d403cdd5'}
+[2021-11-26 21:04:28][MYSOCKET]Method setSchedule
+[2021-11-26 21:04:28][MYSOCKET]{"responseId": "0768849517284fe399622a38d403cdd5", "errorCode": 0}
+[2021-11-26 21:04:28][SOCKETCMD]> {'responseId': '0768849517284fe399622a38d403cdd5', 'errorCode': 0}
+[2021-11-26 21:04:45][MYSOCKET]dec : {"schedule":[{"dayOfWeek":"1,4","startDt":"20211126","endDt":"20211126","startTime":"00:00","endTime":"15:00"},{"dayOfWeek":"1,4","startDt":"20211126","endDt":"20211130","startTime":"00:00","endTime":"08:00"},{"dayOfWeek":"2,5,0","startDt":"20211126","endDt":"20211202","startTime":"00:00","endTime":"18:00"},{"dayOfWeek":"4","startDt":"20211126","endDt":"20211126","startTime":"00:00","endTime":"00:00"},{"dayOfWeek":"2,5","startDt":"20211126","endDt":"20211126","startTime":"00:00","endTime":"00:00"}],"method":"setSchedule","responseId":"31d18d397ff64b1c95549f84a1856f74"}
+[2021-11-26 21:04:45][MYSOCKET]recvData : b'^\xcf\xd3\x1b\xd5\x8f\x97|\x15\xa3:-!\x9f\x04\';\xf5[fC\xfa\x1f\xd7\xf2\xcb\x9ca::[a\xc2\x9d\xacoEA\xb9\xcd\xd3\xd87@\x13\xc4\xf0[h\x00TC\x15m\xf9\'\r$\xebs`=\x90HH\xc9\x8cOXF~\xbfwq8\xa2\n[\xbdc\xe0eY\xd4\x88\x99\x99\xbf\x92\xfb\xdeR\x02\xd3\x8eOUe\xd0&\xcc[\xaaV?\xd0ED\xd9-5\xe1\xca\x9e\x02\xb4\xdd\x12ltF\xb8\x15`\x90\x1el\x05\x858\xc1A\xc6\xfe\x1ar\xa6\x90*\xccEa&_\xe16c\xd0}\x880\xdf\xa09\x1a\xd2\xa0,+]\x00\x9dE\xcd\xb5\xb3L\x01\x9f\xe7l\x8b\xec\xe1\x05\x8b\xdeO\xbay\xa7~\x1e\xa8h\xffc\xce<@\x85wWH\xa8\x13\x80\x86.s\x93\xb8iO\xf2M\xb9\xa5c\x83\x14\x18\xf0\x9a[\xbc\xc1F\xfcJ-$\xdb\xa8\t\x9f]\x00\x9c\xd6\xa6\x95\xbefU]\xa1\xd5\x192~\r@\xf4eKt\xb8\x01\xc0IY=\xd6\xa3\x0c\xdd\xfb\xb8\xcb\x05\xa8B\x0eT\xee&\xdc7\xc3\x98\xc7n \xbeT\x88\x87<-=+\xb6\r\x9c\xd1B{\xd0#\xbe#\x9eL\xfd\n\xbb\x96@V\x90=3#\xd8\xbd\x05\x13\xb6\xb0_;]\x82%\xf2\x91_\xce\x89\xa5\xfd0\x8c\x81\xd7+"\xe6\x08rv\xbd\x19\xf5G\x87\xf1\x9b\x87^\xb0\xae%\xdce\xccu\x04;\x1a3\xff\xdc\\$\x058\xb6\x91i\x10M\x1d\x00\x12\xb6GF[\xa2\\\x10M\x83C\x7f\xae*\xb7\xe1_\'\xf5\xba\x91\xc6x\xb5k\xc0\xe1?\xc1`\xe4\xde\x06\xa5,Y\x8d\xe9\xfe\x9c\xa7\xd0\xb5[D!k\x07n\xd7\xa0\x07\xd03\xf3\tZ\x1f\xd9,\xff\x15\xf1\xb6\x142]\xa3I\x8bd\xear\xb5\x00\xc4\x12h\x06]\x8bF{\xda\xb7\x93[\xf0\xcd.\x7f\xea\xe0\xfa\x84\xf9\x82\x9e\x03\xde\xd4B\x8b\xf16\xdc\xf1tn\xdb\x1a\nZ\x92\xcd\x13\x85\x18\x01\\\x04\x0e+\xe9\x90\x14"\xb6G\xba\xf6c,b\xf3\x060\x9e\xb52,l\xfd\xa5\x90ac\xf0\xb8\xc3\x83\x84HXz,\x87\xce\xb9\xf1\x19\x0f\xfc\xd7\x968\x03\x93,0\x0c\x98g\x91/A\xb9U\xf3\x04\xe8\xd5=\xec\n\xf5h\xf8\xe2\xc1O.\xb9\x82&\x99\xf7\xd0\x01\x1f\xc7\xc7>\xba@\xae\xd6>\xe0\\\x9a'
+[2021-11-26 21:04:45][MYSOCKET]dicdata : {'schedule': [{'dayOfWeek': '1,4', 'startDt': '20211126', 'endDt': '20211126', 'startTime': '00:00', 'endTime': '15:00'}, {'dayOfWeek': '1,4', 'startDt': '20211126', 'endDt': '20211130', 'startTime': '00:00', 'endTime': '08:00'}, {'dayOfWeek': '2,5,0', 'startDt': '20211126', 'endDt': '20211202', 'startTime': '00:00', 'endTime': '18:00'}, {'dayOfWeek': '4', 'startDt': '20211126', 'endDt': '20211126', 'startTime': '00:00', 'endTime': '00:00'}, {'dayOfWeek': '2,5', 'startDt': '20211126', 'endDt': '20211126', 'startTime': '00:00', 'endTime': '00:00'}], 'method': 'setSchedule', 'responseId': '31d18d397ff64b1c95549f84a1856f74'}
+[2021-11-26 21:04:45][MYSOCKET]Method setSchedule
+[2021-11-26 21:04:45][MYSOCKET]{"responseId": "31d18d397ff64b1c95549f84a1856f74", "errorCode": 0}
+[2021-11-26 21:04:45][SOCKETCMD]> {'responseId': '31d18d397ff64b1c95549f84a1856f74', 'errorCode': 0}
+[2021-11-26 21:04:58][MYSOCKET]dec : {"schedule":[{"dayOfWeek":"1,4","startDt":"20211126","endDt":"20211126","startTime":"00:00","endTime":"15:00"},{"dayOfWeek":"1,4","startDt":"20211126","endDt":"20211130","startTime":"00:00","endTime":"08:00"},{"dayOfWeek":"2,5,0","startDt":"20211126","endDt":"20211202","startTime":"00:00","endTime":"18:00"},{"dayOfWeek":"4","startDt":"20211126","endDt":"20211126","startTime":"00:00","endTime":"00:00"},{"dayOfWeek":"2,5","startDt":"20211126","endDt":"20211126","startTime":"00:00","endTime":"00:00"},{"dayOfWeek":"3,6","startDt":"20211126","endDt":"20211126","startTime":"00:00","endTime":"00:00"}],"method":"setSchedule","responseId":"d233799f80684e88a7fdb3262a011a57"}
+[2021-11-26 21:04:58][MYSOCKET]recvData : b'^\xcf\xd3\x1b\xd5\x8f\x97|\x15\xa3:-!\x9f\x04\';\xf5[fC\xfa\x1f\xd7\xf2\xcb\x9ca::[a\xc2\x9d\xacoEA\xb9\xcd\xd3\xd87@\x13\xc4\xf0[h\x00TC\x15m\xf9\'\r$\xebs`=\x90HH\xc9\x8cOXF~\xbfwq8\xa2\n[\xbdc\xe0eY\xd4\x88\x99\x99\xbf\x92\xfb\xdeR\x02\xd3\x8eOUe\xd0&\xcc[\xaaV?\xd0ED\xd9-5\xe1\xca\x9e\x02\xb4\xdd\x12ltF\xb8\x15`\x90\x1el\x05\x858\xc1A\xc6\xfe\x1ar\xa6\x90*\xccEa&_\xe16c\xd0}\x880\xdf\xa09\x1a\xd2\xa0,+]\x00\x9dE\xcd\xb5\xb3L\x01\x9f\xe7l\x8b\xec\xe1\x05\x8b\xdeO\xbay\xa7~\x1e\xa8h\xffc\xce<@\x85wWH\xa8\x13\x80\x86.s\x93\xb8iO\xf2M\xb9\xa5c\x83\x14\x18\xf0\x9a[\xbc\xc1F\xfcJ-$\xdb\xa8\t\x9f]\x00\x9c\xd6\xa6\x95\xbefU]\xa1\xd5\x192~\r@\xf4eKt\xb8\x01\xc0IY=\xd6\xa3\x0c\xdd\xfb\xb8\xcb\x05\xa8B\x0eT\xee&\xdc7\xc3\x98\xc7n \xbeT\x88\x87<-=+\xb6\r\x9c\xd1B{\xd0#\xbe#\x9eL\xfd\n\xbb\x96@V\x90=3#\xd8\xbd\x05\x13\xb6\xb0_;]\x82%\xf2\x91_\xce\x89\xa5\xfd0\x8c\x81\xd7+"\xe6\x08rv\xbd\x19\xf5G\x87\xf1\x9b\x87^\xb0\xae%\xdce\xccu\x04;\x1a3\xff\xdc\\$\x058\xb6\x91i\x10M\x1d\x00\x12\xb6GF[\xa2\\\x10M\x83C\x7f\xae*\xb7\xe1_\'\xf5\xba\x91\xc6x\xb5k\xc0\xe1?\xc1`\xe4\xde\x06\xa5,Y\x8d\xe9\xfe\x9c\xa7\xd0\xb5[D!k\x07n\xd7\xa0\x07\xd03\xf3\tZ\x1f\xd9,\xff\x15\xf1\xb6\x142]\xa3I\x8bd\xear\xb5\x00\xc4\x12h\x06]\x8bF{\xda\xb7\x93[\xf0\xcd.\x7f\xea\xe0\xfa\x84\xf9\x82\x9e\x03\xde\xd4B\x8b\xf16\xdc\xf1tn\xdb\x1a\nZ\x92\xcd\x13\x85\x18\x01\\\x04\x0e+\xe9\x90\x14"\xb6G\xba\xf6v\xdc\x99\x87\x1b\x8e\xed\xe6\xdeCB\xabU\x80\xad\x1a\x9b\xa5#Rn\xae\xb4\xa7\xc2\\\xbd\x04\xbeVA\xf9\xd9\x80q\r\xc4\xfb\xec\xa2\xdbx\xb2\xc1n\xf1\x1d(\xc2\x9f\x16E\xa1jJ}uE\xd1\xb7>&\xa9[]fa\xa6\x1aR\x13bd\xae\xd7u\t\x0e\xa0\xd7D\xbb\x93<Q\xed\xcb\xab\x0b\xf86\xdb\xeem\xe9r\x0c\xb2\x0b\nH\x16\x86\x97#bg\x11\'\xea\xad\xf3GI\xb9a\xae\xbev\xachv\xa8\xb2{\x0f#\x92$\x16\x9a\xbf\x18d|\x98\x10\x88\x01\xb4\x0fp\\Bn{\xad\x1cP\xc4\xfb\x96[b\xfb\xd3\xd0\x16\x1a\xb4^\x9f\xb3\x19\x8bOG\r?\t%+A\xf83\xb9@\x9d\x12\xcbt}\xd2e\xfc\xbd\xc3\xc3o\n\xb5\xc9'
+[2021-11-26 21:04:58][MYSOCKET]dicdata : {'schedule': [{'dayOfWeek': '1,4', 'startDt': '20211126', 'endDt': '20211126', 'startTime': '00:00', 'endTime': '15:00'}, {'dayOfWeek': '1,4', 'startDt': '20211126', 'endDt': '20211130', 'startTime': '00:00', 'endTime': '08:00'}, {'dayOfWeek': '2,5,0', 'startDt': '20211126', 'endDt': '20211202', 'startTime': '00:00', 'endTime': '18:00'}, {'dayOfWeek': '4', 'startDt': '20211126', 'endDt': '20211126', 'startTime': '00:00', 'endTime': '00:00'}, {'dayOfWeek': '2,5', 'startDt': '20211126', 'endDt': '20211126', 'startTime': '00:00', 'endTime': '00:00'}, {'dayOfWeek': '3,6', 'startDt': '20211126', 'endDt': '20211126', 'startTime': '00:00', 'endTime': '00:00'}], 'method': 'setSchedule', 'responseId': 'd233799f80684e88a7fdb3262a011a57'}
+[2021-11-26 21:04:58][MYSOCKET]Method setSchedule
+[2021-11-26 21:04:58][MYSOCKET]{"responseId": "d233799f80684e88a7fdb3262a011a57", "errorCode": 0}
+[2021-11-26 21:04:58][SOCKETCMD]> {'responseId': 'd233799f80684e88a7fdb3262a011a57', 'errorCode': 0}
+[2021-11-26 21:05:11][MYSOCKET]dec : {"schedule":[{"dayOfWeek":"1,4","startDt":"20211126","endDt":"20211126","startTime":"00:00","endTime":"15:00"},{"dayOfWeek":"1,4","startDt":"20211126","endDt":"20211130","startTime":"00:00","endTime":"08:00"},{"dayOfWeek":"2,5,0","startDt":"20211126","endDt":"20211202","startTime":"00:00","endTime":"18:00"},{"dayOfWeek":"4","startDt":"20211126","endDt":"20211126","startTime":"00:00","endTime":"00:00"},{"dayOfWeek":"2,5","startDt":"20211126","endDt":"20211126","startTime":"00:00","endTime":"00:00"},{"dayOfWeek":"3,6","startDt":"20211126","endDt":"20211126","startTime":"00:00","endTime":"00:00"},{"dayOfWeek":"1,2,3","startDt":"20211126","endDt":"20211126","startTime":"00:00","endTime":"00:00"}],"method":"setSchedule","responseId":"7101ff35b8384f9d84f186dcc5ffb2c1"}
+[2021-11-26 21:05:11][MYSOCKET]recvData : b'^\xcf\xd3\x1b\xd5\x8f\x97|\x15\xa3:-!\x9f\x04\';\xf5[fC\xfa\x1f\xd7\xf2\xcb\x9ca::[a\xc2\x9d\xacoEA\xb9\xcd\xd3\xd87@\x13\xc4\xf0[h\x00TC\x15m\xf9\'\r$\xebs`=\x90HH\xc9\x8cOXF~\xbfwq8\xa2\n[\xbdc\xe0eY\xd4\x88\x99\x99\xbf\x92\xfb\xdeR\x02\xd3\x8eOUe\xd0&\xcc[\xaaV?\xd0ED\xd9-5\xe1\xca\x9e\x02\xb4\xdd\x12ltF\xb8\x15`\x90\x1el\x05\x858\xc1A\xc6\xfe\x1ar\xa6\x90*\xccEa&_\xe16c\xd0}\x880\xdf\xa09\x1a\xd2\xa0,+]\x00\x9dE\xcd\xb5\xb3L\x01\x9f\xe7l\x8b\xec\xe1\x05\x8b\xdeO\xbay\xa7~\x1e\xa8h\xffc\xce<@\x85wWH\xa8\x13\x80\x86.s\x93\xb8iO\xf2M\xb9\xa5c\x83\x14\x18\xf0\x9a[\xbc\xc1F\xfcJ-$\xdb\xa8\t\x9f]\x00\x9c\xd6\xa6\x95\xbefU]\xa1\xd5\x192~\r@\xf4eKt\xb8\x01\xc0IY=\xd6\xa3\x0c\xdd\xfb\xb8\xcb\x05\xa8B\x0eT\xee&\xdc7\xc3\x98\xc7n \xbeT\x88\x87<-=+\xb6\r\x9c\xd1B{\xd0#\xbe#\x9eL\xfd\n\xbb\x96@V\x90=3#\xd8\xbd\x05\x13\xb6\xb0_;]\x82%\xf2\x91_\xce\x89\xa5\xfd0\x8c\x81\xd7+"\xe6\x08rv\xbd\x19\xf5G\x87\xf1\x9b\x87^\xb0\xae%\xdce\xccu\x04;\x1a3\xff\xdc\\$\x058\xb6\x91i\x10M\x1d\x00\x12\xb6GF[\xa2\\\x10M\x83C\x7f\xae*\xb7\xe1_\'\xf5\xba\x91\xc6x\xb5k\xc0\xe1?\xc1`\xe4\xde\x06\xa5,Y\x8d\xe9\xfe\x9c\xa7\xd0\xb5[D!k\x07n\xd7\xa0\x07\xd03\xf3\tZ\x1f\xd9,\xff\x15\xf1\xb6\x142]\xa3I\x8bd\xear\xb5\x00\xc4\x12h\x06]\x8bF{\xda\xb7\x93[\xf0\xcd.\x7f\xea\xe0\xfa\x84\xf9\x82\x9e\x03\xde\xd4B\x8b\xf16\xdc\xf1tn\xdb\x1a\nZ\x92\xcd\x13\x85\x18\x01\\\x04\x0e+\xe9\x90\x14"\xb6G\xba\xf6v\xdc\x99\x87\x1b\x8e\xed\xe6\xdeCB\xabU\x80\xad\x1a\x9b\xa5#Rn\xae\xb4\xa7\xc2\\\xbd\x04\xbeVA\xf9\xd9\x80q\r\xc4\xfb\xec\xa2\xdbx\xb2\xc1n\xf1\x1d(\xc2\x9f\x16E\xa1jJ}uE\xd1\xb7>&\xa9[]fa\xa6\x1aR\x13bd\xae\xd7u\t\x0e\xa0\xd7D\xbb\x93<Q\xed\xcb\xab\x0b\xf86\xdb\xeem\xe9r4\x1a\xbc;mM|\xd3\xb0<\xdd\xf6\x05\x0b\x13\xbe\xc4k\xea`\x9e\x9eJ8\xe6\xb6\xcd}\xc1\xa5\xf9\x15\x8b\x1al\xc1p"GuN*1\xb0\xde\xe1R9/D\xd6\xdd\x8f8^D\xff?%\xff\x033Us\x9e\r\xa2\xb1i\xb4\xb4\x12\xa0\x9c\xd4\xea\x0f\xdf5\xe0\xed(C{\xd8\xeb\x92X\x17\xc6\x9d\x89\xab\x10\x012\xafL\x95\xccM\xee\x8d\x93\x06\x8a-\xca\xb3k\xb6\x0f\xa4J\x17\xf7\xd83\x92\xe9\x8a\xdcb \xe7\x13G\xd1<\xd1\xe4\xb0\x9c#\xd3"\xf34\xb7\xb1\xe2\xbc\x97\xbc\xb5\x7f\x00\x050\xfc\xd8+\xef\xa8\x0f\xeb\xf1\x16\\\xc2\x82\x92\x86c\xb0\xc8\x1f\xb8\x91^^\x8e\xa6\\\x87V\xae\x82\\\xe0\xfa\xd9W\xae?Ie\x19\x9f\xcb\xe2\x08'
+[2021-11-26 21:05:11][MYSOCKET]dicdata : {'schedule': [{'dayOfWeek': '1,4', 'startDt': '20211126', 'endDt': '20211126', 'startTime': '00:00', 'endTime': '15:00'}, {'dayOfWeek': '1,4', 'startDt': '20211126', 'endDt': '20211130', 'startTime': '00:00', 'endTime': '08:00'}, {'dayOfWeek': '2,5,0', 'startDt': '20211126', 'endDt': '20211202', 'startTime': '00:00', 'endTime': '18:00'}, {'dayOfWeek': '4', 'startDt': '20211126', 'endDt': '20211126', 'startTime': '00:00', 'endTime': '00:00'}, {'dayOfWeek': '2,5', 'startDt': '20211126', 'endDt': '20211126', 'startTime': '00:00', 'endTime': '00:00'}, {'dayOfWeek': '3,6', 'startDt': '20211126', 'endDt': '20211126', 'startTime': '00:00', 'endTime': '00:00'}, {'dayOfWeek': '1,2,3', 'startDt': '20211126', 'endDt': '20211126', 'startTime': '00:00', 'endTime': '00:00'}], 'method': 'setSchedule', 'responseId': '7101ff35b8384f9d84f186dcc5ffb2c1'}
+[2021-11-26 21:05:11][MYSOCKET]Method setSchedule
+[2021-11-26 21:05:11][MYSOCKET]{"responseId": "7101ff35b8384f9d84f186dcc5ffb2c1", "errorCode": 0}
+[2021-11-26 21:05:11][SOCKETCMD]> {'responseId': '7101ff35b8384f9d84f186dcc5ffb2c1', 'errorCode': 0}
+[2021-11-26 21:05:31][MYSOCKET]dec : {"schedule":[{"dayOfWeek":"1,4","startDt":"20211126","endDt":"20211126","startTime":"00:00","endTime":"15:00"},{"dayOfWeek":"1,4","startDt":"20211126","endDt":"20211130","startTime":"00:00","endTime":"08:00"},{"dayOfWeek":"2,5,0","startDt":"20211126","endDt":"20211202","startTime":"00:00","endTime":"18:00"},{"dayOfWeek":"4","startDt":"20211126","endDt":"20211126","startTime":"00:00","endTime":"00:00"},{"dayOfWeek":"2,5","startDt":"20211126","endDt":"20211126","startTime":"00:00","endTime":"00:00"},{"dayOfWeek":"3,6","startDt":"20211126","endDt":"20211126","startTime":"00:00","endTime":"00:00"},{"dayOfWeek":"1,2,3","startDt":"20211126","endDt":"20211126","startTime":"00:00","endTime":"00:00"},{"dayOfWeek":"4,5","startDt":"20211126","endDt":"20211202","startTime":"00:00","endTime":"00:00"}],"method":"setSchedule","responseId":"da5253a3a65c4ca9b25a5b53128617da"}
+[2021-11-26 21:05:31][MYSOCKET]recvData : b'^\xcf\xd3\x1b\xd5\x8f\x97|\x15\xa3:-!\x9f\x04\';\xf5[fC\xfa\x1f\xd7\xf2\xcb\x9ca::[a\xc2\x9d\xacoEA\xb9\xcd\xd3\xd87@\x13\xc4\xf0[h\x00TC\x15m\xf9\'\r$\xebs`=\x90HH\xc9\x8cOXF~\xbfwq8\xa2\n[\xbdc\xe0eY\xd4\x88\x99\x99\xbf\x92\xfb\xdeR\x02\xd3\x8eOUe\xd0&\xcc[\xaaV?\xd0ED\xd9-5\xe1\xca\x9e\x02\xb4\xdd\x12ltF\xb8\x15`\x90\x1el\x05\x858\xc1A\xc6\xfe\x1ar\xa6\x90*\xccEa&_\xe16c\xd0}\x880\xdf\xa09\x1a\xd2\xa0,+]\x00\x9dE\xcd\xb5\xb3L\x01\x9f\xe7l\x8b\xec\xe1\x05\x8b\xdeO\xbay\xa7~\x1e\xa8h\xffc\xce<@\x85wWH\xa8\x13\x80\x86.s\x93\xb8iO\xf2M\xb9\xa5c\x83\x14\x18\xf0\x9a[\xbc\xc1F\xfcJ-$\xdb\xa8\t\x9f]\x00\x9c\xd6\xa6\x95\xbefU]\xa1\xd5\x192~\r@\xf4eKt\xb8\x01\xc0IY=\xd6\xa3\x0c\xdd\xfb\xb8\xcb\x05\xa8B\x0eT\xee&\xdc7\xc3\x98\xc7n \xbeT\x88\x87<-=+\xb6\r\x9c\xd1B{\xd0#\xbe#\x9eL\xfd\n\xbb\x96@V\x90=3#\xd8\xbd\x05\x13\xb6\xb0_;]\x82%\xf2\x91_\xce\x89\xa5\xfd0\x8c\x81\xd7+"\xe6\x08rv\xbd\x19\xf5G\x87\xf1\x9b\x87^\xb0\xae%\xdce\xccu\x04;\x1a3\xff\xdc\\$\x058\xb6\x91i\x10M\x1d\x00\x12\xb6GF[\xa2\\\x10M\x83C\x7f\xae*\xb7\xe1_\'\xf5\xba\x91\xc6x\xb5k\xc0\xe1?\xc1`\xe4\xde\x06\xa5,Y\x8d\xe9\xfe\x9c\xa7\xd0\xb5[D!k\x07n\xd7\xa0\x07\xd03\xf3\tZ\x1f\xd9,\xff\x15\xf1\xb6\x142]\xa3I\x8bd\xear\xb5\x00\xc4\x12h\x06]\x8bF{\xda\xb7\x93[\xf0\xcd.\x7f\xea\xe0\xfa\x84\xf9\x82\x9e\x03\xde\xd4B\x8b\xf16\xdc\xf1tn\xdb\x1a\nZ\x92\xcd\x13\x85\x18\x01\\\x04\x0e+\xe9\x90\x14"\xb6G\xba\xf6v\xdc\x99\x87\x1b\x8e\xed\xe6\xdeCB\xabU\x80\xad\x1a\x9b\xa5#Rn\xae\xb4\xa7\xc2\\\xbd\x04\xbeVA\xf9\xd9\x80q\r\xc4\xfb\xec\xa2\xdbx\xb2\xc1n\xf1\x1d(\xc2\x9f\x16E\xa1jJ}uE\xd1\xb7>&\xa9[]fa\xa6\x1aR\x13bd\xae\xd7u\t\x0e\xa0\xd7D\xbb\x93<Q\xed\xcb\xab\x0b\xf86\xdb\xeem\xe9r4\x1a\xbc;mM|\xd3\xb0<\xdd\xf6\x05\x0b\x13\xbe\xc4k\xea`\x9e\x9eJ8\xe6\xb6\xcd}\xc1\xa5\xf9\x15\x8b\x1al\xc1p"GuN*1\xb0\xde\xe1R9/D\xd6\xdd\x8f8^D\xff?%\xff\x033Us\x9e\r\xa2\xb1i\xb4\xb4\x12\xa0\x9c\xd4\xea\x0f\xdf5\xe0\xed(C{\xd8\xeb\x92X\x17\xc6\x9d\x89\xab\x10\x012\xd3\xbc\xb8\xa7\x83\x86Ym@\x84\xb0}\x034\xc9\xba\x10\xc2~\x8e*:-\xb2\xd5#f^\x15\xf7\x8c\x05\xc4n\xb8\n\xd42v\x80R\xe8\xa3W\x96Z\xe5k\x16\xcc\x08w>\x88&\xa2\xdc\xc9\xa8jT\xe4\x12\xbc\xcb{4\xbd\xc3\xf2e\xeaA\xbc\x08\xeb\x90OA\xb8\xef\xfe\x85\x10\x16\x7fC9G\xe6t"\xee\xdbHU\xac\\w\xaa\xb0mU\xf7\xaa#:\xcd\xe2\xffE\xc6\x93j\x0fg\x94_!\x10\x19\xea\xfb\xd2\xcf\x9e\r"\xc6\xaf\xc4\xb4v/5\x8f\xd9\x85\xfbo\xd7\xccwf\x82\x9bq\x81\xbd\x91\x01C\xf4]/!)\xd1\xbcL\x90\x14C\x81;As\xe97\x1a[\xc1\xbe\xc5\x8d\xc2\xff\xca\xea"b\x96\xcd\xb1\xd9\xc4\xd7\x08\x9a\xd0\x9a\xef'
+[2021-11-26 21:05:31][MYSOCKET]dicdata : {'schedule': [{'dayOfWeek': '1,4', 'startDt': '20211126', 'endDt': '20211126', 'startTime': '00:00', 'endTime': '15:00'}, {'dayOfWeek': '1,4', 'startDt': '20211126', 'endDt': '20211130', 'startTime': '00:00', 'endTime': '08:00'}, {'dayOfWeek': '2,5,0', 'startDt': '20211126', 'endDt': '20211202', 'startTime': '00:00', 'endTime': '18:00'}, {'dayOfWeek': '4', 'startDt': '20211126', 'endDt': '20211126', 'startTime': '00:00', 'endTime': '00:00'}, {'dayOfWeek': '2,5', 'startDt': '20211126', 'endDt': '20211126', 'startTime': '00:00', 'endTime': '00:00'}, {'dayOfWeek': '3,6', 'startDt': '20211126', 'endDt': '20211126', 'startTime': '00:00', 'endTime': '00:00'}, {'dayOfWeek': '1,2,3', 'startDt': '20211126', 'endDt': '20211126', 'startTime': '00:00', 'endTime': '00:00'}, {'dayOfWeek': '4,5', 'startDt': '20211126', 'endDt': '20211202', 'startTime': '00:00', 'endTime': '00:00'}], 'method': 'setSchedule', 'responseId': 'da5253a3a65c4ca9b25a5b53128617da'}
+[2021-11-26 21:05:31][MYSOCKET]Method setSchedule
+[2021-11-26 21:05:32][MYSOCKET]{"responseId": "da5253a3a65c4ca9b25a5b53128617da", "errorCode": 0}
+[2021-11-26 21:05:32][SOCKETCMD]> {'responseId': 'da5253a3a65c4ca9b25a5b53128617da', 'errorCode': 0}
+[2021-11-26 21:05:42][MYSOCKET]dec : {"schedule":[{"dayOfWeek":"1,4","startDt":"20211126","endDt":"20211126","startTime":"00:00","endTime":"15:00"},{"dayOfWeek":"1,4","startDt":"20211126","endDt":"20211130","startTime":"00:00","endTime":"08:00"},{"dayOfWeek":"2,5,0","startDt":"20211126","endDt":"20211202","startTime":"00:00","endTime":"18:00"},{"dayOfWeek":"4","startDt":"20211126","endDt":"20211126","startTime":"00:00","endTime":"00:00"},{"dayOfWeek":"2,5","startDt":"20211126","endDt":"20211126","startTime":"00:00","endTime":"00:00"},{"dayOfWeek":"3,6","startDt":"20211126","endDt":"20211126","startTime":"00:00","endTime":"00:00"},{"dayOfWeek":"1,2,3","startDt":"20211126","endDt":"20211126","startTime":"00:00","endTime":"00:00"},{"dayOfWeek":"4,5","startDt":"20211126","endDt":"20211202","startTime":"00:00","endTime":"00:00"},{"dayOfWeek":"0","startDt":"20211126","endDt":"20211126","startTime":"00:00","endTime":"00:00"}],"method":"setSchedule","responseId":"78c817e0d74a447cb6f046c12d4f9a3c"}
+[2021-11-26 21:05:42][MYSOCKET]recvData : b'^\xcf\xd3\x1b\xd5\x8f\x97|\x15\xa3:-!\x9f\x04\';\xf5[fC\xfa\x1f\xd7\xf2\xcb\x9ca::[a\xc2\x9d\xacoEA\xb9\xcd\xd3\xd87@\x13\xc4\xf0[h\x00TC\x15m\xf9\'\r$\xebs`=\x90HH\xc9\x8cOXF~\xbfwq8\xa2\n[\xbdc\xe0eY\xd4\x88\x99\x99\xbf\x92\xfb\xdeR\x02\xd3\x8eOUe\xd0&\xcc[\xaaV?\xd0ED\xd9-5\xe1\xca\x9e\x02\xb4\xdd\x12ltF\xb8\x15`\x90\x1el\x05\x858\xc1A\xc6\xfe\x1ar\xa6\x90*\xccEa&_\xe16c\xd0}\x880\xdf\xa09\x1a\xd2\xa0,+]\x00\x9dE\xcd\xb5\xb3L\x01\x9f\xe7l\x8b\xec\xe1\x05\x8b\xdeO\xbay\xa7~\x1e\xa8h\xffc\xce<@\x85wWH\xa8\x13\x80\x86.s\x93\xb8iO\xf2M\xb9\xa5c\x83\x14\x18\xf0\x9a[\xbc\xc1F\xfcJ-$\xdb\xa8\t\x9f]\x00\x9c\xd6\xa6\x95\xbefU]\xa1\xd5\x192~\r@\xf4eKt\xb8\x01\xc0IY=\xd6\xa3\x0c\xdd\xfb\xb8\xcb\x05\xa8B\x0eT\xee&\xdc7\xc3\x98\xc7n \xbeT\x88\x87<-=+\xb6\r\x9c\xd1B{\xd0#\xbe#\x9eL\xfd\n\xbb\x96@V\x90=3#\xd8\xbd\x05\x13\xb6\xb0_;]\x82%\xf2\x91_\xce\x89\xa5\xfd0\x8c\x81\xd7+"\xe6\x08rv\xbd\x19\xf5G\x87\xf1\x9b\x87^\xb0\xae%\xdce\xccu\x04;\x1a3\xff\xdc\\$\x058\xb6\x91i\x10M\x1d\x00\x12\xb6GF[\xa2\\\x10M\x83C\x7f\xae*\xb7\xe1_\'\xf5\xba\x91\xc6x\xb5k\xc0\xe1?\xc1`\xe4\xde\x06\xa5,Y\x8d\xe9\xfe\x9c\xa7\xd0\xb5[D!k\x07n\xd7\xa0\x07\xd03\xf3\tZ\x1f\xd9,\xff\x15\xf1\xb6\x142]\xa3I\x8bd\xear\xb5\x00\xc4\x12h\x06]\x8bF{\xda\xb7\x93[\xf0\xcd.\x7f\xea\xe0\xfa\x84\xf9\x82\x9e\x03\xde\xd4B\x8b\xf16\xdc\xf1tn\xdb\x1a\nZ\x92\xcd\x13\x85\x18\x01\\\x04\x0e+\xe9\x90\x14"\xb6G\xba\xf6v\xdc\x99\x87\x1b\x8e\xed\xe6\xdeCB\xabU\x80\xad\x1a\x9b\xa5#Rn\xae\xb4\xa7\xc2\\\xbd\x04\xbeVA\xf9\xd9\x80q\r\xc4\xfb\xec\xa2\xdbx\xb2\xc1n\xf1\x1d(\xc2\x9f\x16E\xa1jJ}uE\xd1\xb7>&\xa9[]fa\xa6\x1aR\x13bd\xae\xd7u\t\x0e\xa0\xd7D\xbb\x93<Q\xed\xcb\xab\x0b\xf86\xdb\xeem\xe9r4\x1a\xbc;mM|\xd3\xb0<\xdd\xf6\x05\x0b\x13\xbe\xc4k\xea`\x9e\x9eJ8\xe6\xb6\xcd}\xc1\xa5\xf9\x15\x8b\x1al\xc1p"GuN*1\xb0\xde\xe1R9/D\xd6\xdd\x8f8^D\xff?%\xff\x033Us\x9e\r\xa2\xb1i\xb4\xb4\x12\xa0\x9c\xd4\xea\x0f\xdf5\xe0\xed(C{\xd8\xeb\x92X\x17\xc6\x9d\x89\xab\x10\x012\xd3\xbc\xb8\xa7\x83\x86Ym@\x84\xb0}\x034\xc9\xba\x10\xc2~\x8e*:-\xb2\xd5#f^\x15\xf7\x8c\x05\xc4n\xb8\n\xd42v\x80R\xe8\xa3W\x96Z\xe5k\x16\xcc\x08w>\x88&\xa2\xdc\xc9\xa8jT\xe4\x12\xbc\xcb{4\xbd\xc3\xf2e\xeaA\xbc\x08\xeb\x90OA\xb8\xef\xfe\x85\x10\x16\x7fC9G\xe6t"\xee\xdbHU\xbcS\xcb\xe6I\x1aJ*e\xe3\x8e\xf7\x04E4\x8e&\xa4U\xff\x8e\xdfmLv\x94f\x1b\xf6\\.\xd3\x8d m\xa7\x07I\xc4!wV\x1e\x06\xe8\xc1\x99\xddH}P\xda"\xder\xa4\xc4fh\xf6J\xd7\x8e\x7f\x08\xd9\xa2\\:<\x1b[6<+\x1c!\xe1\x13\xd4dj\x8a3,:\xf6\xb4_b\xf2\xd3\x03!\xe3\x047\xd0\xec\xc41\x00k\x07zZ\xc5\xf7?\'\xc5\xd79\xd7\xdb@\xa2\xe4*\xc1\x98\xe0\xb7$\x12\xef\x92%{]\x93N\xbf\x12-\xc9\x07>\t\xe0\'\xd8-jh+\x11\x19\xd1\xd8h\x95[\x8d\xceJ\xa8\xa2\x0b\xa0\xca\x85\xab\xe0|\xae;\xf4:\xa36.6\x11\x8a\xd1\x8c\x0e<\xfb\xa2\xe0o\'s\x08\xa9\x1b\xd4B\x0eq'
+[2021-11-26 21:05:42][MYSOCKET]dicdata : {'schedule': [{'dayOfWeek': '1,4', 'startDt': '20211126', 'endDt': '20211126', 'startTime': '00:00', 'endTime': '15:00'}, {'dayOfWeek': '1,4', 'startDt': '20211126', 'endDt': '20211130', 'startTime': '00:00', 'endTime': '08:00'}, {'dayOfWeek': '2,5,0', 'startDt': '20211126', 'endDt': '20211202', 'startTime': '00:00', 'endTime': '18:00'}, {'dayOfWeek': '4', 'startDt': '20211126', 'endDt': '20211126', 'startTime': '00:00', 'endTime': '00:00'}, {'dayOfWeek': '2,5', 'startDt': '20211126', 'endDt': '20211126', 'startTime': '00:00', 'endTime': '00:00'}, {'dayOfWeek': '3,6', 'startDt': '20211126', 'endDt': '20211126', 'startTime': '00:00', 'endTime': '00:00'}, {'dayOfWeek': '1,2,3', 'startDt': '20211126', 'endDt': '20211126', 'startTime': '00:00', 'endTime': '00:00'}, {'dayOfWeek': '4,5', 'startDt': '20211126', 'endDt': '20211202', 'startTime': '00:00', 'endTime': '00:00'}, {'dayOfWeek': '0', 'startDt': '20211126', 'endDt': '20211126', 'startTime': '00:00', 'endTime': '00:00'}], 'method': 'setSchedule', 'responseId': '78c817e0d74a447cb6f046c12d4f9a3c'}
+[2021-11-26 21:05:42][MYSOCKET]Method setSchedule
+[2021-11-26 21:05:42][MYSOCKET]{"responseId": "78c817e0d74a447cb6f046c12d4f9a3c", "errorCode": 0}
+[2021-11-26 21:05:42][SOCKETCMD]> {'responseId': '78c817e0d74a447cb6f046c12d4f9a3c', 'errorCode': 0}
+[2021-11-26 21:06:00][MYSOCKET]dec : {"schedule":[{"dayOfWeek":"1,4","startDt":"20211126","endDt":"20211126","startTime":"00:00","endTime":"15:00"},{"dayOfWeek":"1,4","startDt":"20211126","endDt":"20211130","startTime":"00:00","endTime":"08:00"},{"dayOfWeek":"2,5,0","startDt":"20211126","endDt":"20211202","startTime":"00:00","endTime":"18:00"},{"dayOfWeek":"4","startDt":"20211126","endDt":"20211126","startTime":"00:00","endTime":"00:00"},{"dayOfWeek":"2,5","startDt":"20211126","endDt":"20211126","startTime":"00:00","endTime":"00:00"},{"dayOfWeek":"3,6","startDt":"20211126","endDt":"20211126","startTime":"00:00","endTime":"00:00"},{"dayOfWeek":"1,2,3","startDt":"20211126","endDt":"20211126","startTime":"00:00","endTime":"00:00"},{"dayOfWeek":"4,5","startDt":"20211126","endDt":"20211202","startTime":"00:00","endTime":"00:00"},{"dayOfWeek":"0","startDt":"20211126","endDt":"20211126","startTime":"00:00","endTime":"00:00"},{"dayOfWeek":"0","startDt":"20211126","endDt":"20220526","startTime":"00:00","endTime":"00:00"}],"method":"setSchedule","response
+[2021-11-26 21:06:00][MYSOCKET]recvData : b'^\xcf\xd3\x1b\xd5\x8f\x97|\x15\xa3:-!\x9f\x04\';\xf5[fC\xfa\x1f\xd7\xf2\xcb\x9ca::[a\xc2\x9d\xacoEA\xb9\xcd\xd3\xd87@\x13\xc4\xf0[h\x00TC\x15m\xf9\'\r$\xebs`=\x90HH\xc9\x8cOXF~\xbfwq8\xa2\n[\xbdc\xe0eY\xd4\x88\x99\x99\xbf\x92\xfb\xdeR\x02\xd3\x8eOUe\xd0&\xcc[\xaaV?\xd0ED\xd9-5\xe1\xca\x9e\x02\xb4\xdd\x12ltF\xb8\x15`\x90\x1el\x05\x858\xc1A\xc6\xfe\x1ar\xa6\x90*\xccEa&_\xe16c\xd0}\x880\xdf\xa09\x1a\xd2\xa0,+]\x00\x9dE\xcd\xb5\xb3L\x01\x9f\xe7l\x8b\xec\xe1\x05\x8b\xdeO\xbay\xa7~\x1e\xa8h\xffc\xce<@\x85wWH\xa8\x13\x80\x86.s\x93\xb8iO\xf2M\xb9\xa5c\x83\x14\x18\xf0\x9a[\xbc\xc1F\xfcJ-$\xdb\xa8\t\x9f]\x00\x9c\xd6\xa6\x95\xbefU]\xa1\xd5\x192~\r@\xf4eKt\xb8\x01\xc0IY=\xd6\xa3\x0c\xdd\xfb\xb8\xcb\x05\xa8B\x0eT\xee&\xdc7\xc3\x98\xc7n \xbeT\x88\x87<-=+\xb6\r\x9c\xd1B{\xd0#\xbe#\x9eL\xfd\n\xbb\x96@V\x90=3#\xd8\xbd\x05\x13\xb6\xb0_;]\x82%\xf2\x91_\xce\x89\xa5\xfd0\x8c\x81\xd7+"\xe6\x08rv\xbd\x19\xf5G\x87\xf1\x9b\x87^\xb0\xae%\xdce\xccu\x04;\x1a3\xff\xdc\\$\x058\xb6\x91i\x10M\x1d\x00\x12\xb6GF[\xa2\\\x10M\x83C\x7f\xae*\xb7\xe1_\'\xf5\xba\x91\xc6x\xb5k\xc0\xe1?\xc1`\xe4\xde\x06\xa5,Y\x8d\xe9\xfe\x9c\xa7\xd0\xb5[D!k\x07n\xd7\xa0\x07\xd03\xf3\tZ\x1f\xd9,\xff\x15\xf1\xb6\x142]\xa3I\x8bd\xear\xb5\x00\xc4\x12h\x06]\x8bF{\xda\xb7\x93[\xf0\xcd.\x7f\xea\xe0\xfa\x84\xf9\x82\x9e\x03\xde\xd4B\x8b\xf16\xdc\xf1tn\xdb\x1a\nZ\x92\xcd\x13\x85\x18\x01\\\x04\x0e+\xe9\x90\x14"\xb6G\xba\xf6v\xdc\x99\x87\x1b\x8e\xed\xe6\xdeCB\xabU\x80\xad\x1a\x9b\xa5#Rn\xae\xb4\xa7\xc2\\\xbd\x04\xbeVA\xf9\xd9\x80q\r\xc4\xfb\xec\xa2\xdbx\xb2\xc1n\xf1\x1d(\xc2\x9f\x16E\xa1jJ}uE\xd1\xb7>&\xa9[]fa\xa6\x1aR\x13bd\xae\xd7u\t\x0e\xa0\xd7D\xbb\x93<Q\xed\xcb\xab\x0b\xf86\xdb\xeem\xe9r4\x1a\xbc;mM|\xd3\xb0<\xdd\xf6\x05\x0b\x13\xbe\xc4k\xea`\x9e\x9eJ8\xe6\xb6\xcd}\xc1\xa5\xf9\x15\x8b\x1al\xc1p"GuN*1\xb0\xde\xe1R9/D\xd6\xdd\x8f8^D\xff?%\xff\x033Us\x9e\r\xa2\xb1i\xb4\xb4\x12\xa0\x9c\xd4\xea\x0f\xdf5\xe0\xed(C{\xd8\xeb\x92X\x17\xc6\x9d\x89\xab\x10\x012\xd3\xbc\xb8\xa7\x83\x86Ym@\x84\xb0}\x034\xc9\xba\x10\xc2~\x8e*:-\xb2\xd5#f^\x15\xf7\x8c\x05\xc4n\xb8\n\xd42v\x80R\xe8\xa3W\x96Z\xe5k\x16\xcc\x08w>\x88&\xa2\xdc\xc9\xa8jT\xe4\x12\xbc\xcb{4\xbd\xc3\xf2e\xeaA\xbc\x08\xeb\x90OA\xb8\xef\xfe\x85\x10\x16\x7fC9G\xe6t"\xee\xdbHU\xbcS\xcb\xe6I\x1aJ*e\xe3\x8e\xf7\x04E4\x8e&\xa4U\xff\x8e\xdfmLv\x94f\x1b\xf6\\.\xd3\x8d m\xa7\x07I\xc4!wV\x1e\x06\xe8\xc1\x99\xddH}P\xda"\xder\xa4\xc4fh\xf6J\xd7\x8e\x7f\x08\xd9\xa2\\:<\x1b[6<+\x1c!\xe1\x13\xd4dj\x8a3,:\xf6\xb4_b\xf2\xd3\x03!\xe3\x04\xd2\x1cP9vQb0vR%\xef\x9a\x93\x07\x80\xc9B\xca\x163\x8a{\xb8\xed\xc0\xe6-\xd6_\x8a\x95"\xf4\x8631\'y\xd0\x0e\xe1\x07;P[\xa2\x82I\x1c\xadA\xba~\xc4j{BS}\xf6\x16\xe1<.\x9a\xa0\xe2\xc6$v\x8b\xf4\xd3\xa5\x8c\x00p8\xd4\x1c\x1f\x8b\xbc\xdb\xbd\xe6\x87gP\x1a3\x00,y\xb9\xd7\xb7\x9b\x82\x07\xf1\x94\xf0\x84TKo"<\xf3s\xf1\xf7\xd9\xa5\n\xea\xd3O_\xdf\x81\xb67\\\xf7`\xff\x01\x92\x87 \x9d\xff\xa0\xa4\xeaRR\x0buy\x98'
+[2021-11-26 21:06:00][MYSOCKET]dec : ô'óþF«©«îP%~r]a4f708eb61b4faa007138"}
+[2021-11-26 21:06:00][MYSOCKET]recvData : b'F\xe1=\x9e@v\xfb\xf6d\x9e\x90e\xb2K#\xbc8\xdf\x050S\n=\x86\x05\xd4\x89+\xffJG\x08\x9b\xbc\x162\xa1f\xd0\xaa-\x8c\x83R\xa4M\\A'
+[2021-11-26 21:06:00][MYSOCKET]Error!!!!!
+[2021-11-26 21:06:00][MYSOCKET]b'F\xe1=\x9e@v\xfb\xf6d\x9e\x90e\xb2K#\xbc8\xdf\x050S\n=\x86\x05\xd4\x89+\xffJG\x08\x9b\xbc\x162\xa1f\xd0\xaa-\x8c\x83R\xa4M\\A'ô'óþF«©«îP%~r]a4f708eb61b4faa007138"}
+[2021-11-26 21:06:21][MYSOCKET]dec : {"method":"deleteSchedule","responseId":"94feee8a0cea4a93a0075de3eb2c9ceb"}
+[2021-11-26 21:06:21][MYSOCKET]recvData : b"\x88\xf8\xc5\xf8\xc9\x8f\x06\xa1\xc2\xb1\xfd\xd5l\xb5\x89'b\x91!_\xe8b\t\x16\x07f\xaf-\x94\xdb\x91/\xfc\xc9KQ(\xb2\x96\x1e\xfb\x0f\x82n<o\x1fNy\n\x9f\x19DI\xe42\xaf\xc8\x0c\xd5\xcf\xd0\\\x1e\x15\xef\xc3n \xe6E7o{\xa7k\xc7\x80W\x95"
+[2021-11-26 21:06:21][MYSOCKET]dicdata : {'method': 'deleteSchedule', 'responseId': '94feee8a0cea4a93a0075de3eb2c9ceb'}
+[2021-11-26 21:06:21][MYSOCKET]Method deleteSchedule
+[2021-11-26 21:06:21][MYSOCKET]{"responseId": "94feee8a0cea4a93a0075de3eb2c9ceb", "errorCode": 0}
+[2021-11-26 21:06:21][SOCKETCMD]> {'responseId': '94feee8a0cea4a93a0075de3eb2c9ceb', 'errorCode': 0}
+[2021-11-26 21:06:42][MYSOCKET]dec : {"schedule":[{"dayOfWeek":"2","startDt":"20211126","endDt":"20211126","startTime":"00:00","endTime":"00:00"}],"method":"setSchedule","responseId":"0283b7026519477ea9881d427e7c4d06"}
+[2021-11-26 21:06:42][MYSOCKET]recvData : b'^\xcf\xd3\x1b\xd5\x8f\x97|\x15\xa3:-!\x9f\x04\'k;X\xc8\x1d\'\x92\xdbk\xefqE\xe7\xb9L\x8f&\xd4\xf0u\xd7\xa5u\xb9\x1a!B_\x12\xc3q(}\xb4|\xee\x15\x02hk\xfef_\xb5\xd3b\x98W\xb0?\xc23\xd5!J|\xa7K\xac+\xfb\x17+F*\x89W\xd4\xde\xd1\xe9\xa7\xcf\x10]\x00L\xeet\x0bZ\xb8FR64\xebp\xe7\x93\xdf\xcf\xed`Lu\xd1\x83\xdfn\xc8\t\t\x0c\x11r\xa3\x93\x81\xbcj\xd4h\xc5\xd8m\xab\x97~\xa8_\x15wZ\x00-\xe5!\\H!)\\\xd7\xef"\x9e\xdf8d\x92\xae\xa7H\x13DP\x00\xe3Z\xbe\x94\xf2\x10\xd3mt~\xe6\x91:\x84J\xb8\x1dzy\xa5-E\x95\xae\xd5\xfc_4'
+[2021-11-26 21:06:42][MYSOCKET]dicdata : {'schedule': [{'dayOfWeek': '2', 'startDt': '20211126', 'endDt': '20211126', 'startTime': '00:00', 'endTime': '00:00'}], 'method': 'setSchedule', 'responseId': '0283b7026519477ea9881d427e7c4d06'}
+[2021-11-26 21:06:42][MYSOCKET]Method setSchedule
+[2021-11-26 21:06:42][MYSOCKET]{"responseId": "0283b7026519477ea9881d427e7c4d06", "errorCode": 0}
+[2021-11-26 21:06:42][SOCKETCMD]> {'responseId': '0283b7026519477ea9881d427e7c4d06', 'errorCode': 0}
+[2021-11-26 21:30:42][MAIN]UID :0494C53A435280
+[2021-11-26 21:30:42][MYSOCKET]## Send Message ##
+[2021-11-26 21:30:42][MYSOCKET]orig : {'method': 'reqFingerCardCheck', 'cardNumber': '0494C53A4352', 'fcltSn': 5}
+[2021-11-26 21:30:42][MYSOCKET]dec : {"resulttime":"20211126213042","errorCode":0}
+[2021-11-26 21:30:42][MYSOCKET]recvData : b'\xcd\x9b\xcbw\x7f,\xeb\x8f(\x9bk\x12\x83\x85#\xe2\xf4P\x7f\x92\xc1\xdd\x15y\xe5\xab\xe8\xf7\xbd?\xd5q\xfa\xe9\xf0\x11\xa2\x90\x0e\xc4R\x96\x04\xd3X\x9e\xa5\x04'
+[2021-11-26 21:30:42][MYSOCKET]dicdata : {'resulttime': '20211126213042', 'errorCode': 0}
+[2021-11-26 21:30:42][MYSOCKET]resulttime : 20211126213042
+[2021-11-26 21:30:42][MYSOCKET]Receive Socket
+[2021-11-26 21:30:42][MYSOCKET]Decoding : {"resulttime":"20211126213042","errorCode":0}
+[2021-11-26 21:30:42][MYSOCKET]Call taskProcess
+[2021-11-26 21:30:42][TASK]taskProcess dic : {'resulttime': '20211126213042', 'errorCode': 0}
+[2021-11-26 21:30:42][MAIN]Door Open
+[2021-11-26 21:30:47][MAIN]Door Close
+[2021-11-26 21:30:47][MAIN]Display Init...
+[2021-11-26 21:30:54][MAIN]UID :0494C53A435280
+[2021-11-26 21:30:54][MYSOCKET]## Send Message ##
+[2021-11-26 21:30:54][MYSOCKET]orig : {'method': 'reqFingerCardCheck', 'cardNumber': '0494C53A4352', 'fcltSn': 5}
+[2021-11-26 21:30:54][MYSOCKET]dec : {"resulttime":"20211126213054","errorCode":0}
+[2021-11-26 21:30:54][MYSOCKET]recvData : b'\xcd\x9b\xcbw\x7f,\xeb\x8f(\x9bk\x12\x83\x85#\xe2\xa8\xa7\xea\xbe\x93\xf4_\xc4eX\xeb\xe0G\x18\xc0J;rI|\x02)\xd6Q\xe0\xbaY\xd93<\x05\xa3'
+[2021-11-26 21:30:54][MYSOCKET]dicdata : {'resulttime': '20211126213054', 'errorCode': 0}
+[2021-11-26 21:30:54][MYSOCKET]resulttime : 20211126213054
+[2021-11-26 21:30:54][MYSOCKET]Receive Socket
+[2021-11-26 21:30:54][MYSOCKET]Decoding : {"resulttime":"20211126213054","errorCode":0}
+[2021-11-26 21:30:54][MYSOCKET]Call taskProcess
+[2021-11-26 21:30:54][TASK]taskProcess dic : {'resulttime': '20211126213054', 'errorCode': 0}
+[2021-11-26 21:30:54][MAIN]Door Open
+[2021-11-26 21:30:59][MAIN]Door Close
+[2021-11-26 21:30:59][MAIN]Display Init...
+[2021-11-26 21:32:10][MAIN]UID :4C297DE2
+[2021-11-26 21:32:10][MYSOCKET]## Send Message ##
+[2021-11-26 21:32:10][MYSOCKET]orig : {'method': 'reqFingerCardCheck', 'cardNumber': '4C297DE2', 'fcltSn': 5}
+[2021-11-26 21:32:10][MYSOCKET]dec : {"resulttime":"20211126213210","errorCode":1}
+[2021-11-26 21:32:10][MYSOCKET]recvData : b'\xcd\x9b\xcbw\x7f,\xeb\x8f(\x9bk\x12\x83\x85#\xe2\xa3\xd2O\x94i\xb3P\xed\xb2\xf8\xa5\x92O\x1d\xff9Q\x9b\xff\x9f\xed\x14\x92O2\x95]\xdf\x01\xd8O\xb1'
+[2021-11-26 21:32:10][MYSOCKET]dicdata : {'resulttime': '20211126213210', 'errorCode': 1}
+[2021-11-26 21:32:10][MYSOCKET]resulttime : 20211126213210
+[2021-11-26 21:32:10][MYSOCKET]Receive Socket
+[2021-11-26 21:32:10][MYSOCKET]Decoding : {"resulttime":"20211126213210","errorCode":1}
+[2021-11-26 21:32:10][MYSOCKET]Call taskProcess
+[2021-11-26 21:32:10][TASK]taskProcess dic : {'resulttime': '20211126213210', 'errorCode': 1}
+[2021-11-26 21:32:10][TASK]ErrorCode : 1
+[2021-11-26 21:32:21][MAIN]UID :0494C53A435280
+[2021-11-26 21:32:21][MYSOCKET]## Send Message ##
+[2021-11-26 21:32:21][MYSOCKET]orig : {'method': 'reqFingerCardCheck', 'cardNumber': '0494C53A4352', 'fcltSn': 5}
+[2021-11-26 21:32:21][MYSOCKET]dec : {"resulttime":"20211126213221","errorCode":0}
+[2021-11-26 21:32:21][MYSOCKET]recvData : b'\xcd\x9b\xcbw\x7f,\xeb\x8f(\x9bk\x12\x83\x85#\xe2\xeb0\xf96\xb9\xabH\x91\x15X\x05\xf9\xd0\xfeq\x17T\x19\x18\xed\xd9e\xb2\x94-\xba\xc5\x8bx\xcd\xae\xa0'
+[2021-11-26 21:32:21][MYSOCKET]dicdata : {'resulttime': '20211126213221', 'errorCode': 0}
+[2021-11-26 21:32:21][MYSOCKET]resulttime : 20211126213221
+[2021-11-26 21:32:21][MYSOCKET]Receive Socket
+[2021-11-26 21:32:21][MYSOCKET]Decoding : {"resulttime":"20211126213221","errorCode":0}
+[2021-11-26 21:32:21][MYSOCKET]Call taskProcess
+[2021-11-26 21:32:21][TASK]taskProcess dic : {'resulttime': '20211126213221', 'errorCode': 0}
+[2021-11-26 21:32:21][MAIN]Door Open
+[2021-11-26 21:32:26][MAIN]Door Close
+[2021-11-26 21:32:26][MAIN]Display Init...
+[2021-11-26 21:32:53][MAIN]UID :0494C53A435280
+[2021-11-26 21:32:53][MYSOCKET]## Send Message ##
+[2021-11-26 21:32:53][MYSOCKET]orig : {'method': 'reqFingerCardCheck', 'cardNumber': '0494C53A4352', 'fcltSn': 5}
+[2021-11-26 21:32:53][MYSOCKET]dec : {"resulttime":"20211126213253","errorCode":0}
+[2021-11-26 21:32:53][MYSOCKET]recvData : b'\xcd\x9b\xcbw\x7f,\xeb\x8f(\x9bk\x12\x83\x85#\xe2\x1f(1\x07a\x15\xcc\x92\xe5\xb4\x17\xebe\x05\xb0\xa5"r!f\xb2!,\xab^\xd8\xd1C\xc1\xca>\x97'
+[2021-11-26 21:32:53][MYSOCKET]dicdata : {'resulttime': '20211126213253', 'errorCode': 0}
+[2021-11-26 21:32:53][MYSOCKET]Receive Socket
+[2021-11-26 21:32:53][MYSOCKET]resulttime : 20211126213253
+[2021-11-26 21:32:53][MYSOCKET]Decoding : {"resulttime":"20211126213253","errorCode":0}
+[2021-11-26 21:32:53][MYSOCKET]Call taskProcess
+[2021-11-26 21:32:53][TASK]taskProcess dic : {'resulttime': '20211126213253', 'errorCode': 0}
+[2021-11-26 21:32:53][MAIN]Door Open
+[2021-11-26 21:32:58][MAIN]Door Close
+[2021-11-26 21:32:58][MAIN]Display Init...
+[2021-11-26 21:34:11][MAIN]UID :0494C53A435280
+[2021-11-26 21:34:11][MYSOCKET]## Send Message ##
+[2021-11-26 21:34:11][MYSOCKET]orig : {'method': 'reqFingerCardCheck', 'cardNumber': '0494C53A4352', 'fcltSn': 5}
+[2021-11-26 21:34:11][MYSOCKET]dec : {"resulttime":"20211126213411","errorCode":0}
+[2021-11-26 21:34:11][MYSOCKET]recvData : b'\xcd\x9b\xcbw\x7f,\xeb\x8f(\x9bk\x12\x83\x85#\xe2>\xa7\xee\xd9\xfc5\x16v\xbe\x19m(\x92\xe5C\xae\xc1\xba\xbf1+\xd8\x0f\xbdM\x0c\xff\x0fV\xef\x9c\xaf'
+[2021-11-26 21:34:11][MYSOCKET]dicdata : {'resulttime': '20211126213411', 'errorCode': 0}
+[2021-11-26 21:34:11][MYSOCKET]resulttime : 20211126213411
+[2021-11-26 21:34:11][MYSOCKET]Receive Socket
+[2021-11-26 21:34:11][MYSOCKET]Decoding : {"resulttime":"20211126213411","errorCode":0}
+[2021-11-26 21:34:11][MYSOCKET]Call taskProcess
+[2021-11-26 21:34:11][TASK]taskProcess dic : {'resulttime': '20211126213411', 'errorCode': 0}
+[2021-11-26 21:34:11][MAIN]Door Open
+[2021-11-26 21:34:16][MAIN]Door Close
+[2021-11-26 21:34:16][MAIN]Display Init...
+[2021-11-26 21:34:16][MAIN]UID :0494C53A435280
+[2021-11-26 21:34:16][MYSOCKET]## Send Message ##
+[2021-11-26 21:34:16][MYSOCKET]orig : {'method': 'reqFingerCardCheck', 'cardNumber': '0494C53A4352', 'fcltSn': 5}
+[2021-11-26 21:34:16][MYSOCKET]dec : {"resulttime":"20211126213416","errorCode":0}
+[2021-11-26 21:34:16][MYSOCKET]recvData : b'\xcd\x9b\xcbw\x7f,\xeb\x8f(\x9bk\x12\x83\x85#\xe2\x12\xd9\xa0\xefV\xe6\xac\x97)Escn1\xc4d\xc3\xe1\x11\xe3\x7f\xea\xbe8c\xbfE\x89*O\xf4\x8f'
+[2021-11-26 21:34:16][MYSOCKET]dicdata : {'resulttime': '20211126213416', 'errorCode': 0}
+[2021-11-26 21:34:16][MYSOCKET]Receive Socket
+[2021-11-26 21:34:16][MYSOCKET]resulttime : 20211126213416
+[2021-11-26 21:34:16][MYSOCKET]Decoding : {"resulttime":"20211126213416","errorCode":0}
+[2021-11-26 21:34:16][MYSOCKET]Call taskProcess
+[2021-11-26 21:34:16][TASK]taskProcess dic : {'resulttime': '20211126213416', 'errorCode': 0}
+[2021-11-26 21:34:17][MAIN]Door Open
+[2021-11-26 21:34:22][MAIN]Door Close
+[2021-11-26 21:34:22][MAIN]Display Init...
+[2021-11-26 21:34:29][MAIN]UID :0494C53A435280
+[2021-11-26 21:34:29][MYSOCKET]## Send Message ##
+[2021-11-26 21:34:29][MYSOCKET]orig : {'method': 'reqFingerCardCheck', 'cardNumber': '0494C53A4352', 'fcltSn': 5}
+[2021-11-26 21:34:29][MYSOCKET]dec : {"resulttime":"20211126213429","errorCode":0}
+[2021-11-26 21:34:29][MYSOCKET]recvData : b'\xcd\x9b\xcbw\x7f,\xeb\x8f(\x9bk\x12\x83\x85#\xe2E\xb9\xc5\x04\xc5\r\x96\xf9\xb8R\x9a\xfc\xcd\x81Sh\x18\xf2\xa7\x11<\xf6\x9f\xca\xa0|r\xf8\x86\xa6\xc0k'
+[2021-11-26 21:34:29][MYSOCKET]dicdata : {'resulttime': '20211126213429', 'errorCode': 0}
+[2021-11-26 21:34:30][MYSOCKET]Receive Socket
+[2021-11-26 21:34:30][MYSOCKET]Decoding : {"resulttime":"20211126213429","errorCode":0}
+[2021-11-26 21:34:30][MYSOCKET]resulttime : 20211126213429
+[2021-11-26 21:34:30][MYSOCKET]Call taskProcess
+[2021-11-26 21:34:30][TASK]taskProcess dic : {'resulttime': '20211126213429', 'errorCode': 0}
+[2021-11-26 21:34:30][MAIN]Door Open
+[2021-11-26 21:34:35][MAIN]Door Close
+[2021-11-26 21:34:35][MAIN]Display Init...
+[2021-11-26 21:34:35][MAIN]UID :0494C53A435280
+[2021-11-26 21:34:35][MYSOCKET]## Send Message ##
+[2021-11-26 21:34:35][MYSOCKET]orig : {'method': 'reqFingerCardCheck', 'cardNumber': '0494C53A4352', 'fcltSn': 5}
+[2021-11-26 21:34:35][MYSOCKET]dec : {"resulttime":"20211126213435","errorCode":0}
+[2021-11-26 21:34:35][MYSOCKET]recvData : b'\xcd\x9b\xcbw\x7f,\xeb\x8f(\x9bk\x12\x83\x85#\xe2\xc4]\xdf\xaaC\xe55\xeb\xbd\xe9G\x8d\x80\\\x88T\x0f\xd6\x1aM \xde\xfc\xb7\xb2T \xc7\xbd\xdeL\xbc'
+[2021-11-26 21:34:35][MYSOCKET]dicdata : {'resulttime': '20211126213435', 'errorCode': 0}
+[2021-11-26 21:34:35][MYSOCKET]Receive Socket
+[2021-11-26 21:34:35][MYSOCKET]resulttime : 20211126213435
+[2021-11-26 21:34:35][MYSOCKET]Decoding : {"resulttime":"20211126213435","errorCode":0}
+[2021-11-26 21:34:35][MYSOCKET]Call taskProcess
+[2021-11-26 21:34:35][TASK]taskProcess dic : {'resulttime': '20211126213435', 'errorCode': 0}
+[2021-11-26 21:34:36][MAIN]Door Open
+[2021-11-26 21:34:41][MAIN]Door Close
+[2021-11-26 21:34:41][MAIN]Display Init...
+[2021-11-26 21:34:43][MAIN]UID :0494C53A435280
+[2021-11-26 21:34:43][MYSOCKET]## Send Message ##
+[2021-11-26 21:34:43][MYSOCKET]orig : {'method': 'reqFingerCardCheck', 'cardNumber': '0494C53A4352', 'fcltSn': 5}
+[2021-11-26 21:34:43][MYSOCKET]dec : {"resulttime":"20211126213443","errorCode":0}
+[2021-11-26 21:34:43][MYSOCKET]recvData : b'\xcd\x9b\xcbw\x7f,\xeb\x8f(\x9bk\x12\x83\x85#\xe2\xfd\x82\xb7p\x7fFP\xeaa>\xe8(Qd\xa2\xb6A^\x99\x08\xf0\x89\x94\x1e\xc4>q\xf9U\xbc\xbbj'
+[2021-11-26 21:34:43][MYSOCKET]dicdata : {'resulttime': '20211126213443', 'errorCode': 0}
+[2021-11-26 21:34:43][MYSOCKET]Receive Socket
+[2021-11-26 21:34:43][MYSOCKET]Decoding : {"resulttime":"20211126213443","errorCode":0}
+[2021-11-26 21:34:43][MYSOCKET]resulttime : 20211126213443
+[2021-11-26 21:34:43][MYSOCKET]Call taskProcess
+[2021-11-26 21:34:43][TASK]taskProcess dic : {'resulttime': '20211126213443', 'errorCode': 0}
+[2021-11-26 21:34:43][MAIN]Door Open
+[2021-11-26 21:34:48][MAIN]Door Close
+[2021-11-26 21:34:48][MAIN]Display Init...
+[2021-11-26 21:34:56][MAIN]UID :0494C53A435280
+[2021-11-26 21:34:56][MYSOCKET]## Send Message ##
+[2021-11-26 21:34:56][MYSOCKET]orig : {'method': 'reqFingerCardCheck', 'cardNumber': '0494C53A4352', 'fcltSn': 5}
+[2021-11-26 21:34:56][MYSOCKET]dec : {"resulttime":"20211126213456","errorCode":0}
+[2021-11-26 21:34:56][MYSOCKET]recvData : b'\xcd\x9b\xcbw\x7f,\xeb\x8f(\x9bk\x12\x83\x85#\xe2J\x00\x17>)\x07\xec\x00\xe9\xe4\xb7\x9c\xfc]\x96\x02}\xccV\xe7\xd0\x82\xbb\\\\\xdd\x82x}\xb9\x95\x94'
+[2021-11-26 21:34:56][MYSOCKET]dicdata : {'resulttime': '20211126213456', 'errorCode': 0}
+[2021-11-26 21:34:56][MYSOCKET]Receive Socket
+[2021-11-26 21:34:56][MYSOCKET]resulttime : 20211126213456
+[2021-11-26 21:34:56][MYSOCKET]Decoding : {"resulttime":"20211126213456","errorCode":0}
+[2021-11-26 21:34:56][MYSOCKET]Call taskProcess
+[2021-11-26 21:34:56][TASK]taskProcess dic : {'resulttime': '20211126213456', 'errorCode': 0}
+[2021-11-26 21:34:56][MAIN]Door Open
+[2021-11-26 21:35:01][MAIN]Door Close
+[2021-11-26 21:35:01][MAIN]Display Init...
+[2021-11-26 21:35:05][MAIN]UID :0494C53A435280
+[2021-11-26 21:35:05][MYSOCKET]## Send Message ##
+[2021-11-26 21:35:05][MYSOCKET]orig : {'method': 'reqFingerCardCheck', 'cardNumber': '0494C53A4352', 'fcltSn': 5}
+[2021-11-26 21:35:05][MYSOCKET]dec : {"resulttime":"20211126213505","errorCode":0}
+[2021-11-26 21:35:05][MYSOCKET]recvData : b'\xcd\x9b\xcbw\x7f,\xeb\x8f(\x9bk\x12\x83\x85#\xe2\xbc\xaa$\xb7\xb7\xba\xaa\xeaf\xc8\xbd\xc6c\x89\xe6i=\xd0\xbe\xe9\x0e\x86\x8b?\xdb\x8f\x14\xbef\xab\x91\xbc'
+[2021-11-26 21:35:05][MYSOCKET]dicdata : {'resulttime': '20211126213505', 'errorCode': 0}
+[2021-11-26 21:35:05][MYSOCKET]resulttime : 20211126213505
+[2021-11-26 21:35:05][MYSOCKET]Receive Socket
+[2021-11-26 21:35:05][MYSOCKET]Decoding : {"resulttime":"20211126213505","errorCode":0}
+[2021-11-26 21:35:05][MYSOCKET]Call taskProcess
+[2021-11-26 21:35:05][TASK]taskProcess dic : {'resulttime': '20211126213505', 'errorCode': 0}
+[2021-11-26 21:35:06][MAIN]Door Open
+[2021-11-26 21:35:11][MAIN]Door Close
+[2021-11-26 21:35:11][MAIN]Display Init...
+[2021-11-26 21:35:11][MAIN]UID :0494C53A435280
+[2021-11-26 21:35:11][MYSOCKET]## Send Message ##
+[2021-11-26 21:35:11][MYSOCKET]orig : {'method': 'reqFingerCardCheck', 'cardNumber': '0494C53A4352', 'fcltSn': 5}
+[2021-11-26 21:35:11][MYSOCKET]dec : {"resulttime":"20211126213511","errorCode":0}
+[2021-11-26 21:35:11][MYSOCKET]recvData : b'\xcd\x9b\xcbw\x7f,\xeb\x8f(\x9bk\x12\x83\x85#\xe2m\xee%e\x8bp\x88\x14\xf2\x13\xc2+f\xa0\xc1UN\x06\x1a8oeK\xc5\xaeD\xfa7\x9c\x9a\x83r'
+[2021-11-26 21:35:11][MYSOCKET]dicdata : {'resulttime': '20211126213511', 'errorCode': 0}
+[2021-11-26 21:35:11][MYSOCKET]resulttime : 20211126213511
+[2021-11-26 21:35:11][MYSOCKET]Receive Socket
+[2021-11-26 21:35:11][MYSOCKET]Decoding : {"resulttime":"20211126213511","errorCode":0}
+[2021-11-26 21:35:11][MYSOCKET]Call taskProcess
+[2021-11-26 21:35:11][TASK]taskProcess dic : {'resulttime': '20211126213511', 'errorCode': 0}
+[2021-11-26 21:35:12][MAIN]Door Open
+[2021-11-26 21:35:17][MAIN]Door Close
+[2021-11-26 21:35:17][MAIN]Display Init...
+[2021-11-26 21:38:47][MAIN]UID :4C297DE2
+[2021-11-26 21:38:47][MYSOCKET]## Send Message ##
+[2021-11-26 21:38:47][MYSOCKET]orig : {'method': 'reqFingerCardCheck', 'cardNumber': '4C297DE2', 'fcltSn': 5}
+[2021-11-26 21:38:47][MYSOCKET]dec : {"resulttime":"20211126213847","errorCode":1}
+[2021-11-26 21:38:47][MYSOCKET]recvData : b"\xcd\x9b\xcbw\x7f,\xeb\x8f(\x9bk\x12\x83\x85#\xe2_\xa2\xceX\x9cp\xcbH\xe7\xed\x0c\xc8S\x99M7'\x0f\xc1\x06\xb2SovO\x9c\x01i \xe4\xd5>"
+[2021-11-26 21:38:47][MYSOCKET]dicdata : {'resulttime': '20211126213847', 'errorCode': 1}
+[2021-11-26 21:38:47][MYSOCKET]Receive Socket
+[2021-11-26 21:38:47][MYSOCKET]resulttime : 20211126213847
+[2021-11-26 21:38:47][MYSOCKET]Decoding : {"resulttime":"20211126213847","errorCode":1}
+[2021-11-26 21:38:47][MYSOCKET]Call taskProcess
+[2021-11-26 21:38:47][TASK]taskProcess dic : {'resulttime': '20211126213847', 'errorCode': 1}
+[2021-11-26 21:38:47][TASK]ErrorCode : 1
+[2021-11-26 21:40:24][MAIN]UID :4C297DE2
+[2021-11-26 21:40:24][MYSOCKET]## Send Message ##
+[2021-11-26 21:40:24][MYSOCKET]orig : {'method': 'reqFingerCardCheck', 'cardNumber': '4C297DE2', 'fcltSn': 5}
+[2021-11-26 21:40:24][MYSOCKET]dec : {"resulttime":"20211126214024","errorCode":1}
+[2021-11-26 21:40:24][MYSOCKET]recvData : b'\xcd\x9b\xcbw\x7f,\xeb\x8f(\x9bk\x12\x83\x85#\xe2\xd4\xe0\x87V\x12\xc8\x17\xb2gDhg\xc1X\x83o\xee\xb8h\xef\xceS\xbcM\x1b\x8a\x1d\x00A\x99\xcb\xee'
+[2021-11-26 21:40:24][MYSOCKET]dicdata : {'resulttime': '20211126214024', 'errorCode': 1}
+[2021-11-26 21:40:24][MYSOCKET]resulttime : 20211126214024
+[2021-11-26 21:40:24][MYSOCKET]Receive Socket
+[2021-11-26 21:40:24][MYSOCKET]Decoding : {"resulttime":"20211126214024","errorCode":1}
+[2021-11-26 21:40:24][MYSOCKET]Call taskProcess
+[2021-11-26 21:40:24][TASK]taskProcess dic : {'resulttime': '20211126214024', 'errorCode': 1}
+[2021-11-26 21:40:24][TASK]ErrorCode : 1
+[2021-11-26 21:42:50][MAIN]접속 종료

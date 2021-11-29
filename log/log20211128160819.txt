@@ -1,0 +1,26 @@
+[2021-11-28 16:08:19][COMMAND]Read System Configuration File
+[2021-11-28 16:08:19][MAIN]입출력 초기화
+[2021-11-28 16:08:19][MAIN]LCD 초기화
+[2021-11-28 16:08:20][MAIN]사운드 초기화
+[2021-11-28 16:08:20][MAIN]네트워크 정보 로드
+[2021-11-28 16:08:20][MAIN]Send to BLE
+[2021-11-28 16:08:20][COMMAND]##################################################
+[2021-11-28 16:08:20][COMMAND]> CMD : Get BLE Infor.
+[2021-11-28 16:08:20][COMMAND]{'enckey': 'BBCCD728663FF5F2', 'mac': 'D3:68:BF:B2:F2:5C'}
+[2021-11-28 16:08:20][COMMAND]##################################################
+[2021-11-28 16:08:20][COMMAND]Write System Configuration File
+[2021-11-28 16:08:20][UTIL]key : 20D368BFB2F25CBBCCD728663FF5F221
+[2021-11-28 16:08:20][UTIL]iv : BBCCD728663FF5F2
+[2021-11-28 16:08:21][MAIN]터치초기화
+[2021-11-28 16:08:23][MAIN]카드리더초기화
+[2021-11-28 16:08:23][MAIN]소켓서버 연결
+[2021-11-28 16:08:23][MYSOCKET]접속 완료
+[2021-11-28 16:08:23][COMMAND]Write System Configuration File
+[2021-11-28 16:08:31][MYSOCKET]dec : M**>ø%LTMXîXÚ/×[@\÷|óùâÀÌ»Ðõqx6¨º¶nÏ¤ØÐÈéIæJ0ùÖP©\AQ z@,ÅG¡
+[2021-11-28 16:08:31][MYSOCKET]recvData : b'{"responseId": "76b9e29dc1b8418a9dee1a0300880f44","method":"getDeviceOption"}'
+[2021-11-28 16:08:31][MYSOCKET]Error!!!!!
+[2021-11-28 16:08:31][MYSOCKET]b'{"responseId": "76b9e29dc1b8418a9dee1a0300880f44","method":"getDeviceOption"}'M**>ø%LTMXîXÚ/×[@\÷|óùâÀÌ»Ðõqx6¨º¶nÏ¤ØÐÈéIæJ0ùÖP©\AQ z@,ÅG¡
+[2021-11-28 16:08:37][MYSOCKET]dec : 
+[2021-11-28 16:08:37][MYSOCKET]recvData : b''
+[2021-11-28 16:08:37][MYSOCKET]소켓스래드를 종료합니다
+[2021-11-28 16:08:38][MAIN]접속이 끊겼습니다.

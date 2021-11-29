@@ -1,0 +1,57 @@
+[2021-11-20 16:16:31][COMMAND]Read System Configuration File
+[2021-11-20 16:16:31][MAIN]입출력 초기화
+[2021-11-20 16:16:32][MAIN]LCD 초기화
+[2021-11-20 16:16:32][MAIN]사운드 초기화
+[2021-11-20 16:16:32][MAIN]네트워크 정보 로드
+[2021-11-20 16:16:32][MAIN]Send to BLE
+[2021-11-20 16:16:32][COMMAND]##################################################
+[2021-11-20 16:16:32][COMMAND]> CMD : Get BLE Infor.
+[2021-11-20 16:16:32][COMMAND]{'enckey': '2D65F6C9F0DF759A', 'mac': 'FD:09:2F:DC:7A:56'}
+[2021-11-20 16:16:32][COMMAND]##################################################
+[2021-11-20 16:16:32][COMMAND]Write System Configuration File
+[2021-11-20 16:16:32][UTIL]key : 20FD092FDC7A562D65F6C9F0DF759A21
+[2021-11-20 16:16:32][UTIL]iv : 2D65F6C9F0DF759A
+[2021-11-20 16:16:33][MAIN]터치초기화
+[2021-11-20 16:16:36][MAIN]소켓서버 연결
+[2021-11-20 16:16:36][MYSOCKET]접속 완료
+[2021-11-20 16:16:36][MYSOCKET]{'result': 0}
+[2021-11-20 16:16:36][MYSOCKET]## Send Message ##
+[2021-11-20 16:16:36][MYSOCKET]orig : {'method': 'getDeviceFcltInfo', 'macAddr': 'FD:09:2F:DC:7A:56'}
+[2021-11-20 16:16:36][MYSOCKET]dec : {"resulttime":"20211120161636","fcltSn":1,"errorCode":0,"orgnztSn":2}
+[2021-11-20 16:16:37][MYSOCKET]recvData : b'.\x02\xe2e?\xce\x92\xad\x10k-C\xe0\xaaq\xa0\xe1:)\x12wL\xd6\xcf=\xb9\xf4e\x01\xf5\x93V\xd9\xf4\x1f\x12\xdfp):\x045F\xac\x8a\x06sR.[\xb3\xdb\x80!\xd2\x89\x19N\x0f\xba\xe5WR\xff\xd9\x82\xae\x8fG\xbdC\xf6\x11\x1a\x8bt=k\xcf\xd3'
+[2021-11-20 16:16:37][MYSOCKET]dicdata : {'resulttime': '20211120161636', 'fcltSn': 1, 'errorCode': 0, 'orgnztSn': 2}
+[2021-11-20 16:16:37][MYSOCKET]Receive Socket
+[2021-11-20 16:16:37][MYSOCKET]resulttime : 20211120161636
+[2021-11-20 16:16:37][MYSOCKET]Decoding : {"resulttime":"20211120161636","fcltSn":1,"errorCode":0,"orgnztSn":2}
+[2021-11-20 16:16:37][MYSOCKET]Call taskProcess
+[2021-11-20 16:16:37][TASK]taskProcess dic : {'resulttime': '20211120161636', 'fcltSn': 1, 'errorCode': 0, 'orgnztSn': 2}
+[2021-11-20 16:16:37][COMMAND]Write System Configuration File
+[2021-11-20 16:20:01][MAIN]0
+[2021-11-20 16:20:02][MAIN]0
+[2021-11-20 16:20:02][MAIN]0
+[2021-11-20 16:20:02][MAIN]0
+[2021-11-20 16:20:02][MAIN]0
+[2021-11-20 16:20:02][MAIN]0
+[2021-11-20 16:20:02][MAIN]0
+[2021-11-20 16:20:03][MAIN]0
+[2021-11-20 16:20:03][MAIN]0
+[2021-11-20 16:20:03][MAIN]0
+[2021-11-20 16:20:03][MAIN]0
+[2021-11-20 16:20:03][MAIN]0
+[2021-11-20 16:20:03][MAIN]0
+[2021-11-20 16:20:03][MAIN]0
+[2021-11-20 16:20:03][MAIN]0
+[2021-11-20 16:20:08][MAIN]0
+[2021-11-20 16:20:08][MAIN]0
+[2021-11-20 16:20:08][MAIN]0
+[2021-11-20 16:20:08][MAIN]0
+[2021-11-20 16:20:09][MAIN]0
+[2021-11-20 16:20:09][MAIN]0
+[2021-11-20 16:20:09][MAIN]0
+[2021-11-20 16:20:09][MAIN]0
+[2021-11-20 16:20:09][MAIN]0
+[2021-11-20 16:20:09][MAIN]0
+[2021-11-20 16:20:09][MAIN]0
+[2021-11-20 16:20:09][MAIN]0
+[2021-11-20 16:20:09][MAIN]0
+[2021-11-20 16:20:25][MAIN]접속 종료

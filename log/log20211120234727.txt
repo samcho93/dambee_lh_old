@@ -1,0 +1,31 @@
+[2021-11-20 23:47:27][COMMAND]Read System Configuration File
+[2021-11-20 23:47:27][MAIN]입출력 초기화
+[2021-11-20 23:47:27][MAIN]LCD 초기화
+[2021-11-20 23:47:28][MAIN]사운드 초기화
+[2021-11-20 23:47:28][MAIN]네트워크 정보 로드
+[2021-11-20 23:47:28][MAIN]Send to BLE
+[2021-11-20 23:47:28][COMMAND]##################################################
+[2021-11-20 23:47:28][COMMAND]> CMD : Get BLE Infor.
+[2021-11-20 23:47:28][COMMAND]{'enckey': '2D65F6C9F0DF759A', 'mac': 'FD:09:2F:DC:7A:56'}
+[2021-11-20 23:47:28][COMMAND]##################################################
+[2021-11-20 23:47:28][COMMAND]Write System Configuration File
+[2021-11-20 23:47:28][UTIL]key : 20FD092FDC7A562D65F6C9F0DF759A21
+[2021-11-20 23:47:28][UTIL]iv : 2D65F6C9F0DF759A
+[2021-11-20 23:47:29][MAIN]터치초기화
+[2021-11-20 23:47:31][MAIN]카드리더초기화
+[2021-11-20 23:47:31][MAIN]소켓서버 연결
+[2021-11-20 23:47:31][MYSOCKET]접속 완료
+[2021-11-20 23:47:31][MYSOCKET]{'result': 0}
+[2021-11-20 23:47:31][MYSOCKET]## Send Message ##
+[2021-11-20 23:47:31][MYSOCKET]orig : {'method': 'getDeviceFcltInfo', 'macAddr': 'FD:09:2F:DC:7A:56'}
+[2021-11-20 23:47:31][MYSOCKET]dec : {"resulttime":"20211120234731","fcltSn":1,"errorCode":0,"orgnztSn":2}
+[2021-11-20 23:47:31][MYSOCKET]recvData : b'.\x02\xe2e?\xce\x92\xad\x10k-C\xe0\xaaq\xa0\xa7\x89\xed\x17\ny\x16b\x88\x91\x1a\xd0\xd7\xf7\x82\xb8h\xfer\xe6 /D\x9e\x9f\xf8)\xea\xd4\xb6\xf5\x1c\xef\x9f\x15\xc6\xb7\x1d.\xe3\xa3\x83\x90\xf9>2\xa4\xfc\x0b\x8f\xf3S\x90\xf7\xb1\xf1l\x00\xd7\xfe\x1c\x80\x82\xc8'
+[2021-11-20 23:47:31][MYSOCKET]dicdata : {'resulttime': '20211120234731', 'fcltSn': 1, 'errorCode': 0, 'orgnztSn': 2}
+[2021-11-20 23:47:31][MYSOCKET]resulttime : 20211120234731
+[2021-11-20 23:47:31][MYSOCKET]Receive Socket
+[2021-11-20 23:47:31][MYSOCKET]Decoding : {"resulttime":"20211120234731","fcltSn":1,"errorCode":0,"orgnztSn":2}
+[2021-11-20 23:47:31][MYSOCKET]Call taskProcess
+[2021-11-20 23:47:31][TASK]taskProcess dic : {'resulttime': '20211120234731', 'fcltSn': 1, 'errorCode': 0, 'orgnztSn': 2}
+[2021-11-20 23:47:31][COMMAND]Write System Configuration File
+[2021-11-20 23:47:45][UTIL]{'interval': 15, 'opetime': 5, 'lcd': 1, 'lcdtxt': 2, 'spk': 3, 'mic': 3, 'bluepwr': 3, 'brkyn': 0}
+[2021-11-20 23:48:19][MAIN]접속 종료

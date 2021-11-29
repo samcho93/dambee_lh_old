@@ -1,0 +1,29 @@
+[2021-11-28 15:16:20][COMMAND]Read System Configuration File
+[2021-11-28 15:16:20][MAIN]입출력 초기화
+[2021-11-28 15:16:20][MAIN]LCD 초기화
+[2021-11-28 15:16:21][MAIN]사운드 초기화
+[2021-11-28 15:16:21][MAIN]네트워크 정보 로드
+[2021-11-28 15:16:21][MAIN]Send to BLE
+[2021-11-28 15:16:21][COMMAND]##################################################
+[2021-11-28 15:16:21][COMMAND]> CMD : Get BLE Infor.
+[2021-11-28 15:16:21][COMMAND]{'enckey': 'BBCCD728663FF5F2', 'mac': 'D3:68:BF:B2:F2:5C'}
+[2021-11-28 15:16:21][COMMAND]##################################################
+[2021-11-28 15:16:21][COMMAND]Write System Configuration File
+[2021-11-28 15:16:21][UTIL]key : 20D368BFB2F25CBBCCD728663FF5F221
+[2021-11-28 15:16:21][UTIL]iv : BBCCD728663FF5F2
+[2021-11-28 15:16:22][MAIN]터치초기화
+[2021-11-28 15:16:24][MAIN]카드리더초기화
+[2021-11-28 15:16:24][MAIN]소켓서버 연결
+[2021-11-28 15:16:24][MYSOCKET]접속 완료
+[2021-11-28 15:16:24][MYSOCKET]{'result': 0}
+[2021-11-28 15:16:24][MYSOCKET]## Send Message ##
+[2021-11-28 15:16:24][MYSOCKET]orig : {'method': 'getDeviceFcltInfo', 'macAddr': 'D3:68:BF:B2:F2:5C'}
+[2021-11-28 15:16:24][MYSOCKET]dec : {"resulttime":"20211128151624","fcltSn":5,"errorCode":0,"orgnztSn":3}
+[2021-11-28 15:16:24][MYSOCKET]recvData : b'\xcd\x9b\xcbw\x7f,\xeb\x8f(\x9bk\x12\x83\x85#\xe2U{\x8e\x96,?L\xb4\x14\xa4\x99\x7f\xf1\x90\xa0\xcc\x97\xa0\x8c\xa0DN\xd8\xa0\xf7uJ\x8a\x078\xa5P\xbb\xbel\x06\x92z[\xad>\xd9\xc4\xa6\x14\xb6s\xc8\x84t\x04\xa6\xb5\x81p}B\\~\xd8hh\xf3\x86'
+[2021-11-28 15:16:24][MYSOCKET]dicdata : {'resulttime': '20211128151624', 'fcltSn': 5, 'errorCode': 0, 'orgnztSn': 3}
+[2021-11-28 15:16:24][MYSOCKET]resulttime : 20211128151624
+[2021-11-28 15:16:24][MYSOCKET]Receive Socket
+[2021-11-28 15:16:24][MYSOCKET]Decoding : {"resulttime":"20211128151624","fcltSn":5,"errorCode":0,"orgnztSn":3}
+[2021-11-28 15:16:24][MYSOCKET]Call taskProcess
+[2021-11-28 15:16:24][TASK]taskProcess dic : {'resulttime': '20211128151624', 'fcltSn': 5, 'errorCode': 0, 'orgnztSn': 3}
+[2021-11-28 15:16:24][COMMAND]Write System Configuration File

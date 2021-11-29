@@ -1,0 +1,32 @@
+[2021-11-28 15:38:03][COMMAND]Read System Configuration File
+[2021-11-28 15:38:03][MAIN]입출력 초기화
+[2021-11-28 15:38:03][MAIN]LCD 초기화
+[2021-11-28 15:38:04][MAIN]사운드 초기화
+[2021-11-28 15:38:04][MAIN]네트워크 정보 로드
+[2021-11-28 15:38:04][MAIN]Send to BLE
+[2021-11-28 15:38:04][COMMAND]##################################################
+[2021-11-28 15:38:04][COMMAND]> CMD : Get BLE Infor.
+[2021-11-28 15:38:04][COMMAND]{'enckey': 'BBCCD728663FF5F2', 'mac': 'D3:68:BF:B2:F2:5C'}
+[2021-11-28 15:38:04][COMMAND]##################################################
+[2021-11-28 15:38:04][COMMAND]Write System Configuration File
+[2021-11-28 15:38:04][UTIL]key : 20D368BFB2F25CBBCCD728663FF5F221
+[2021-11-28 15:38:04][UTIL]iv : BBCCD728663FF5F2
+[2021-11-28 15:38:05][MAIN]터치초기화
+[2021-11-28 15:38:07][MAIN]카드리더초기화
+[2021-11-28 15:38:07][MAIN]소켓서버 연결
+[2021-11-28 15:38:07][MYSOCKET]연결이 거부 되었습니다
+[2021-11-28 15:38:07][COMMAND]Write System Configuration File
+[2021-11-28 15:38:09][MAIN]접속이 끊겼습니다.
+[2021-11-28 15:38:09][MYSOCKET]접속 완료
+[2021-11-28 15:38:09][MYSOCKET]{'result': 0}
+[2021-11-28 15:38:09][MYSOCKET]## Send Message ##
+[2021-11-28 15:38:09][MYSOCKET]orig : {'method': 'getDeviceFcltInfo', 'macAddr': 'D3:68:BF:B2:F2:5C'}
+[2021-11-28 15:38:09][MYSOCKET]dec : {"resulttime":"20211128153809","fcltSn":5,"errorCode":0,"orgnztSn":3}
+[2021-11-28 15:38:09][MYSOCKET]recvData : b"\xcd\x9b\xcbw\x7f,\xeb\x8f(\x9bk\x12\x83\x85#\xe2\xc8\xd3\xae\x1e\xc1\x0b\xf3M\xb4E\xf9\x93\xde\xa4D<|\x1c\x01\xcf\x89\xda\xa6\xe5\xd6\xebT-\x7f\xc3Z\x84\x03HM\xb6\xca\xb4\xe4\xc8\x9dx\xa6\x85}\xf9\xc6\n\x9a]\xbf=-\xb5\xa8\xf8\x9f\x9e/-\x1d\x12\xc1'"
+[2021-11-28 15:38:09][MYSOCKET]dicdata : {'resulttime': '20211128153809', 'fcltSn': 5, 'errorCode': 0, 'orgnztSn': 3}
+[2021-11-28 15:38:09][MYSOCKET]resulttime : 20211128153809
+[2021-11-28 15:38:09][MYSOCKET]Receive Socket
+[2021-11-28 15:38:09][MYSOCKET]Decoding : {"resulttime":"20211128153809","fcltSn":5,"errorCode":0,"orgnztSn":3}
+[2021-11-28 15:38:09][MYSOCKET]Call taskProcess
+[2021-11-28 15:38:09][TASK]taskProcess dic : {'resulttime': '20211128153809', 'fcltSn': 5, 'errorCode': 0, 'orgnztSn': 3}
+[2021-11-28 15:39:55][MAIN]접속 종료

@@ -1,0 +1,33 @@
+[2021-11-20 23:57:13][COMMAND]Read System Configuration File
+[2021-11-20 23:57:13][MAIN]입출력 초기화
+[2021-11-20 23:57:13][MAIN]LCD 초기화
+[2021-11-20 23:57:14][MAIN]사운드 초기화
+[2021-11-20 23:57:14][MAIN]네트워크 정보 로드
+[2021-11-20 23:57:14][MAIN]Send to BLE
+[2021-11-20 23:57:14][COMMAND]##################################################
+[2021-11-20 23:57:14][COMMAND]> CMD : Get BLE Infor.
+[2021-11-20 23:57:14][COMMAND]{'enckey': '2D65F6C9F0DF759A', 'mac': 'FD:09:2F:DC:7A:56'}
+[2021-11-20 23:57:14][COMMAND]##################################################
+[2021-11-20 23:57:14][COMMAND]Write System Configuration File
+[2021-11-20 23:57:14][UTIL]key : 20FD092FDC7A562D65F6C9F0DF759A21
+[2021-11-20 23:57:14][UTIL]iv : 2D65F6C9F0DF759A
+[2021-11-20 23:57:15][MAIN]터치초기화
+[2021-11-20 23:57:17][MAIN]카드리더초기화
+[2021-11-20 23:57:17][MAIN]소켓서버 연결
+[2021-11-20 23:57:17][MYSOCKET]접속 완료
+[2021-11-20 23:57:18][MYSOCKET]{'result': 0}
+[2021-11-20 23:57:18][MYSOCKET]## Send Message ##
+[2021-11-20 23:57:18][MYSOCKET]orig : {'method': 'getDeviceFcltInfo', 'macAddr': 'FD:09:2F:DC:7A:56'}
+[2021-11-20 23:57:18][MYSOCKET]dec : {"resulttime":"20211120235718","fcltSn":1,"errorCode":0,"orgnztSn":2}
+[2021-11-20 23:57:18][MYSOCKET]recvData : b'.\x02\xe2e?\xce\x92\xad\x10k-C\xe0\xaaq\xa0\x84\xd0\x074q\xad}\x9b\x8a~#\x08g\xd8\xdd\xa8\xc0\x1d\x02\xaf^\xba4\xdc\xe2d?\xfc\xc9\x1fYr\xd3\xb8\xe2\x0f\xe4\xad\xado\xcb>\xa4Uf\x0c]\xd0\xd4\x01E\xa1e\x0f\xe4\x9d\x91CA\x98\x9b\xdb\xb2I'
+[2021-11-20 23:57:18][MYSOCKET]dicdata : {'resulttime': '20211120235718', 'fcltSn': 1, 'errorCode': 0, 'orgnztSn': 2}
+[2021-11-20 23:57:18][MYSOCKET]resulttime : 20211120235718
+[2021-11-20 23:57:18][MYSOCKET]Receive Socket
+[2021-11-20 23:57:18][MYSOCKET]Decoding : {"resulttime":"20211120235718","fcltSn":1,"errorCode":0,"orgnztSn":2}
+[2021-11-20 23:57:18][MYSOCKET]Call taskProcess
+[2021-11-20 23:57:18][TASK]taskProcess dic : {'resulttime': '20211120235718', 'fcltSn': 1, 'errorCode': 0, 'orgnztSn': 2}
+[2021-11-20 23:57:18][COMMAND]Write System Configuration File
+[2021-11-20 23:57:39][UTIL]{'interval': 15, 'opetime': 5, 'lcd': 1, 'lcdtxt': 2, 'spk': 3, 'mic': 3, 'bluepwr': 3, 'brkyn': 0}
+[2021-11-20 23:57:44][UTIL]{'interval': 15, 'opetime': 5, 'lcd': 2, 'lcdtxt': 2, 'spk': 3, 'mic': 3, 'bluepwr': 3, 'brkyn': 0}
+[2021-11-20 23:57:50][UTIL]{'interval': 15, 'opetime': 5, 'lcd': 4, 'lcdtxt': 2, 'spk': 3, 'mic': 3, 'bluepwr': 3, 'brkyn': 0}
+[2021-11-20 23:57:58][UTIL]{'interval': 15, 'opetime': 5, 'lcd': 5, 'lcdtxt': 2, 'spk': 3, 'mic': 3, 'bluepwr': 3, 'brkyn': 0}

@@ -1,0 +1,29 @@
+[2021-11-27 16:50:21][COMMAND]Read System Configuration File
+[2021-11-27 16:50:21][MAIN]입출력 초기화
+[2021-11-27 16:50:21][MAIN]LCD 초기화
+[2021-11-27 16:50:22][MAIN]사운드 초기화
+[2021-11-27 16:50:22][MAIN]네트워크 정보 로드
+[2021-11-27 16:50:22][MAIN]Send to BLE
+[2021-11-27 16:50:22][COMMAND]##################################################
+[2021-11-27 16:50:22][COMMAND]> CMD : Get BLE Infor.
+[2021-11-27 16:50:22][COMMAND]{'enckey': 'BBCCD728663FF5F2', 'mac': 'D3:68:BF:B2:F2:5C'}
+[2021-11-27 16:50:22][COMMAND]##################################################
+[2021-11-27 16:50:22][COMMAND]Write System Configuration File
+[2021-11-27 16:50:22][UTIL]key : 20D368BFB2F25CBBCCD728663FF5F221
+[2021-11-27 16:50:22][UTIL]iv : BBCCD728663FF5F2
+[2021-11-27 16:50:23][MAIN]터치초기화
+[2021-11-27 16:50:25][MAIN]카드리더초기화
+[2021-11-27 16:50:25][MAIN]소켓서버 연결
+[2021-11-27 16:50:25][MYSOCKET]접속 완료
+[2021-11-27 16:50:25][MYSOCKET]{'result': 0}
+[2021-11-27 16:50:25][MYSOCKET]## Send Message ##
+[2021-11-27 16:50:25][MYSOCKET]orig : {'method': 'getDeviceFcltInfo', 'macAddr': 'D3:68:BF:B2:F2:5C'}
+[2021-11-27 16:50:25][MYSOCKET]dec : {"resulttime":"20211127165025","fcltSn":5,"errorCode":0,"orgnztSn":3}
+[2021-11-27 16:50:25][MYSOCKET]recvData : b'\xcd\x9b\xcbw\x7f,\xeb\x8f(\x9bk\x12\x83\x85#\xe2\xb7\xfd\xbb\xf6\x1a\xf5\xdf\xe0\x8f\x02\xb0\x1cc/\xe8\xd4\xe6\xc2\xcb}m\x02&\xad\x8a-\x1a\xf6\xf3kU\xe5\x10\xef\x8cfl\xd31\xfb\x18\xa3j\xa0\x00\x08\xb6\x9d\xe1N\xe9"\\\xa4\xc4\x82XV\xa9j2\x0bpV'
+[2021-11-27 16:50:25][MYSOCKET]dicdata : {'resulttime': '20211127165025', 'fcltSn': 5, 'errorCode': 0, 'orgnztSn': 3}
+[2021-11-27 16:50:25][MYSOCKET]Receive Socket
+[2021-11-27 16:50:25][MYSOCKET]resulttime : 20211127165025
+[2021-11-27 16:50:25][MYSOCKET]Decoding : {"resulttime":"20211127165025","fcltSn":5,"errorCode":0,"orgnztSn":3}
+[2021-11-27 16:50:25][MYSOCKET]Call taskProcess
+[2021-11-27 16:50:25][TASK]taskProcess dic : {'resulttime': '20211127165025', 'fcltSn': 5, 'errorCode': 0, 'orgnztSn': 3}
+[2021-11-27 16:50:25][COMMAND]Write System Configuration File

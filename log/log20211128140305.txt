@@ -1,0 +1,30 @@
+[2021-11-28 14:03:05][COMMAND]Read System Configuration File
+[2021-11-28 14:03:05][MAIN]입출력 초기화
+[2021-11-28 14:03:05][MAIN]LCD 초기화
+[2021-11-28 14:03:06][MAIN]사운드 초기화
+[2021-11-28 14:03:06][MAIN]네트워크 정보 로드
+[2021-11-28 14:03:06][MAIN]Send to BLE
+[2021-11-28 14:03:06][COMMAND]##################################################
+[2021-11-28 14:03:06][COMMAND]> CMD : Get BLE Infor.
+[2021-11-28 14:03:06][COMMAND]{'enckey': 'BBCCD728663FF5F2', 'mac': 'D3:68:BF:B2:F2:5C'}
+[2021-11-28 14:03:06][COMMAND]##################################################
+[2021-11-28 14:03:06][COMMAND]Write System Configuration File
+[2021-11-28 14:03:06][UTIL]key : 20D368BFB2F25CBBCCD728663FF5F221
+[2021-11-28 14:03:06][UTIL]iv : BBCCD728663FF5F2
+[2021-11-28 14:03:07][MAIN]터치초기화
+[2021-11-28 14:03:09][MAIN]카드리더초기화
+[2021-11-28 14:03:09][MAIN]소켓서버 연결
+[2021-11-28 14:03:09][MYSOCKET]접속 완료
+[2021-11-28 14:03:09][MYSOCKET]{'result': 0}
+[2021-11-28 14:03:09][MYSOCKET]## Send Message ##
+[2021-11-28 14:03:09][MYSOCKET]orig : {'method': 'getDeviceFcltInfo', 'macAddr': 'D3:68:BF:B2:F2:5C'}
+[2021-11-28 14:03:09][MYSOCKET]dec : {"resulttime":"20211128140309","fcltSn":5,"errorCode":0,"orgnztSn":3}
+[2021-11-28 14:03:09][MYSOCKET]recvData : b'\xcd\x9b\xcbw\x7f,\xeb\x8f(\x9bk\x12\x83\x85#\xe2Z\xf2\xb7\xa9\x98\xbb7\x87\xcew\xe6$Y,A\xde0\xb1\xe1\xeaU\xfa\xb5|\x95\x07v\xfd\xf9[\x83\xc4\xbf\x99O\xb8u\xff\r\x9a33\x04M\xe5\xf7\xc4`~Z/d\x89!&\x0c\x97 \x97\xf1\x90\xa7= '
+[2021-11-28 14:03:09][MYSOCKET]dicdata : {'resulttime': '20211128140309', 'fcltSn': 5, 'errorCode': 0, 'orgnztSn': 3}
+[2021-11-28 14:03:09][MYSOCKET]resulttime : 20211128140309
+[2021-11-28 14:03:09][MYSOCKET]Receive Socket
+[2021-11-28 14:03:09][MYSOCKET]Decoding : {"resulttime":"20211128140309","fcltSn":5,"errorCode":0,"orgnztSn":3}
+[2021-11-28 14:03:09][MYSOCKET]Call taskProcess
+[2021-11-28 14:03:09][TASK]taskProcess dic : {'resulttime': '20211128140309', 'fcltSn': 5, 'errorCode': 0, 'orgnztSn': 3}
+[2021-11-28 14:03:09][COMMAND]Write System Configuration File
+[2021-11-28 14:04:30][MAIN]접속 종료

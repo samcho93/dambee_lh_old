@@ -1,0 +1,42 @@
+[2021-11-27 17:30:34][COMMAND]Read System Configuration File
+[2021-11-27 17:30:34][MAIN]입출력 초기화
+[2021-11-27 17:30:34][MAIN]LCD 초기화
+[2021-11-27 17:30:35][MAIN]사운드 초기화
+[2021-11-27 17:30:35][MAIN]네트워크 정보 로드
+[2021-11-27 17:30:35][MAIN]Send to BLE
+[2021-11-27 17:30:35][COMMAND]##################################################
+[2021-11-27 17:30:35][COMMAND]> CMD : Get BLE Infor.
+[2021-11-27 17:30:35][COMMAND]{'enckey': 'BBCCD728663FF5F2', 'mac': 'D3:68:BF:B2:F2:5C'}
+[2021-11-27 17:30:35][COMMAND]##################################################
+[2021-11-27 17:30:35][COMMAND]Write System Configuration File
+[2021-11-27 17:30:35][UTIL]key : 20D368BFB2F25CBBCCD728663FF5F221
+[2021-11-27 17:30:35][UTIL]iv : BBCCD728663FF5F2
+[2021-11-27 17:30:36][MAIN]터치초기화
+[2021-11-27 17:30:38][MAIN]카드리더초기화
+[2021-11-27 17:30:38][MAIN]소켓서버 연결
+[2021-11-27 17:30:38][MYSOCKET]접속 완료
+[2021-11-27 17:30:38][MYSOCKET]{'result': 0}
+[2021-11-27 17:30:38][MYSOCKET]## Send Message ##
+[2021-11-27 17:30:38][MYSOCKET]orig : {'method': 'getDeviceFcltInfo', 'macAddr': 'D3:68:BF:B2:F2:5C'}
+[2021-11-27 17:30:38][MYSOCKET]dec : {"resulttime":"20211127173038","fcltSn":5,"errorCode":0,"orgnztSn":3}
+[2021-11-27 17:30:38][MYSOCKET]recvData : b'\xcd\x9b\xcbw\x7f,\xeb\x8f(\x9bk\x12\x83\x85#\xe2\xdf\xb0N}\x15\xa9i\xf6a9^!\x93\xd6\xb6\xee_\x14\xc0\xe9%\xaf\xf65\xf8P\x81\x86\x85J\x82\xbd;\x85K\xbf\x84$\x16\xf7\x1b\\(\x91\xd9\x19\x8d\x9c\x93.\x8f\xed\xbb\xc6\xc4\xaf\xce\x19\xbb\xed/\x1d\xb1\xe7'
+[2021-11-27 17:30:38][MYSOCKET]dicdata : {'resulttime': '20211127173038', 'fcltSn': 5, 'errorCode': 0, 'orgnztSn': 3}
+[2021-11-27 17:30:38][MYSOCKET]resulttime : 20211127173038
+[2021-11-27 17:30:38][MYSOCKET]Receive Socket
+[2021-11-27 17:30:38][MYSOCKET]Decoding : {"resulttime":"20211127173038","fcltSn":5,"errorCode":0,"orgnztSn":3}
+[2021-11-27 17:30:38][MYSOCKET]Call taskProcess
+[2021-11-27 17:30:38][TASK]taskProcess dic : {'resulttime': '20211127173038', 'fcltSn': 5, 'errorCode': 0, 'orgnztSn': 3}
+[2021-11-27 17:30:38][COMMAND]Write System Configuration File
+[2021-11-27 17:30:41][MAIN][Key] K2
+[2021-11-27 17:30:43][MAIN][Key] K2
+[2021-11-27 17:30:44][MAIN][Key] K2
+[2021-11-27 17:30:45][MAIN][Key] K2
+[2021-11-27 17:30:47][MAIN][Key] K5
+[2021-11-27 17:30:47][MAIN][Key] K2
+[2021-11-27 17:30:50][MAIN][Key] K8
+[2021-11-27 17:30:53][MAIN][Key] K2
+[2021-11-27 17:30:56][MAIN][Key] K7
+[2021-11-27 17:30:56][MAIN][Key] K2
+[2021-11-27 17:30:57][MAIN][Key] K#
+[2021-11-27 17:31:09][MAIN][Key] K2
+[2021-11-27 17:31:13][MAIN]0

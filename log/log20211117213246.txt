@@ -1,0 +1,25 @@
+[2021-11-17 21:32:46][COMMAND]Read System Configuration File
+[2021-11-17 21:32:46][MAIN]입출력 초기화
+[2021-11-17 21:32:46][MAIN]LCD 초기화
+[2021-11-17 21:32:47][MAIN]사운드 초기화
+[2021-11-17 21:32:47][MAIN]네트워크 정보 로드
+[2021-11-17 21:32:47][MAIN]Send to BLE
+[2021-11-17 21:32:48][MAIN]터치초기화
+[2021-11-17 21:32:51][MAIN]소켓서버 연결
+[2021-11-17 21:32:51][MYSOCKET]접속 완료
+[2021-11-17 21:32:51][MYSOCKET]{'result': 1}
+[2021-11-17 21:32:51][MYSOCKET]## Send Message ##
+[2021-11-17 21:32:51][MYSOCKET]orig : {'method': 'getDeviceFcltInfo', 'macAddr': 'AA:BB:CC:DD:EE:DD'}
+[2021-11-17 21:32:51][MYSOCKET]연결이 거부 되었습니다
+[2021-11-17 21:32:51][COMMAND]Write System Configuration File
+[2021-11-17 21:32:53][MAIN][Key] K2
+[2021-11-17 21:32:54][MAIN][Key] K2
+[2021-11-17 21:32:54][MAIN][Key] K2
+[2021-11-17 21:32:54][MAIN][Key] K2
+[2021-11-17 21:32:55][MAIN][Key] K5
+[2021-11-17 21:32:55][MAIN][Key] K5
+[2021-11-17 21:32:56][UTIL]Error Getkey
+[2021-11-17 21:32:56][MAIN]None
+[2021-11-17 21:32:56][MAIN][Key] K5
+[2021-11-17 21:32:56][MAIN][Key] K5
+[2021-11-17 21:33:11][MAIN]접속 종료

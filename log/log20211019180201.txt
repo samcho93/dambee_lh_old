@@ -1,0 +1,46 @@
+[2021-10-19 18:02:01][COMMAND]Read System Configuration File
+[2021-10-19 18:02:01][MAIN]입출력 초기화
+[2021-10-19 18:02:01][MAIN]LCD 초기화
+[2021-10-19 18:02:02][MAIN]사운드 초기화
+[2021-10-19 18:02:02][MAIN]네트워크 정보 로드
+[2021-10-19 18:02:02][MAIN]Send to BLE
+[2021-10-19 18:02:02][MAIN]소켓서버 연결
+[2021-10-19 18:02:02][COMMAND]##################################################
+[2021-10-19 18:02:02][COMMAND]> CMD : Get BLE Infor.
+[2021-10-19 18:02:02][COMMAND]{'enckey': '9873CE4DAB0BCF6F', 'mac': 'C0:BD:9B:84:CF:F7'}
+[2021-10-19 18:02:02][COMMAND]##################################################
+[2021-10-19 18:02:02][COMMAND]Write System Configuration File
+[2021-10-19 18:02:02][UTIL]key : 20C0BD9B84CFF79873CE4DAB0BCF6F21
+[2021-10-19 18:02:02][UTIL]iv : 9873CE4DAB0BCF6F
+[2021-10-19 18:02:02][MYSOCKET]접속 완료
+[2021-10-19 18:02:02][MYSOCKET]{'result': 1}
+[2021-10-19 18:02:02][MYSOCKET]## Send Message ##
+[2021-10-19 18:02:02][MYSOCKET]orig : {'method': 'getDeviceFcltInfo', 'macAddr': 'AA:BB:CC:DD:EE:FF'}
+[2021-10-19 18:02:02][MYSOCKET]dec : è¶Á÷G'¾ÎÙEÁ¾ªÏÈ
+[2021-10-19 18:02:02][MYSOCKET]recvData : b'{"errorCode":3}'
+[2021-10-19 18:02:02][MYSOCKET]Error!!!!!
+[2021-10-19 18:02:02][MYSOCKET]b'{"errorCode":3}'è¶Á÷G'¾ÎÙEÁ¾ªÏÈ
+[2021-10-19 18:02:02][MYSOCKET]Receive Socket
+[2021-10-19 18:02:02][COMMAND]Write System Configuration File
+[2021-10-19 18:05:37][UTIL]Error Getkey
+[2021-10-19 18:05:37][MAIN]None
+[2021-10-19 18:05:37][UTIL]Error Getkey
+[2021-10-19 18:05:37][MAIN]None
+[2021-10-19 18:09:11][MAIN][Key] Call
+[2021-10-19 18:09:11][TASK]TASK_REQUEST_CALL
+[2021-10-19 18:09:11][MYSOCKET]## Send Message ##
+[2021-10-19 18:09:11][MYSOCKET]orig : {'method': 'reqVideoCall', 'macAddr': 'AA:BB:CC:DD:EE:FF'}
+[2021-10-19 18:09:12][MYSOCKET]dec : "cÚ=õ`»öbdÈÄÈ¥ÆA¯À.Gc¥¦ÙWho÷_*êãò:ß¯29
+[2021-10-19 18:09:12][MYSOCKET]recvData : b'{"resulttime":"20211019180911","errorCode":3}'
+[2021-10-19 18:09:12][MYSOCKET]Error!!!!!
+[2021-10-19 18:09:12][MYSOCKET]b'{"resulttime":"20211019180911","errorCode":3}'"cÚ=õ`»öbdÈÄÈ¥ÆA¯À.Gc¥¦ÙWho÷_*êãò:ß¯29
+[2021-10-19 18:09:12][MYSOCKET]Receive Socket
+[2021-10-19 18:09:12][TASK]TASK_REQUEST_CALL_RESULT
+[2021-10-19 18:09:12][MYSOCKET]## Send Message ##
+[2021-10-19 18:09:12][MYSOCKET]orig : {'method': 'reqVideoCallResult', 'macAddr': 'AA:BB:CC:DD:EE:FF', 'videocallSn': 0, 'videoCallResult': 0}
+[2021-10-19 18:09:12][MYSOCKET]dec : Ñ;7ÞXnfÐígêCHM±k)µ¢ÛD,ÃÓ!¨6¬Ò´¡ì=¼ß=y-úN(çÎ½ê­,Æ
+[2021-10-19 18:09:12][MYSOCKET]recvData : b'{"result":0,"resulttime":"20211019180912","errorCode":3}'
+[2021-10-19 18:09:12][MYSOCKET]Error!!!!!
+[2021-10-19 18:09:12][MYSOCKET]b'{"result":0,"resulttime":"20211019180912","errorCode":3}'Ñ;7ÞXnfÐígêCHM±k)µ¢ÛD,ÃÓ!¨6¬Ò´¡ì=¼ß=y-úN(çÎ½ê­,Æ
+[2021-10-19 18:09:12][MYSOCKET]Receive Socket
+[2021-10-19 18:09:32][TASK]videoCallTimeout!!!

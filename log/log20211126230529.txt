@@ -1,0 +1,29 @@
+[2021-11-26 23:05:29][COMMAND]Read System Configuration File
+[2021-11-26 23:05:29][MAIN]입출력 초기화
+[2021-11-26 23:05:29][MAIN]LCD 초기화
+[2021-11-26 23:05:30][MAIN]사운드 초기화
+[2021-11-26 23:05:30][MAIN]네트워크 정보 로드
+[2021-11-26 23:05:30][MAIN]Send to BLE
+[2021-11-26 23:05:30][COMMAND]##################################################
+[2021-11-26 23:05:30][COMMAND]> CMD : Get BLE Infor.
+[2021-11-26 23:05:30][COMMAND]{'enckey': 'BBCCD728663FF5F2', 'mac': 'D3:68:BF:B2:F2:5C'}
+[2021-11-26 23:05:30][COMMAND]##################################################
+[2021-11-26 23:05:30][COMMAND]Write System Configuration File
+[2021-11-26 23:05:30][UTIL]key : 20D368BFB2F25CBBCCD728663FF5F221
+[2021-11-26 23:05:30][UTIL]iv : BBCCD728663FF5F2
+[2021-11-26 23:05:31][MAIN]터치초기화
+[2021-11-26 23:05:34][MAIN]카드리더초기화
+[2021-11-26 23:05:34][MAIN]소켓서버 연결
+[2021-11-26 23:05:34][MYSOCKET]접속 완료
+[2021-11-26 23:05:34][MYSOCKET]{'result': 0}
+[2021-11-26 23:05:34][MYSOCKET]## Send Message ##
+[2021-11-26 23:05:34][MYSOCKET]orig : {'method': 'getDeviceFcltInfo', 'macAddr': 'D3:68:BF:B2:F2:5C'}
+[2021-11-26 23:05:34][MYSOCKET]dec : {"resulttime":"20211126230534","fcltSn":5,"errorCode":0,"orgnztSn":3}
+[2021-11-26 23:05:34][MYSOCKET]recvData : b'\xcd\x9b\xcbw\x7f,\xeb\x8f(\x9bk\x12\x83\x85#\xe2\xbb\x12kQ\x1cFV\xaf\xc5pPj\xa3\x8c\xb3i\xcd\xc3\xffp\x8c\x84?b\x17\x87\x0b\x0e\x8b\x10\x98#\x14u\xc8@\xb5\xe7\x92\xbcz\xf0\xf5\xb7\x0e[~\xd3A@\x9chf"\x9em\x0e\x9f\xa4\xf5\xf6\x85\xecR'
+[2021-11-26 23:05:34][MYSOCKET]dicdata : {'resulttime': '20211126230534', 'fcltSn': 5, 'errorCode': 0, 'orgnztSn': 3}
+[2021-11-26 23:05:34][MYSOCKET]resulttime : 20211126230534
+[2021-11-26 23:05:34][MYSOCKET]Receive Socket
+[2021-11-26 23:05:34][MYSOCKET]Decoding : {"resulttime":"20211126230534","fcltSn":5,"errorCode":0,"orgnztSn":3}
+[2021-11-26 23:05:34][MYSOCKET]Call taskProcess
+[2021-11-26 23:05:34][TASK]taskProcess dic : {'resulttime': '20211126230534', 'fcltSn': 5, 'errorCode': 0, 'orgnztSn': 3}
+[2021-11-26 23:05:34][COMMAND]Write System Configuration File

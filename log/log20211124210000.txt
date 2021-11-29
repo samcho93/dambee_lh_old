@@ -1,0 +1,30 @@
+[2021-11-24 21:00:00][COMMAND]Read System Configuration File
+[2021-11-24 21:00:00][MAIN]입출력 초기화
+[2021-11-24 21:00:00][MAIN]LCD 초기화
+[2021-11-24 21:00:01][MAIN]사운드 초기화
+[2021-11-24 21:00:01][MAIN]네트워크 정보 로드
+[2021-11-24 21:00:01][MAIN]Send to BLE
+[2021-11-24 21:00:01][COMMAND]##################################################
+[2021-11-24 21:00:01][COMMAND]> CMD : Get BLE Infor.
+[2021-11-24 21:00:01][COMMAND]{'enckey': 'BBCCD728663FF5F2', 'mac': 'D3:68:BF:B2:F2:5C'}
+[2021-11-24 21:00:01][COMMAND]##################################################
+[2021-11-24 21:00:01][COMMAND]Write System Configuration File
+[2021-11-24 21:00:01][UTIL]key : 20D368BFB2F25CBBCCD728663FF5F221
+[2021-11-24 21:00:01][UTIL]iv : BBCCD728663FF5F2
+[2021-11-24 21:00:02][MAIN]터치초기화
+[2021-11-24 21:00:05][MAIN]카드리더초기화
+[2021-11-24 21:00:05][MAIN]소켓서버 연결
+[2021-11-24 21:00:05][MYSOCKET]접속 완료
+[2021-11-24 21:00:05][MYSOCKET]{'result': 0}
+[2021-11-24 21:00:05][MYSOCKET]## Send Message ##
+[2021-11-24 21:00:05][MYSOCKET]orig : {'method': 'getDeviceFcltInfo', 'macAddr': 'D3:68:BF:B2:F2:5C'}
+[2021-11-24 21:00:05][MYSOCKET]dec : {"resulttime":"20211124210005","fcltSn":5,"errorCode":0,"orgnztSn":2}
+[2021-11-24 21:00:06][MYSOCKET]recvData : b'\xcd\x9b\xcbw\x7f,\xeb\x8f(\x9bk\x12\x83\x85#\xe2\xe9\xc8i\x95b\xa5u\x18Nh\xa1\x128\xac\xca\xbe\xba\x88[\xf0\xe2\xb5:\xb3\t\xd6\xfcD\\P\xb5\xd7x\xf9t]\xbe\xa0\x92\xcc\xd9\x13h^SG\x9a\x13s\x9c3)M\xc7\x9f\x1a\xc1Z\xbb\x81iH\x12\xce'
+[2021-11-24 21:00:06][MYSOCKET]dicdata : {'resulttime': '20211124210005', 'fcltSn': 5, 'errorCode': 0, 'orgnztSn': 2}
+[2021-11-24 21:00:06][MYSOCKET]Receive Socket
+[2021-11-24 21:00:06][MYSOCKET]resulttime : 20211124210005
+[2021-11-24 21:00:06][MYSOCKET]Decoding : {"resulttime":"20211124210005","fcltSn":5,"errorCode":0,"orgnztSn":2}
+[2021-11-24 21:00:06][MYSOCKET]Call taskProcess
+[2021-11-24 21:00:06][TASK]taskProcess dic : {'resulttime': '20211124210005', 'fcltSn': 5, 'errorCode': 0, 'orgnztSn': 2}
+[2021-11-24 21:00:06][COMMAND]Write System Configuration File
+[2021-11-24 21:02:28][MAIN]접속 종료

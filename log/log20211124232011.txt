@@ -1,0 +1,30 @@
+[2021-11-24 23:20:11][COMMAND]Read System Configuration File
+[2021-11-24 23:20:11][MAIN]입출력 초기화
+[2021-11-24 23:20:11][MAIN]LCD 초기화
+[2021-11-24 23:20:11][MAIN]사운드 초기화
+[2021-11-24 23:20:11][MAIN]네트워크 정보 로드
+[2021-11-24 23:20:11][MAIN]Send to BLE
+[2021-11-24 23:20:11][COMMAND]##################################################
+[2021-11-24 23:20:11][COMMAND]> CMD : Get BLE Infor.
+[2021-11-24 23:20:11][COMMAND]{'enckey': 'BBCCD728663FF5F2', 'mac': 'D3:68:BF:B2:F2:5C'}
+[2021-11-24 23:20:11][COMMAND]##################################################
+[2021-11-24 23:20:11][COMMAND]Write System Configuration File
+[2021-11-24 23:20:11][UTIL]key : 20D368BFB2F25CBBCCD728663FF5F221
+[2021-11-24 23:20:11][UTIL]iv : BBCCD728663FF5F2
+[2021-11-24 23:20:12][MAIN]터치초기화
+[2021-11-24 23:20:15][MAIN]카드리더초기화
+[2021-11-24 23:20:15][MAIN]소켓서버 연결
+[2021-11-24 23:20:15][MYSOCKET]접속 완료
+[2021-11-24 23:20:16][MYSOCKET]{'result': 0}
+[2021-11-24 23:20:16][MYSOCKET]## Send Message ##
+[2021-11-24 23:20:16][MYSOCKET]orig : {'method': 'getDeviceFcltInfo', 'macAddr': 'D3:68:BF:B2:F2:5C'}
+[2021-11-24 23:20:16][MYSOCKET]dec : {"resulttime":"20211124232016","fcltSn":5,"errorCode":0,"orgnztSn":2}
+[2021-11-24 23:20:16][MYSOCKET]recvData : b'\xcd\x9b\xcbw\x7f,\xeb\x8f(\x9bk\x12\x83\x85#\xe2\xc2\xdc\x14\xe21\xa1\x9d\x8c]\xbbX\x00\xea\x021\x06\xae\x96\xd8\xcc@\xbf$\xec6\x98\xd2\x906!\x07\x80r\xc2\x00\xf6\xc5\x8aF\xf9\xedS\x16\x11N\xc9#\x04\xdf\xcf\xdcd\xc32\x01\xa1\xf6\xb7w\xcb(\x80\xa1\xdb'
+[2021-11-24 23:20:16][MYSOCKET]dicdata : {'resulttime': '20211124232016', 'fcltSn': 5, 'errorCode': 0, 'orgnztSn': 2}
+[2021-11-24 23:20:16][MYSOCKET]resulttime : 20211124232016
+[2021-11-24 23:20:16][MYSOCKET]Receive Socket
+[2021-11-24 23:20:16][MYSOCKET]Decoding : {"resulttime":"20211124232016","fcltSn":5,"errorCode":0,"orgnztSn":2}
+[2021-11-24 23:20:16][MYSOCKET]Call taskProcess
+[2021-11-24 23:20:16][TASK]taskProcess dic : {'resulttime': '20211124232016', 'fcltSn': 5, 'errorCode': 0, 'orgnztSn': 2}
+[2021-11-24 23:20:16][COMMAND]Write System Configuration File
+[2021-11-24 23:21:21][MAIN]접속 종료

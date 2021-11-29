@@ -1,0 +1,29 @@
+[2021-11-27 15:56:55][COMMAND]Read System Configuration File
+[2021-11-27 15:56:55][MAIN]입출력 초기화
+[2021-11-27 15:56:55][MAIN]LCD 초기화
+[2021-11-27 15:56:55][MAIN]사운드 초기화
+[2021-11-27 15:56:55][MAIN]네트워크 정보 로드
+[2021-11-27 15:56:55][MAIN]Send to BLE
+[2021-11-27 15:56:56][COMMAND]##################################################
+[2021-11-27 15:56:56][COMMAND]> CMD : Get BLE Infor.
+[2021-11-27 15:56:56][COMMAND]{'enckey': 'BBCCD728663FF5F2', 'mac': 'D3:68:BF:B2:F2:5C'}
+[2021-11-27 15:56:56][COMMAND]##################################################
+[2021-11-27 15:56:56][COMMAND]Write System Configuration File
+[2021-11-27 15:56:56][UTIL]key : 20D368BFB2F25CBBCCD728663FF5F221
+[2021-11-27 15:56:56][UTIL]iv : BBCCD728663FF5F2
+[2021-11-27 15:56:56][MAIN]터치초기화
+[2021-11-27 15:56:59][MAIN]카드리더초기화
+[2021-11-27 15:56:59][MAIN]소켓서버 연결
+[2021-11-27 15:56:59][MYSOCKET]접속 완료
+[2021-11-27 15:56:59][MYSOCKET]{'result': 0}
+[2021-11-27 15:56:59][MYSOCKET]## Send Message ##
+[2021-11-27 15:56:59][MYSOCKET]orig : {'method': 'getDeviceFcltInfo', 'macAddr': 'D3:68:BF:B2:F2:5C'}
+[2021-11-27 15:56:59][MYSOCKET]dec : {"resulttime":"20211127155659","fcltSn":5,"errorCode":0,"orgnztSn":3}
+[2021-11-27 15:56:59][MYSOCKET]recvData : b'\xcd\x9b\xcbw\x7f,\xeb\x8f(\x9bk\x12\x83\x85#\xe2\xef\xc1\xc0\x0c\x87O1\xa1\x0b\xb0\r\xfb\xb9a\xff\xb2\xb7\xd7\xd2V\xcc\xff\xcdD/$\x1d\xb7\x06M\xd1|\xd9r<X\x8dL\x01\x9a\xc1\xee"\x01!\xaf;\xeb\xf2\x13\xbdx%\xb1\xa3\x89\x04HO\xcb\xc6=[\x96'
+[2021-11-27 15:56:59][MYSOCKET]dicdata : {'resulttime': '20211127155659', 'fcltSn': 5, 'errorCode': 0, 'orgnztSn': 3}
+[2021-11-27 15:56:59][MYSOCKET]resulttime : 20211127155659
+[2021-11-27 15:56:59][MYSOCKET]Receive Socket
+[2021-11-27 15:56:59][MYSOCKET]Decoding : {"resulttime":"20211127155659","fcltSn":5,"errorCode":0,"orgnztSn":3}
+[2021-11-27 15:56:59][MYSOCKET]Call taskProcess
+[2021-11-27 15:56:59][TASK]taskProcess dic : {'resulttime': '20211127155659', 'fcltSn': 5, 'errorCode': 0, 'orgnztSn': 3}
+[2021-11-27 15:56:59][COMMAND]Write System Configuration File

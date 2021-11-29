@@ -1,0 +1,32 @@
+[2021-11-21 00:01:56][COMMAND]Read System Configuration File
+[2021-11-21 00:01:56][MAIN]입출력 초기화
+[2021-11-21 00:01:56][MAIN]LCD 초기화
+[2021-11-21 00:01:56][MAIN]사운드 초기화
+[2021-11-21 00:01:56][MAIN]네트워크 정보 로드
+[2021-11-21 00:01:56][MAIN]Send to BLE
+[2021-11-21 00:01:56][COMMAND]##################################################
+[2021-11-21 00:01:56][COMMAND]> CMD : Get BLE Infor.
+[2021-11-21 00:01:56][COMMAND]{'enckey': '2D65F6C9F0DF759A', 'mac': 'FD:09:2F:DC:7A:56'}
+[2021-11-21 00:01:56][COMMAND]##################################################
+[2021-11-21 00:01:56][COMMAND]Write System Configuration File
+[2021-11-21 00:01:56][UTIL]key : 20FD092FDC7A562D65F6C9F0DF759A21
+[2021-11-21 00:01:56][UTIL]iv : 2D65F6C9F0DF759A
+[2021-11-21 00:01:57][MAIN]터치초기화
+[2021-11-21 00:01:59][MAIN]카드리더초기화
+[2021-11-21 00:01:59][MAIN]소켓서버 연결
+[2021-11-21 00:02:00][MYSOCKET]접속 완료
+[2021-11-21 00:02:00][MYSOCKET]{'result': 0}
+[2021-11-21 00:02:00][MYSOCKET]## Send Message ##
+[2021-11-21 00:02:00][MYSOCKET]orig : {'method': 'getDeviceFcltInfo', 'macAddr': 'FD:09:2F:DC:7A:56'}
+[2021-11-21 00:02:00][MYSOCKET]dec : {"resulttime":"20211121000200","fcltSn":1,"errorCode":0,"orgnztSn":2}
+[2021-11-21 00:02:00][MYSOCKET]recvData : b".\x02\xe2e?\xce\x92\xad\x10k-C\xe0\xaaq\xa0eO\xfbU\x90\x13\xd7K\xe1)z\xc7\xc1q\xdc\xdb\xa9\xbf\xd2\x91\x06\x00nW\xff\x9a\xcc\x8d\xfb'0 \xd9\x05\xc7\xb7Gk\x99%\x1d$;y#\xdc\xf7<\x0f\x8d\xee\xfc2\xba\x99\xbd\xc9cw\x94\x0c.\x8e("
+[2021-11-21 00:02:00][MYSOCKET]dicdata : {'resulttime': '20211121000200', 'fcltSn': 1, 'errorCode': 0, 'orgnztSn': 2}
+[2021-11-21 00:02:00][MYSOCKET]resulttime : 20211121000200
+[2021-11-21 00:02:00][MYSOCKET]Receive Socket
+[2021-11-21 00:02:00][MYSOCKET]Decoding : {"resulttime":"20211121000200","fcltSn":1,"errorCode":0,"orgnztSn":2}
+[2021-11-21 00:02:00][MYSOCKET]Call taskProcess
+[2021-11-21 00:02:00][TASK]taskProcess dic : {'resulttime': '20211121000200', 'fcltSn': 1, 'errorCode': 0, 'orgnztSn': 2}
+[2021-11-21 00:02:00][COMMAND]Write System Configuration File
+[2021-11-21 00:02:07][UTIL]{'interval': 15, 'opetime': 5, 'lcd': 2, 'lcdtxt': 2, 'spk': 3, 'mic': 3, 'bluepwr': 3, 'brkyn': 0}
+[2021-11-21 00:02:14][UTIL]{'interval': 15, 'opetime': 5, 'lcd': 1, 'lcdtxt': 2, 'spk': 3, 'mic': 3, 'bluepwr': 3, 'brkyn': 0}
+[2021-11-21 00:02:18][MAIN]접속 종료

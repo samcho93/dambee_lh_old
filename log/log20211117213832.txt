@@ -1,0 +1,26 @@
+[2021-11-17 21:38:32][COMMAND]Read System Configuration File
+[2021-11-17 21:38:32][MAIN]입출력 초기화
+[2021-11-17 21:38:32][MAIN]LCD 초기화
+[2021-11-17 21:38:33][MAIN]사운드 초기화
+[2021-11-17 21:38:33][MAIN]네트워크 정보 로드
+[2021-11-17 21:38:33][MAIN]Send to BLE
+[2021-11-17 21:38:33][COMMAND]##################################################
+[2021-11-17 21:38:33][COMMAND]> CMD : Get BLE Infor.
+[2021-11-17 21:38:33][COMMAND]{'enckey': 'BBCCD728663FF5F2', 'mac': 'D3:68:BF:B2:F2:5C'}
+[2021-11-17 21:38:33][COMMAND]##################################################
+[2021-11-17 21:38:33][COMMAND]Write System Configuration File
+[2021-11-17 21:38:33][UTIL]key : 20D368BFB2F25CBBCCD728663FF5F221
+[2021-11-17 21:38:33][UTIL]iv : BBCCD728663FF5F2
+[2021-11-17 21:38:34][MAIN]터치초기화
+[2021-11-17 21:38:37][MAIN]소켓서버 연결
+[2021-11-17 21:38:37][MYSOCKET]접속 완료
+[2021-11-17 21:38:37][MYSOCKET]{'result': 1}
+[2021-11-17 21:38:37][MYSOCKET]## Send Message ##
+[2021-11-17 21:38:37][MYSOCKET]orig : {'method': 'getDeviceFcltInfo', 'macAddr': 'D3:68:BF:B2:F2:5C'}
+[2021-11-17 21:38:37][MYSOCKET]dec : ºÙòú»GõßÊßxVt<K0-sæWXaåe\GLÿÑaëq
+[2021-11-17 21:38:37][MYSOCKET]recvData : b'{"resulttime":"20211117213837","errorCode":999}'
+[2021-11-17 21:38:37][MYSOCKET]Error!!!!!
+[2021-11-17 21:38:37][MYSOCKET]b'{"resulttime":"20211117213837","errorCode":999}'ºÙòú»GõßÊßxVt<K0-sæWXaåe\GLÿÑaëq
+[2021-11-17 21:38:37][MYSOCKET]Receive Socket
+[2021-11-17 21:38:37][COMMAND]Write System Configuration File
+[2021-11-17 21:40:01][MAIN]접속 종료

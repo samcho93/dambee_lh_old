@@ -1,0 +1,29 @@
+[2021-11-20 18:58:49][COMMAND]Read System Configuration File
+[2021-11-20 18:58:49][MAIN]입출력 초기화
+[2021-11-20 18:58:49][MAIN]LCD 초기화
+[2021-11-20 18:58:50][MAIN]사운드 초기화
+[2021-11-20 18:58:50][MAIN]네트워크 정보 로드
+[2021-11-20 18:58:50][MAIN]Send to BLE
+[2021-11-20 18:58:50][COMMAND]##################################################
+[2021-11-20 18:58:50][COMMAND]> CMD : Get BLE Infor.
+[2021-11-20 18:58:50][COMMAND]{'enckey': '2D65F6C9F0DF759A', 'mac': 'FD:09:2F:DC:7A:56'}
+[2021-11-20 18:58:50][COMMAND]##################################################
+[2021-11-20 18:58:50][COMMAND]Write System Configuration File
+[2021-11-20 18:58:50][UTIL]key : 20FD092FDC7A562D65F6C9F0DF759A21
+[2021-11-20 18:58:50][UTIL]iv : 2D65F6C9F0DF759A
+[2021-11-20 18:58:51][MAIN]터치초기화
+[2021-11-20 18:58:53][MAIN]소켓서버 연결
+[2021-11-20 18:58:53][MYSOCKET]접속 완료
+[2021-11-20 18:58:53][MYSOCKET]{'result': 0}
+[2021-11-20 18:58:53][MYSOCKET]## Send Message ##
+[2021-11-20 18:58:53][MYSOCKET]orig : {'method': 'getDeviceFcltInfo', 'macAddr': 'FD:09:2F:DC:7A:56'}
+[2021-11-20 18:58:53][MYSOCKET]dec : {"resulttime":"20211120185853","fcltSn":1,"errorCode":0,"orgnztSn":2}
+[2021-11-20 18:58:53][MYSOCKET]recvData : b'.\x02\xe2e?\xce\x92\xad\x10k-C\xe0\xaaq\xa0K\x83\xc7o\xbf\x8b\xdc\xa0\xc4\x9e\xcc\x8e_\x12\x90P{V\x13\xc5\x89/h\xe1\xd9k\x19{H}bO\xb2<\xf8\x08\x19\xe7\x81\xe9\xf0\xc4\xcd\xcal{\xa0\x03\xd9\xa3\xb0J.\xb0Y\x1a\x83\xe9\x82$\x1d\xff\xe4\xc3'
+[2021-11-20 18:58:53][MYSOCKET]dicdata : {'resulttime': '20211120185853', 'fcltSn': 1, 'errorCode': 0, 'orgnztSn': 2}
+[2021-11-20 18:58:53][MYSOCKET]resulttime : 20211120185853
+[2021-11-20 18:58:53][MYSOCKET]Receive Socket
+[2021-11-20 18:58:53][MYSOCKET]Decoding : {"resulttime":"20211120185853","fcltSn":1,"errorCode":0,"orgnztSn":2}
+[2021-11-20 18:58:53][MYSOCKET]Call taskProcess
+[2021-11-20 18:58:53][TASK]taskProcess dic : {'resulttime': '20211120185853', 'fcltSn': 1, 'errorCode': 0, 'orgnztSn': 2}
+[2021-11-20 18:58:53][COMMAND]Write System Configuration File
+[2021-11-20 18:58:57][MAIN]UID :4C297DE2

@@ -1,0 +1,29 @@
+[2021-11-19 23:40:12][COMMAND]Read System Configuration File
+[2021-11-19 23:40:12][MAIN]입출력 초기화
+[2021-11-19 23:40:12][MAIN]LCD 초기화
+[2021-11-19 23:40:12][MAIN]사운드 초기화
+[2021-11-19 23:40:12][MAIN]네트워크 정보 로드
+[2021-11-19 23:40:12][MAIN]Send to BLE
+[2021-11-19 23:40:13][COMMAND]##################################################
+[2021-11-19 23:40:13][COMMAND]> CMD : Get BLE Infor.
+[2021-11-19 23:40:13][COMMAND]{'enckey': '2D65F6C9F0DF759A', 'mac': 'FD:09:2F:DC:7A:56'}
+[2021-11-19 23:40:13][COMMAND]##################################################
+[2021-11-19 23:40:13][COMMAND]Write System Configuration File
+[2021-11-19 23:40:13][UTIL]key : 20FD092FDC7A562D65F6C9F0DF759A21
+[2021-11-19 23:40:13][UTIL]iv : 2D65F6C9F0DF759A
+[2021-11-19 23:40:13][MAIN]터치초기화
+[2021-11-19 23:40:17][MAIN]소켓서버 연결
+[2021-11-19 23:40:17][MYSOCKET]접속 완료
+[2021-11-19 23:40:17][MYSOCKET]{'result': 0}
+[2021-11-19 23:40:17][MYSOCKET]## Send Message ##
+[2021-11-19 23:40:17][MYSOCKET]orig : {'method': 'getDeviceFcltInfo', 'macAddr': 'FD:09:2F:DC:7A:56'}
+[2021-11-19 23:40:17][MYSOCKET]dec : {"resulttime":"20211119234017","fcltSn":1,"errorCode":0,"orgnztSn":2}
+[2021-11-19 23:40:17][MYSOCKET]recvData : b'.\x02\xe2e?\xce\x92\xad\x10k-C\xe0\xaaq\xa0\x83\xa2\xd9\xa4\xf1)1F\x96\xbbO\xf3^\r\xac\xbe\x93m\xd3\x05\xa9~P\xf3y\xb9\xe4\x99J\xf3\x9b\xa4 x\xfb\xf0\xaa\xa7\x80\xf5S\x06XO\xc06\xc6\xfe\xdf\xd5\x0c\xc8P9q\n\xe4\xdaF\xd94R\\\xde'
+[2021-11-19 23:40:17][MYSOCKET]dicdata : {'resulttime': '20211119234017', 'fcltSn': 1, 'errorCode': 0, 'orgnztSn': 2}
+[2021-11-19 23:40:17][MYSOCKET]Receive Socket
+[2021-11-19 23:40:17][MYSOCKET]resulttime : 20211119234017
+[2021-11-19 23:40:17][MYSOCKET]Decoding : {"resulttime":"20211119234017","fcltSn":1,"errorCode":0,"orgnztSn":2}
+[2021-11-19 23:40:17][MYSOCKET]Call taskProcess
+[2021-11-19 23:40:17][TASK]taskProcess dic : {'resulttime': '20211119234017', 'fcltSn': 1, 'errorCode': 0, 'orgnztSn': 2}
+[2021-11-19 23:40:17][COMMAND]Write System Configuration File
+[2021-11-19 23:42:17][MAIN]접속 종료

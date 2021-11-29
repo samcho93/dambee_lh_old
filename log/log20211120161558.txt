@@ -1,0 +1,29 @@
+[2021-11-20 16:15:58][COMMAND]Read System Configuration File
+[2021-11-20 16:15:58][MAIN]입출력 초기화
+[2021-11-20 16:15:58][MAIN]LCD 초기화
+[2021-11-20 16:15:58][MAIN]사운드 초기화
+[2021-11-20 16:15:58][MAIN]네트워크 정보 로드
+[2021-11-20 16:15:58][MAIN]Send to BLE
+[2021-11-20 16:15:58][COMMAND]##################################################
+[2021-11-20 16:15:58][COMMAND]> CMD : Get BLE Infor.
+[2021-11-20 16:15:58][COMMAND]{'enckey': '2D65F6C9F0DF759A', 'mac': 'FD:09:2F:DC:7A:56'}
+[2021-11-20 16:15:58][COMMAND]##################################################
+[2021-11-20 16:15:58][COMMAND]Write System Configuration File
+[2021-11-20 16:15:58][UTIL]key : 20FD092FDC7A562D65F6C9F0DF759A21
+[2021-11-20 16:15:58][UTIL]iv : 2D65F6C9F0DF759A
+[2021-11-20 16:15:59][MAIN]터치초기화
+[2021-11-20 16:16:02][MAIN]소켓서버 연결
+[2021-11-20 16:16:02][MYSOCKET]접속 완료
+[2021-11-20 16:16:03][MYSOCKET]{'result': 0}
+[2021-11-20 16:16:03][MYSOCKET]## Send Message ##
+[2021-11-20 16:16:03][MYSOCKET]orig : {'method': 'getDeviceFcltInfo', 'macAddr': 'FD:09:2F:DC:7A:56'}
+[2021-11-20 16:16:03][MYSOCKET]dec : {"resulttime":"20211120161603","fcltSn":1,"errorCode":0,"orgnztSn":2}
+[2021-11-20 16:16:03][MYSOCKET]recvData : b'.\x02\xe2e?\xce\x92\xad\x10k-C\xe0\xaaq\xa0z\x8bO\x86d\xae|\x8a\x1d\xc1\xda\xcc!\xdc?\x13\x08\xbb\xfb\xa1\xff7\xcc\xda\xa2\x0fByXm3e8\x14\xb8\x93U\xfe\xa8\x15K\xdb\x01\xc5 J\xf1\x16\xf80;\xb8\x17\xdbE!\x88\x16\x8f\xd5\xa6\x08s\x9f'
+[2021-11-20 16:16:03][MYSOCKET]dicdata : {'resulttime': '20211120161603', 'fcltSn': 1, 'errorCode': 0, 'orgnztSn': 2}
+[2021-11-20 16:16:03][MYSOCKET]Receive Socket
+[2021-11-20 16:16:03][MYSOCKET]resulttime : 20211120161603
+[2021-11-20 16:16:03][MYSOCKET]Decoding : {"resulttime":"20211120161603","fcltSn":1,"errorCode":0,"orgnztSn":2}
+[2021-11-20 16:16:03][MYSOCKET]Call taskProcess
+[2021-11-20 16:16:03][TASK]taskProcess dic : {'resulttime': '20211120161603', 'fcltSn': 1, 'errorCode': 0, 'orgnztSn': 2}
+[2021-11-20 16:16:03][COMMAND]Write System Configuration File
+[2021-11-20 16:16:13][MAIN]접속 종료

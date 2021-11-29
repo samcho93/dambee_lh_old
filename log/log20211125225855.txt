@@ -1,0 +1,48 @@
+[2021-11-25 22:58:55][COMMAND]Read System Configuration File
+[2021-11-25 22:58:55][MAIN]입출력 초기화
+[2021-11-25 22:58:55][MAIN]LCD 초기화
+[2021-11-25 22:58:56][MAIN]사운드 초기화
+[2021-11-25 22:58:56][MAIN]네트워크 정보 로드
+[2021-11-25 22:58:56][MAIN]Send to BLE
+[2021-11-25 22:58:56][COMMAND]##################################################
+[2021-11-25 22:58:56][COMMAND]> CMD : Get BLE Infor.
+[2021-11-25 22:58:56][COMMAND]{'enckey': 'BBCCD728663FF5F2', 'mac': 'D3:68:BF:B2:F2:5C'}
+[2021-11-25 22:58:56][COMMAND]##################################################
+[2021-11-25 22:58:56][COMMAND]Write System Configuration File
+[2021-11-25 22:58:56][UTIL]key : 20D368BFB2F25CBBCCD728663FF5F221
+[2021-11-25 22:58:56][UTIL]iv : BBCCD728663FF5F2
+[2021-11-25 22:58:57][MAIN]터치초기화
+[2021-11-25 22:59:00][MAIN]카드리더초기화
+[2021-11-25 22:59:00][MAIN]소켓서버 연결
+[2021-11-25 22:59:00][MYSOCKET]접속 완료
+[2021-11-25 22:59:00][MYSOCKET]{'result': 0}
+[2021-11-25 22:59:00][MYSOCKET]## Send Message ##
+[2021-11-25 22:59:00][MYSOCKET]orig : {'method': 'getDeviceFcltInfo', 'macAddr': 'D3:68:BF:B2:F2:5C'}
+[2021-11-25 22:59:00][MYSOCKET]dec : {"resulttime":"20211125225900","fcltSn":5,"errorCode":0,"orgnztSn":2}
+[2021-11-25 22:59:00][MYSOCKET]recvData : b'\xcd\x9b\xcbw\x7f,\xeb\x8f(\x9bk\x12\x83\x85#\xe2\xd5\xad\xd1\xb8\x911\xa2?\xd7\x9f\xea\xb9\xb9&}<\xf2kh+\xc5]|jS\xa5F\xea#.\xed\x02\x9b-\x06\x10s\xd7\xfa\xbe\xc2;\xd0.\xb9\xbeV\x06\x1d-y\xa2\xb7e*k\x8f\x85\xa7\xd8\xc8\x02\x02%'
+[2021-11-25 22:59:00][MYSOCKET]dicdata : {'resulttime': '20211125225900', 'fcltSn': 5, 'errorCode': 0, 'orgnztSn': 2}
+[2021-11-25 22:59:00][MYSOCKET]resulttime : 20211125225900
+[2021-11-25 22:59:00][MYSOCKET]Receive Socket
+[2021-11-25 22:59:00][MYSOCKET]Decoding : {"resulttime":"20211125225900","fcltSn":5,"errorCode":0,"orgnztSn":2}
+[2021-11-25 22:59:00][MYSOCKET]Call taskProcess
+[2021-11-25 22:59:00][TASK]taskProcess dic : {'resulttime': '20211125225900', 'fcltSn': 5, 'errorCode': 0, 'orgnztSn': 2}
+[2021-11-25 22:59:00][COMMAND]Write System Configuration File
+[2021-11-25 22:59:47][MYSOCKET]dec : {"method":"deleteSchedule","responseId":"b179fb19a46c448e8be0848518a83de1"}
+[2021-11-25 22:59:47][MYSOCKET]recvData : b"\x88\xf8\xc5\xf8\xc9\x8f\x06\xa1\xc2\xb1\xfd\xd5l\xb5\x89'b\x91!_\xe8b\t\x16\x07f\xaf-\x94\xdb\x91/\xa2t$|#8A\x19e:\xfb_\xb0\xaf\xa3\x91\x05Q\xdf\x17\x15u\n\xbc\x19\xee\xd2\xbb\xaa\xee\xac\xf6\xc5\xd1Ut\xea\n\xa0_\\/@\x1c`\x1b\x90\xbc"
+[2021-11-25 22:59:47][MYSOCKET]dicdata : {'method': 'deleteSchedule', 'responseId': 'b179fb19a46c448e8be0848518a83de1'}
+[2021-11-25 22:59:47][MYSOCKET]Method deleteSchedule
+[2021-11-25 22:59:47][MYSOCKET]{"responseId": "b179fb19a46c448e8be0848518a83de1", "errorCode": 0}
+[2021-11-25 22:59:47][SOCKETCMD]> {'responseId': 'b179fb19a46c448e8be0848518a83de1', 'errorCode': 0}
+[2021-11-25 23:00:17][MYSOCKET]dec : {"schedule":[{"dayOfWeek":"2,5,0","startDt":"20211125","endDt":"20211125","startTime":"00:00","endTime":"19:00"}],"method":"setInit","responseId":"fb42187db5e34ba18395cd3e5c0bab9a"}
+[2021-11-25 23:00:17][MYSOCKET]recvData : b"^\xcf\xd3\x1b\xd5\x8f\x97|\x15\xa3:-!\x9f\x04't\xee Hi\xab\xec\xef\x1aR\x968\x82\xc3\xfa\x0e\xa0.\x95\x08X\x04\x12\x13\xee\xecD*\xa7\xa1\x1e\xff\xe4\xc7&\x97\xa6\t\xab\xdc\xaf~\xda\xa0^G\x96`\x10\xf3p\x04/\xcb!\x1e\xce\x951E\xa7BI\x1e\x86EI\x8d\x96\xf3\x8eA\xea\x94\x15\xde\xd1\xca\x1eFv\xe1m\x86\xb6Y\x02\xbf\x9a\xe6\xee\xb7\xb6t\xde\xb9\x99\xfc\x7f\xa2EO\x94\x89\x0e?v\xa3\xcdq6\x9aW{\xf7\xd3j\xa8[y\x8d\x17+6\xbe\xbc\xdci\xd7eXl\x1d\xa1mO\x7f\x8c\x14\xd1\xec|\xdd\xf1pmCH\xe1\x1e\xdb\x03\xea{\xbc\x8a2\x02\xf8\xe8R\xe1\xc2\xebm\xa1\x8f;\xe3P\xf8\xf0l\xd9\x15b"
+[2021-11-25 23:00:17][MYSOCKET]dicdata : {'schedule': [{'dayOfWeek': '2,5,0', 'startDt': '20211125', 'endDt': '20211125', 'startTime': '00:00', 'endTime': '19:00'}], 'method': 'setInit', 'responseId': 'fb42187db5e34ba18395cd3e5c0bab9a'}
+[2021-11-25 23:00:17][MYSOCKET]Method setInit
+[2021-11-25 23:00:17][MYSOCKET]{"responseId": "fb42187db5e34ba18395cd3e5c0bab9a", "errorCode": 0}
+[2021-11-25 23:00:17][SOCKETCMD]> {'responseId': 'fb42187db5e34ba18395cd3e5c0bab9a', 'errorCode': 0}
+[2021-11-25 23:08:10][MYSOCKET]dec : {"schedule":[{"dayOfWeek":"2,5,0","startDt":"20211125","endDt":"20211125","startTime":"00:00","endTime":"19:00"},{"dayOfWeek":"1,4","startDt":"20211125","endDt":"20211201","startTime":"00:00","endTime":"09:00"}],"method":"setInit","responseId":"94e04e7297794da58e31850a32ac3d48"}
+[2021-11-25 23:08:10][MYSOCKET]recvData : b'^\xcf\xd3\x1b\xd5\x8f\x97|\x15\xa3:-!\x9f\x04\'t\xee Hi\xab\xec\xef\x1aR\x968\x82\xc3\xfa\x0e\xa0.\x95\x08X\x04\x12\x13\xee\xecD*\xa7\xa1\x1e\xff\xe4\xc7&\x97\xa6\t\xab\xdc\xaf~\xda\xa0^G\x96`\x10\xf3p\x04/\xcb!\x1e\xce\x951E\xa7BI\x1e\x86EI\x8d\x96\xf3\x8eA\xea\x94\x15\xde\xd1\xca\x1eFv\xe1m\x86\xb6Y\x02\xbf\x9a\xe6\xee\xb7\xb6t\xde\xb95\xc8\xf94\x7f\x8f\xc7\xb2\x01\x02\xf86\x03\x8f\xc8q\xcc\xd6\xcfp\x01*\xc8\x17\x97\x13YU\x9c\x12R~\xa5E\xdd\x17\xe3\x1e\x8ds\xd2\x0b!\xecN\x86N\xcbR\xfa\xfb\xb6\xa7\x90\xb5l\xefj\x12$\x07/J\xad\xd9\xe3\x83y\'\xd3\xfc\x9f\xaf\x16\xcb\x13\xcc\xe4KuW\x94\xce\x18\xae"\xacS\xcc\xbd\xb2Hl\xc8d\xdbL\x1f\xaf\xacwb\xd7#\x84\x9e.g\xf4\x97\xc1\xbe\xc3\x0c\xd1\xfa\xdc\xc2h\x18\xb35\xf0\xe22\xfe\xf5\x93c\xe4\xf0@D\xa5\xe59v\tM}\xefwj\x8a\xe8\x8e\xca\x11_y\xe7\xb9\xd6\xbdM\xfa\xb7\xcb\td\x04\xdb;`d\xb1kx\xfd\xa2\xe2\xa5(\x83B\xdc'
+[2021-11-25 23:08:10][MYSOCKET]dicdata : {'schedule': [{'dayOfWeek': '2,5,0', 'startDt': '20211125', 'endDt': '20211125', 'startTime': '00:00', 'endTime': '19:00'}, {'dayOfWeek': '1,4', 'startDt': '20211125', 'endDt': '20211201', 'startTime': '00:00', 'endTime': '09:00'}], 'method': 'setInit', 'responseId': '94e04e7297794da58e31850a32ac3d48'}
+[2021-11-25 23:08:10][MYSOCKET]{"responseId": "94e04e7297794da58e31850a32ac3d48", "errorCode": 0}
+[2021-11-25 23:08:10][MYSOCKET]Method setInit
+[2021-11-25 23:08:10][SOCKETCMD]> {'responseId': '94e04e7297794da58e31850a32ac3d48', 'errorCode': 0}
+[2021-11-25 23:12:29][MAIN]접속 종료

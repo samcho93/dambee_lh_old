@@ -1,0 +1,29 @@
+[2021-11-21 00:07:21][COMMAND]Read System Configuration File
+[2021-11-21 00:07:21][MAIN]입출력 초기화
+[2021-11-21 00:07:21][MAIN]LCD 초기화
+[2021-11-21 00:07:21][MAIN]사운드 초기화
+[2021-11-21 00:07:21][MAIN]네트워크 정보 로드
+[2021-11-21 00:07:21][MAIN]Send to BLE
+[2021-11-21 00:07:22][COMMAND]##################################################
+[2021-11-21 00:07:22][COMMAND]> CMD : Get BLE Infor.
+[2021-11-21 00:07:22][COMMAND]{'enckey': '2D65F6C9F0DF759A', 'mac': 'FD:09:2F:DC:7A:56'}
+[2021-11-21 00:07:22][COMMAND]##################################################
+[2021-11-21 00:07:22][COMMAND]Write System Configuration File
+[2021-11-21 00:07:22][UTIL]key : 20FD092FDC7A562D65F6C9F0DF759A21
+[2021-11-21 00:07:22][UTIL]iv : 2D65F6C9F0DF759A
+[2021-11-21 00:07:22][MAIN]터치초기화
+[2021-11-21 00:07:25][MAIN]카드리더초기화
+[2021-11-21 00:07:25][MAIN]소켓서버 연결
+[2021-11-21 00:07:25][MYSOCKET]접속 완료
+[2021-11-21 00:07:25][MYSOCKET]{'result': 0}
+[2021-11-21 00:07:25][MYSOCKET]## Send Message ##
+[2021-11-21 00:07:25][MYSOCKET]orig : {'method': 'getDeviceFcltInfo', 'macAddr': 'FD:09:2F:DC:7A:56'}
+[2021-11-21 00:07:25][MYSOCKET]dec : {"resulttime":"20211121000725","fcltSn":1,"errorCode":0,"orgnztSn":2}
+[2021-11-21 00:07:25][MYSOCKET]recvData : b'.\x02\xe2e?\xce\x92\xad\x10k-C\xe0\xaaq\xa0U\x04\xd2\x8e\xeaR/\xb7\xd8\xa4\xce\x89\x94\x19\x9c\xff,+\xe0\x8e\xd0\xb7\xd2<\x9c\x1a\xe8\x17\x8f\x9b\x0e\xf4\xce\x9bs&z\xc2$\xf6G6\x98o\xb4\x11\xee\xb0\xb7\xf4\xce\x02qg\xdac\xbc\xf5H\xa0\xe0\x9a\x9e\xcd'
+[2021-11-21 00:07:25][MYSOCKET]dicdata : {'resulttime': '20211121000725', 'fcltSn': 1, 'errorCode': 0, 'orgnztSn': 2}
+[2021-11-21 00:07:25][MYSOCKET]Receive Socket
+[2021-11-21 00:07:25][MYSOCKET]resulttime : 20211121000725
+[2021-11-21 00:07:25][MYSOCKET]Decoding : {"resulttime":"20211121000725","fcltSn":1,"errorCode":0,"orgnztSn":2}
+[2021-11-21 00:07:25][MYSOCKET]Call taskProcess
+[2021-11-21 00:07:25][TASK]taskProcess dic : {'resulttime': '20211121000725', 'fcltSn': 1, 'errorCode': 0, 'orgnztSn': 2}
+[2021-11-21 00:07:25][COMMAND]Write System Configuration File

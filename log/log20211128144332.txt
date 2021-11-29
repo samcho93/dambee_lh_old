@@ -1,0 +1,30 @@
+[2021-11-28 14:43:32][COMMAND]Read System Configuration File
+[2021-11-28 14:43:32][MAIN]입출력 초기화
+[2021-11-28 14:43:32][MAIN]LCD 초기화
+[2021-11-28 14:43:32][MAIN]사운드 초기화
+[2021-11-28 14:43:32][MAIN]네트워크 정보 로드
+[2021-11-28 14:43:32][MAIN]Send to BLE
+[2021-11-28 14:43:33][COMMAND]##################################################
+[2021-11-28 14:43:33][COMMAND]> CMD : Get BLE Infor.
+[2021-11-28 14:43:33][COMMAND]{'enckey': 'BBCCD728663FF5F2', 'mac': 'D3:68:BF:B2:F2:5C'}
+[2021-11-28 14:43:33][COMMAND]##################################################
+[2021-11-28 14:43:33][COMMAND]Write System Configuration File
+[2021-11-28 14:43:33][UTIL]key : 20D368BFB2F25CBBCCD728663FF5F221
+[2021-11-28 14:43:33][UTIL]iv : BBCCD728663FF5F2
+[2021-11-28 14:43:33][MAIN]터치초기화
+[2021-11-28 14:43:36][MAIN]카드리더초기화
+[2021-11-28 14:43:36][MAIN]소켓서버 연결
+[2021-11-28 14:43:36][MYSOCKET]접속 완료
+[2021-11-28 14:43:36][MYSOCKET]{'result': 0}
+[2021-11-28 14:43:36][MYSOCKET]## Send Message ##
+[2021-11-28 14:43:36][MYSOCKET]orig : {'method': 'getDeviceFcltInfo', 'macAddr': 'D3:68:BF:B2:F2:5C'}
+[2021-11-28 14:43:36][MYSOCKET]dec : {"resulttime":"20211128144336","fcltSn":5,"errorCode":0,"orgnztSn":3}
+[2021-11-28 14:43:36][MYSOCKET]recvData : b'\xcd\x9b\xcbw\x7f,\xeb\x8f(\x9bk\x12\x83\x85#\xe2@0\xec 1\xaf\xdc\x9b\xefP\xc9}\xe9R\xb7\x9cL\x13\xea\xbc\xe1\xa8\xc4\xf0q\x10\xa4!\xac\x95$\x85;H\xca&\xaa\xbf\xef~\xa7\x99O\t\x16\x9f\xe0\xfb\x8e\xc3\x9c:\xf8\xd8+\x19\x11\x0b\xba\x1d\xb3j\xd5h'
+[2021-11-28 14:43:36][MYSOCKET]dicdata : {'resulttime': '20211128144336', 'fcltSn': 5, 'errorCode': 0, 'orgnztSn': 3}
+[2021-11-28 14:43:36][MYSOCKET]Receive Socket
+[2021-11-28 14:43:36][MYSOCKET]resulttime : 20211128144336
+[2021-11-28 14:43:36][MYSOCKET]Decoding : {"resulttime":"20211128144336","fcltSn":5,"errorCode":0,"orgnztSn":3}
+[2021-11-28 14:43:36][MYSOCKET]Call taskProcess
+[2021-11-28 14:43:36][TASK]taskProcess dic : {'resulttime': '20211128144336', 'fcltSn': 5, 'errorCode': 0, 'orgnztSn': 3}
+[2021-11-28 14:43:36][COMMAND]Write System Configuration File
+[2021-11-28 14:44:11][MAIN]접속 종료

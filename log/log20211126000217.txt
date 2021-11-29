@@ -1,0 +1,42 @@
+[2021-11-26 00:02:17][COMMAND]Read System Configuration File
+[2021-11-26 00:02:17][MAIN]입출력 초기화
+[2021-11-26 00:02:17][MAIN]LCD 초기화
+[2021-11-26 00:02:17][MAIN]사운드 초기화
+[2021-11-26 00:02:17][MAIN]네트워크 정보 로드
+[2021-11-26 00:02:17][MAIN]Send to BLE
+[2021-11-26 00:02:18][COMMAND]##################################################
+[2021-11-26 00:02:18][COMMAND]> CMD : Get BLE Infor.
+[2021-11-26 00:02:18][COMMAND]{'enckey': 'BBCCD728663FF5F2', 'mac': 'D3:68:BF:B2:F2:5C'}
+[2021-11-26 00:02:18][COMMAND]##################################################
+[2021-11-26 00:02:18][COMMAND]Write System Configuration File
+[2021-11-26 00:02:18][UTIL]key : 20D368BFB2F25CBBCCD728663FF5F221
+[2021-11-26 00:02:18][UTIL]iv : BBCCD728663FF5F2
+[2021-11-26 00:02:19][MAIN]터치초기화
+[2021-11-26 00:02:22][MAIN]카드리더초기화
+[2021-11-26 00:02:22][MAIN]소켓서버 연결
+[2021-11-26 00:02:22][MYSOCKET]접속 완료
+[2021-11-26 00:02:22][MYSOCKET]{'result': 0}
+[2021-11-26 00:02:22][MYSOCKET]## Send Message ##
+[2021-11-26 00:02:22][MYSOCKET]orig : {'method': 'getDeviceFcltInfo', 'macAddr': 'D3:68:BF:B2:F2:5C'}
+[2021-11-26 00:02:22][MYSOCKET]dec : {"resulttime":"20211126000222","fcltSn":5,"errorCode":0,"orgnztSn":2}
+[2021-11-26 00:02:22][MYSOCKET]recvData : b"\xcd\x9b\xcbw\x7f,\xeb\x8f(\x9bk\x12\x83\x85#\xe2\xf3\xd3\xf6\xbe\x8e]\xb3\x99^f|\x81\t+\x05I\xc3a\xb1;\x87:\xc2\xcf\x98B \xcdO[\x98F\xbfE\xf8Hp%\x06\xa2\xfc\x9c.\x91\xfcU\x10'y\x8c\x17\x8fw\x06\x1e\xaa\x86\x9f\xbe\xf8\xae\xbb\xeb\x14"
+[2021-11-26 00:02:22][MYSOCKET]dicdata : {'resulttime': '20211126000222', 'fcltSn': 5, 'errorCode': 0, 'orgnztSn': 2}
+[2021-11-26 00:02:22][MYSOCKET]resulttime : 20211126000222
+[2021-11-26 00:02:22][MYSOCKET]Receive Socket
+[2021-11-26 00:02:22][MYSOCKET]Decoding : {"resulttime":"20211126000222","fcltSn":5,"errorCode":0,"orgnztSn":2}
+[2021-11-26 00:02:22][MYSOCKET]Call taskProcess
+[2021-11-26 00:02:22][TASK]taskProcess dic : {'resulttime': '20211126000222', 'fcltSn': 5, 'errorCode': 0, 'orgnztSn': 2}
+[2021-11-26 00:02:22][COMMAND]Write System Configuration File
+[2021-11-26 00:02:30][MYSOCKET]dec : {"schedule":[{"dayOfWeek":"","startDt":"20211125","endDt":"20211125","startTime":"00:00","endTime":"00:00"}],"method":"setInit","responseId":"5164c92e9bee4168842c0b7313177854"}
+[2021-11-26 00:02:30][MYSOCKET]recvData : b"^\xcf\xd3\x1b\xd5\x8f\x97|\x15\xa3:-!\x9f\x04'y\x81\xfe\xb5s\xdd\xfc\xd3\xd8d\xeb\xb2[\xe6\xc6\x8d\xa6\x06FA\xa3\xfc\xe2\x08:\xdb\x93\xce\x1ez\xf1\xd6\xd8\xf9Y\x95\x01e\xf4O\x12\xb6\xb9\xd9\xa2j\x17\x99\xce,$w\x94z\xcb\x01\xf4 \xecDV;'\xf4\x1b\xcd*>'\xe3]\x1dU\x98<UWh{\xa1em\xf5\x94J}\x17\xd2\x1b\xee\xea9:0\xb2\x1f\x14g{\xeeqa\x80\xa3\x11X\x8b\xc3\xd0\tO\x950\x93\xdc+\x9b\xaf\xa0\xe6$\x9e\x0b\xda\x04\xd3\xd9.\xf6#\xe6\xb0\x07\xff\t\x07Km\xf7*\x93\xc0\xa0Xa\xbfWnv\xafm\xa85\x1e\x16\x968\x87\xa8\x8d\x13Gp\xfd|\xef-\xb5\x07{\xbcP\x93<\xb5?"
+[2021-11-26 00:02:30][MYSOCKET]dicdata : {'schedule': [{'dayOfWeek': '', 'startDt': '20211125', 'endDt': '20211125', 'startTime': '00:00', 'endTime': '00:00'}], 'method': 'setInit', 'responseId': '5164c92e9bee4168842c0b7313177854'}
+[2021-11-26 00:02:30][MYSOCKET]Method setInit
+[2021-11-26 00:02:30][MYSOCKET]{"responseId": "5164c92e9bee4168842c0b7313177854", "errorCode": 0}
+[2021-11-26 00:02:30][SOCKETCMD]> {'responseId': '5164c92e9bee4168842c0b7313177854', 'errorCode': 0}
+[2021-11-26 00:02:43][MYSOCKET]dec : {"method":"deleteSchedule","responseId":"8c763a0135164c729049975ed8cc22d3"}
+[2021-11-26 00:02:43][MYSOCKET]recvData : b"\x88\xf8\xc5\xf8\xc9\x8f\x06\xa1\xc2\xb1\xfd\xd5l\xb5\x89'b\x91!_\xe8b\t\x16\x07f\xaf-\x94\xdb\x91/\xee\xeed\xd5\xfe\x07\x19\xb3\xa7\xde\xd5=\xceEdh;\n\xde3\xb3(\xb5\xbawx\xd1\xeb\xf3\x1a\x10\xf4\xb8\xe5\x0fD\xfb^\x82m^\xcc\x8c\xbcW\xf4p\x15"
+[2021-11-26 00:02:43][MYSOCKET]dicdata : {'method': 'deleteSchedule', 'responseId': '8c763a0135164c729049975ed8cc22d3'}
+[2021-11-26 00:02:43][MYSOCKET]Method deleteSchedule
+[2021-11-26 00:02:43][MYSOCKET]{"responseId": "8c763a0135164c729049975ed8cc22d3", "errorCode": 0}
+[2021-11-26 00:02:43][SOCKETCMD]> {'responseId': '8c763a0135164c729049975ed8cc22d3', 'errorCode': 0}
+[2021-11-26 00:05:29][MAIN]접속 종료

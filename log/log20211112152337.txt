@@ -1,0 +1,41 @@
+[2021-11-12 15:23:37][COMMAND]Read System Configuration File
+[2021-11-12 15:23:37][MAIN]입출력 초기화
+[2021-11-12 15:23:37][MAIN]LCD 초기화
+[2021-11-12 15:23:37][MAIN]사운드 초기화
+[2021-11-12 15:23:37][MAIN]네트워크 정보 로드
+[2021-11-12 15:23:37][MAIN]Send to BLE
+[2021-11-12 15:23:37][MAIN]소켓서버 연결
+[2021-11-12 15:23:37][COMMAND]##################################################
+[2021-11-12 15:23:37][COMMAND]> CMD : Get BLE Infor.
+[2021-11-12 15:23:37][COMMAND]{'enckey': '9873CE4DAB0BCF6F', 'mac': 'C0:BD:9B:84:CF:F7'}
+[2021-11-12 15:23:37][COMMAND]##################################################
+[2021-11-12 15:23:37][COMMAND]Write System Configuration File
+[2021-11-12 15:23:37][UTIL]key : 20C0BD9B84CFF79873CE4DAB0BCF6F21
+[2021-11-12 15:23:37][UTIL]iv : 9873CE4DAB0BCF6F
+[2021-11-12 15:23:37][MYSOCKET]접속 완료
+[2021-11-12 15:23:38][MYSOCKET]{'result': 0}
+[2021-11-12 15:23:38][MYSOCKET]## Send Message ##
+[2021-11-12 15:23:38][MYSOCKET]orig : {'method': 'getDeviceFcltInfo', 'macAddr': 'C0:BD:9B:84:CF:F7'}
+[2021-11-12 15:23:38][MYSOCKET]dec : ;I%ÄA!øµuÉ@,Å
+[2021-11-12 15:23:38][MYSOCKET]recvData : b'{"errorCode":0}'
+[2021-11-12 15:23:38][MYSOCKET]Error!!!!!
+[2021-11-12 15:23:38][MYSOCKET]b'{"errorCode":0}';I%ÄA!øµuÉ@,Å
+[2021-11-12 15:23:38][MYSOCKET]Receive Socket
+[2021-11-12 15:23:38][COMMAND]Write System Configuration File
+[2021-11-12 15:23:52][MYSOCKET]dec : c_ßäêûªý×N ñÈ4aê0Áa§0BÓèøëÖ@¤ &éÁ¤ox->_²½AårH¿¸'\0çyuR¹x¦EÓÞNÜùÉ°=ó«¦
+[2021-11-12 15:23:52][MYSOCKET]recvData : b'V\xb7\x02O\x19\x91\x99OSk\x91\xae\xcd\xdb\xdf\xf3\xed\x88=w\x07\x03\xf0\xa4\xd2[5\x89$\xedC"\xa7\\\xe7\xdev\xec\x18\xb8\\Zo\xa0\xa3Y\xb0\x00|?M\xd9\xc5\xb3A\xd0S\x9f\xe8> %\x10\xf4\xc2\xef\xaf)\xb3\x15\x8dZ\xd7\xa8\xf0[&\x8cF\xdb'
+[2021-11-12 15:23:52][MYSOCKET]Error!!!!!
+[2021-11-12 15:23:52][MYSOCKET]b'V\xb7\x02O\x19\x91\x99OSk\x91\xae\xcd\xdb\xdf\xf3\xed\x88=w\x07\x03\xf0\xa4\xd2[5\x89$\xedC"\xa7\\\xe7\xdev\xec\x18\xb8\\Zo\xa0\xa3Y\xb0\x00|?M\xd9\xc5\xb3A\xd0S\x9f\xe8> %\x10\xf4\xc2\xef\xaf)\xb3\x15\x8dZ\xd7\xa8\xf0[&\x8cF\xdb'c_ßäêûªý×N ñÈ4aê0Áa§0BÓèøëÖ@¤ &éÁ¤ox->_²½AårH¿¸'\0çyuR¹x¦EÓÞNÜùÉ°=ó«¦
+[2021-11-12 15:24:29][MYSOCKET]dec : c_ßäêûªý×N ñÈ4aê0Áa§0BÓèøëE©Ý$msÇ*IPj°Ýì¹8ÄÑZ¥nÛÜ¡ql&+±¤ÄÁóHïûs«
+[2021-11-12 15:24:29][MYSOCKET]recvData : b'V\xb7\x02O\x19\x91\x99OSk\x91\xae\xcd\xdb\xdf\xf3\xed\x88=w\x07\x03\xf0\xa4\xd2[5\x89$\xedC"=\x94-B\xb4\xc8\x08\xfeY|WG\xc8\xfbr\xac\xa2"\xef\xc4g\x0b\xc1\xdd(\x02\x0f\x9d\x84(,\x04f7\x1e\x062\xfcE\xed\x8a/\xceh\xb0\xa2]\x02'
+[2021-11-12 15:24:29][MYSOCKET]Error!!!!!
+[2021-11-12 15:24:29][MYSOCKET]b'V\xb7\x02O\x19\x91\x99OSk\x91\xae\xcd\xdb\xdf\xf3\xed\x88=w\x07\x03\xf0\xa4\xd2[5\x89$\xedC"=\x94-B\xb4\xc8\x08\xfeY|WG\xc8\xfbr\xac\xa2"\xef\xc4g\x0b\xc1\xdd(\x02\x0f\x9d\x84(,\x04f7\x1e\x062\xfcE\xed\x8a/\xceh\xb0\xa2]\x02'c_ßäêûªý×N ñÈ4aê0Áa§0BÓèøëE©Ý$msÇ*IPj°Ýì¹8ÄÑZ¥nÛÜ¡ql&+±¤ÄÁóHïûs«
+[2021-11-12 15:25:09][MYSOCKET]dec : c_ßäêûªý×N ñÈ4aê0Áa§0BÓèøë<%Ç/|ai.Î¥?Pm:ñ¹eê/9ÂÁ_¬øÁsM¦oK³ÂÂ
+[2021-11-12 15:25:09][MYSOCKET]recvData : b'V\xb7\x02O\x19\x91\x99OSk\x91\xae\xcd\xdb\xdf\xf3\xed\x88=w\x07\x03\xf0\xa4\xd2[5\x89$\xedC"\x9b\x95\xb8\xd3Yc\xa5\xa9\x14\xdf\x06\x97\xa4\xe0\xf8,\xc7C\xe3\x87{\nM\x8c\xc8\xf3G\x0e\xbb\x06n|\r!\x80~f3"\x00!\xbe\x8c\xe6\xb4h\xda\x04'
+[2021-11-12 15:25:09][MYSOCKET]Error!!!!!
+[2021-11-12 15:25:09][MYSOCKET]b'V\xb7\x02O\x19\x91\x99OSk\x91\xae\xcd\xdb\xdf\xf3\xed\x88=w\x07\x03\xf0\xa4\xd2[5\x89$\xedC"\x9b\x95\xb8\xd3Yc\xa5\xa9\x14\xdf\x06\x97\xa4\xe0\xf8,\xc7C\xe3\x87{\nM\x8c\xc8\xf3G\x0e\xbb\x06n|\r!\x80~f3"\x00!\xbe\x8c\xe6\xb4h\xda\x04'c_ßäêûªý×N ñÈ4aê0Áa§0BÓèøë<%Ç/|ai.Î¥?Pm:ñ¹eê/9ÂÁ_¬øÁsM¦oK³ÂÂ
+[2021-11-12 15:25:47][MYSOCKET]dec : c_ßäêûªý×N ñÈ4aê0Áa§0BÓèøëlýñéí°M·ãÍ5zª&u1ÜÉ=Ì+ïºM$¥ù¸¶ßº"Õ0Üý
+[2021-11-12 15:25:47][MYSOCKET]recvData : b'V\xb7\x02O\x19\x91\x99OSk\x91\xae\xcd\xdb\xdf\xf3\xed\x88=w\x07\x03\xf0\xa4\xd2[5\x89$\xedC"\xe2\xed1\xf9\x02\xdd6 \x90u\x8d\xb5y\x02\x00\x1a#\xb1\x1c\xca\x15\x92\xc1\xa3\x0b\xd4O\x05\xf9\x17e\xec+7t\xd2\x934\x16\x80*\xf0\xc6w\xbf4\xe0\xc5'
+[2021-11-12 15:25:47][MYSOCKET]Error!!!!!
+[2021-11-12 15:25:47][MYSOCKET]b'V\xb7\x02O\x19\x91\x99OSk\x91\xae\xcd\xdb\xdf\xf3\xed\x88=w\x07\x03\xf0\xa4\xd2[5\x89$\xedC"\xe2\xed1\xf9\x02\xdd6 \x90u\x8d\xb5y\x02\x00\x1a#\xb1\x1c\xca\x15\x92\xc1\xa3\x0b\xd4O\x05\xf9\x17e\xec+7t\xd2\x934\x16\x80*\xf0\xc6w\xbf4\xe0\xc5'c_ßäêûªý×N ñÈ4aê0Áa§0BÓèøëlýñéí°M·ãÍ5zª&u1ÜÉ=Ì+ïºM$¥ù¸¶ßº"Õ0Üý
+[2021-11-12 15:28:41][MAIN]접속 종료

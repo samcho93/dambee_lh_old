@@ -1,0 +1,59 @@
+[2021-11-20 19:00:06][COMMAND]Read System Configuration File
+[2021-11-20 19:00:06][MAIN]입출력 초기화
+[2021-11-20 19:00:06][MAIN]LCD 초기화
+[2021-11-20 19:00:06][MAIN]사운드 초기화
+[2021-11-20 19:00:06][MAIN]네트워크 정보 로드
+[2021-11-20 19:00:06][MAIN]Send to BLE
+[2021-11-20 19:00:06][COMMAND]##################################################
+[2021-11-20 19:00:06][COMMAND]> CMD : Get BLE Infor.
+[2021-11-20 19:00:06][COMMAND]{'enckey': '2D65F6C9F0DF759A', 'mac': 'FD:09:2F:DC:7A:56'}
+[2021-11-20 19:00:06][COMMAND]##################################################
+[2021-11-20 19:00:06][COMMAND]Write System Configuration File
+[2021-11-20 19:00:06][UTIL]key : 20FD092FDC7A562D65F6C9F0DF759A21
+[2021-11-20 19:00:06][UTIL]iv : 2D65F6C9F0DF759A
+[2021-11-20 19:00:07][MAIN]터치초기화
+[2021-11-20 19:00:10][MAIN]소켓서버 연결
+[2021-11-20 19:00:10][MYSOCKET]접속 완료
+[2021-11-20 19:00:10][MYSOCKET]{'result': 0}
+[2021-11-20 19:00:10][MYSOCKET]## Send Message ##
+[2021-11-20 19:00:10][MYSOCKET]orig : {'method': 'getDeviceFcltInfo', 'macAddr': 'FD:09:2F:DC:7A:56'}
+[2021-11-20 19:00:10][MYSOCKET]dec : {"resulttime":"20211120190010","fcltSn":1,"errorCode":0,"orgnztSn":2}
+[2021-11-20 19:00:10][MYSOCKET]recvData : b'.\x02\xe2e?\xce\x92\xad\x10k-C\xe0\xaaq\xa0m\xd0\xf4)^o.\x08\xb6\xcd}HB\xd4\x86\xc8\x1e\x03\x97\xdb%\xc9\xf7|Q\x86U\xf1\xbd\xce\xf5v.\x02\xa3\xf1\x00,\x97\xde\x1fF\xdbd\xd4\x9f\r\xdd\xc22\xef\xf6\xa8\xe7\x81\x18\xc3\x8b9*\x98l\x83\x0c'
+[2021-11-20 19:00:10][MYSOCKET]dicdata : {'resulttime': '20211120190010', 'fcltSn': 1, 'errorCode': 0, 'orgnztSn': 2}
+[2021-11-20 19:00:10][MYSOCKET]Receive Socket
+[2021-11-20 19:00:10][MYSOCKET]resulttime : 20211120190010
+[2021-11-20 19:00:10][MYSOCKET]Decoding : {"resulttime":"20211120190010","fcltSn":1,"errorCode":0,"orgnztSn":2}
+[2021-11-20 19:00:10][MYSOCKET]Call taskProcess
+[2021-11-20 19:00:10][TASK]taskProcess dic : {'resulttime': '20211120190010', 'fcltSn': 1, 'errorCode': 0, 'orgnztSn': 2}
+[2021-11-20 19:00:10][COMMAND]Write System Configuration File
+[2021-11-20 19:00:13][MAIN]UID :4C297DE2
+[2021-11-20 19:00:13][MYSOCKET]## Send Message ##
+[2021-11-20 19:00:13][MYSOCKET]orig : {'method': 'reqFingerCardCheck', 'cardNumber': '4C297DE2', 'fcltSn': 1}
+[2021-11-20 19:00:13][MYSOCKET]dec : {"resulttime":"20211120190013","errorCode":1}
+[2021-11-20 19:00:13][MYSOCKET]recvData : b'.\x02\xe2e?\xce\x92\xad\x10k-C\xe0\xaaq\xa0jE^\xc9h\xceW\x00\xfc\xa5\x9e#P\xddR0$\xf1\x0c\xc7\xc7\x11\xa8!\x16\x9f\xbfv\xc2\t#\xca'
+[2021-11-20 19:00:13][MYSOCKET]dicdata : {'resulttime': '20211120190013', 'errorCode': 1}
+[2021-11-20 19:00:13][MYSOCKET]Receive Socket
+[2021-11-20 19:00:13][MYSOCKET]resulttime : 20211120190013
+[2021-11-20 19:00:13][MYSOCKET]Decoding : {"resulttime":"20211120190013","errorCode":1}
+[2021-11-20 19:00:13][MYSOCKET]Call taskProcess
+[2021-11-20 19:00:13][TASK]taskProcess dic : {'resulttime': '20211120190013', 'errorCode': 1}
+[2021-11-20 19:00:13][TASK]ErrorCode : 1
+[2021-11-20 19:00:13][MAIN]Door Open
+[2021-11-20 19:00:18][MAIN]Door Close
+[2021-11-20 19:00:18][MAIN]Display Init...
+[2021-11-20 19:00:27][MAIN]UID :4C297DE2
+[2021-11-20 19:00:27][MYSOCKET]## Send Message ##
+[2021-11-20 19:00:27][MYSOCKET]orig : {'method': 'reqFingerCardCheck', 'cardNumber': '4C297DE2', 'fcltSn': 1}
+[2021-11-20 19:00:27][MYSOCKET]dec : {"resulttime":"20211120190027","errorCode":1}
+[2021-11-20 19:00:27][MYSOCKET]recvData : b'.\x02\xe2e?\xce\x92\xad\x10k-C\xe0\xaaq\xa0\xecs\x87\xc0dN\xb5b,\x97}\xf7\x82\xa1\x86\x08T,(57S\x1f\xf5\xf2\x06u\x07/\x81j\x0f'
+[2021-11-20 19:00:27][MYSOCKET]dicdata : {'resulttime': '20211120190027', 'errorCode': 1}
+[2021-11-20 19:00:27][MYSOCKET]resulttime : 20211120190027
+[2021-11-20 19:00:27][MYSOCKET]Receive Socket
+[2021-11-20 19:00:27][MYSOCKET]Decoding : {"resulttime":"20211120190027","errorCode":1}
+[2021-11-20 19:00:27][MYSOCKET]Call taskProcess
+[2021-11-20 19:00:27][TASK]taskProcess dic : {'resulttime': '20211120190027', 'errorCode': 1}
+[2021-11-20 19:00:27][TASK]ErrorCode : 1
+[2021-11-20 19:00:28][MAIN]Door Open
+[2021-11-20 19:00:33][MAIN]Door Close
+[2021-11-20 19:00:33][MAIN]Display Init...
+[2021-11-20 19:01:29][MAIN]접속 종료

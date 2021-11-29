@@ -1,0 +1,42 @@
+[2021-11-28 14:22:21][COMMAND]Read System Configuration File
+[2021-11-28 14:22:21][MAIN]입출력 초기화
+[2021-11-28 14:22:21][MAIN]LCD 초기화
+[2021-11-28 14:22:21][MAIN]사운드 초기화
+[2021-11-28 14:22:21][MAIN]네트워크 정보 로드
+[2021-11-28 14:22:21][MAIN]Send to BLE
+[2021-11-28 14:22:21][COMMAND]##################################################
+[2021-11-28 14:22:21][COMMAND]> CMD : Get BLE Infor.
+[2021-11-28 14:22:21][COMMAND]{'enckey': 'BBCCD728663FF5F2', 'mac': 'D3:68:BF:B2:F2:5C'}
+[2021-11-28 14:22:21][COMMAND]##################################################
+[2021-11-28 14:22:21][COMMAND]Write System Configuration File
+[2021-11-28 14:22:21][UTIL]key : 20D368BFB2F25CBBCCD728663FF5F221
+[2021-11-28 14:22:21][UTIL]iv : BBCCD728663FF5F2
+[2021-11-28 14:22:22][MAIN]터치초기화
+[2021-11-28 14:22:25][MAIN]카드리더초기화
+[2021-11-28 14:22:25][MAIN]소켓서버 연결
+[2021-11-28 14:22:25][MYSOCKET]접속 완료
+[2021-11-28 14:22:25][MYSOCKET]{'result': 0}
+[2021-11-28 14:22:25][MYSOCKET]## Send Message ##
+[2021-11-28 14:22:25][MYSOCKET]orig : {'method': 'getDeviceFcltInfo', 'macAddr': 'D3:68:BF:B2:F2:5C'}
+[2021-11-28 14:22:25][MYSOCKET]dec : {"resulttime":"20211128142225","fcltSn":5,"errorCode":0,"orgnztSn":3}
+[2021-11-28 14:22:25][MYSOCKET]recvData : b'\xcd\x9b\xcbw\x7f,\xeb\x8f(\x9bk\x12\x83\x85#\xe2\x19\x8e]\x19\xd9(\x96\xcb\xbc\xf0\xe5\x0f;\x13M\x0f&\xa0V\xc6\xd2\xe7\xf0i\x17X\xbfD\x82\xf8\x8e\x05Z\x1cA]n\x80\xfb\xd1\x9c0\x81\xe5j\x18\xa9\rlw\x08\xd0\xc2\xde|\x04\xcc\xac"6F[\x97M'
+[2021-11-28 14:22:25][MYSOCKET]dicdata : {'resulttime': '20211128142225', 'fcltSn': 5, 'errorCode': 0, 'orgnztSn': 3}
+[2021-11-28 14:22:25][MYSOCKET]Receive Socket
+[2021-11-28 14:22:25][MYSOCKET]resulttime : 20211128142225
+[2021-11-28 14:22:25][MYSOCKET]Decoding : {"resulttime":"20211128142225","fcltSn":5,"errorCode":0,"orgnztSn":3}
+[2021-11-28 14:22:25][MYSOCKET]Call taskProcess
+[2021-11-28 14:22:25][TASK]taskProcess dic : {'resulttime': '20211128142225', 'fcltSn': 5, 'errorCode': 0, 'orgnztSn': 3}
+[2021-11-28 14:22:25][COMMAND]Write System Configuration File
+[2021-11-28 14:22:31][MYSOCKET]dec : {"method":"deleteSchedule","responseId":"d1af6e89973e4167a21a8f6a36835609"}
+[2021-11-28 14:22:31][MYSOCKET]recvData : b"\x88\xf8\xc5\xf8\xc9\x8f\x06\xa1\xc2\xb1\xfd\xd5l\xb5\x89'b\x91!_\xe8b\t\x16\x07f\xaf-\x94\xdb\x91/k\xa7kLd\x13\x0e\xec\xb8j\x1e\xb2%\xfa\x0b\xa5\x82\x11]o\x03]n;\xc9\xca\xf0\x9f\xc4\xf5sW%0\xa5\xe2oo\xe4\xd9\xb97k7\xd5\xeb\x85\xb9"
+[2021-11-28 14:22:31][MYSOCKET]dicdata : {'method': 'deleteSchedule', 'responseId': 'd1af6e89973e4167a21a8f6a36835609'}
+[2021-11-28 14:22:31][MYSOCKET]Method deleteSchedule
+[2021-11-28 14:22:31][MYSOCKET]{"responseId": "d1af6e89973e4167a21a8f6a36835609", "errorCode": 0}
+[2021-11-28 14:22:31][SOCKETCMD]> {'responseId': 'd1af6e89973e4167a21a8f6a36835609', 'errorCode': 0}
+[2021-11-28 14:22:52][MYSOCKET]dec : {"schedule":[{"dayOfWeek":"","startDt":"20211128","endDt":"20211228","startTime":"14:25","endTime":"14:30"}],"method":"setSchedule","responseId":"3ad9285d17954d54a5031688dbdc9b81"}
+[2021-11-28 14:22:52][MYSOCKET]recvData : b"^\xcf\xd3\x1b\xd5\x8f\x97|\x15\xa3:-!\x9f\x04'y\x81\xfe\xb5s\xdd\xfc\xd3\xd8d\xeb\xb2[\xe6\xc6\x8dD\x81\x9b\\<\xb5C\xd7\xa5-E\x8a\xdbw\x8f\xa7B\xe7\x06\xa7Hy`\x06cE\x1eR\xca\xceY\xfc)\xac\x10\x15\xc8\x06\xe4\xbd9.\x7f\xf8\xa8hw'@\xf1\x15.\x8a\x10\x10\x0b\xf2\x82\xd4\xc2\x1b\x9b\x83PR\x12\x98g\x88\x1c\x14\x92\x9fe_\xc4\x18'\x15\xba\xd6<\xdd\xff\xb3%\x8d\xc1\x8f\xfb\xcc\xf34w\xac\x86 \x85\xfbb`\xbb\x85r\x82Iz\xaa\xfa\xea~F\xb0_\xb5\xf4\xb3\x12\xb8\x8eq\xd6\xda+\xc8vKV\x0e\xde\x88\xf10\xb9\xd5\x8c\xd9o\x05\xc5\xd6\xec\xba\xa6\xe5\xab>\x13/yP\xf5\xec\xb1\xa8\xfe\x90d\x91\x19"
+[2021-11-28 14:22:52][MYSOCKET]dicdata : {'schedule': [{'dayOfWeek': '', 'startDt': '20211128', 'endDt': '20211228', 'startTime': '14:25', 'endTime': '14:30'}], 'method': 'setSchedule', 'responseId': '3ad9285d17954d54a5031688dbdc9b81'}
+[2021-11-28 14:22:52][MYSOCKET]Method setSchedule
+[2021-11-28 14:22:52][SOCKETCMD]NetCommand error : setSchedule
+'list' object has no attribute 'readSchedule'
+[2021-11-28 14:23:38][MAIN]접속 종료

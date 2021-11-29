@@ -1,0 +1,49 @@
+[2021-11-26 23:35:23][COMMAND]Read System Configuration File
+[2021-11-26 23:35:23][MAIN]입출력 초기화
+[2021-11-26 23:35:23][MAIN]LCD 초기화
+[2021-11-26 23:35:24][MAIN]사운드 초기화
+[2021-11-26 23:35:24][MAIN]네트워크 정보 로드
+[2021-11-26 23:35:24][MAIN]Send to BLE
+[2021-11-26 23:35:24][COMMAND]##################################################
+[2021-11-26 23:35:24][COMMAND]> CMD : Get BLE Infor.
+[2021-11-26 23:35:24][COMMAND]{'enckey': 'BBCCD728663FF5F2', 'mac': 'D3:68:BF:B2:F2:5C'}
+[2021-11-26 23:35:24][COMMAND]##################################################
+[2021-11-26 23:35:24][COMMAND]Write System Configuration File
+[2021-11-26 23:35:24][UTIL]key : 20D368BFB2F25CBBCCD728663FF5F221
+[2021-11-26 23:35:24][UTIL]iv : BBCCD728663FF5F2
+[2021-11-26 23:35:25][MAIN]터치초기화
+[2021-11-26 23:35:27][MAIN]카드리더초기화
+[2021-11-26 23:35:27][MAIN]소켓서버 연결
+[2021-11-26 23:35:27][MYSOCKET]접속 완료
+[2021-11-26 23:35:27][MYSOCKET]{'result': 0}
+[2021-11-26 23:35:27][MYSOCKET]## Send Message ##
+[2021-11-26 23:35:27][MYSOCKET]orig : {'method': 'getDeviceFcltInfo', 'macAddr': 'D3:68:BF:B2:F2:5C'}
+[2021-11-26 23:35:27][MYSOCKET]dec : {"resulttime":"20211126233527","fcltSn":5,"errorCode":0,"orgnztSn":3}
+[2021-11-26 23:35:27][MYSOCKET]recvData : b"\xcd\x9b\xcbw\x7f,\xeb\x8f(\x9bk\x12\x83\x85#\xe2P\xc0\xee\x16\xa7a\xc3!\xe5\x9f\xaa\xeb\x19\xda\xe2[oZ\xfa\x89\xe5+J\x84~\x90\\4\xb2F\x0b(\xe9\x0b\xaa\xeb\xaf7\xd9\x10P\xb4jVBd\xee|2\xd2\xae\xe3\xc8\xdd'~:\xbb\x8cj\x81\xdb!i"
+[2021-11-26 23:35:27][MYSOCKET]dicdata : {'resulttime': '20211126233527', 'fcltSn': 5, 'errorCode': 0, 'orgnztSn': 3}
+[2021-11-26 23:35:27][MYSOCKET]resulttime : 20211126233527
+[2021-11-26 23:35:27][MYSOCKET]Receive Socket
+[2021-11-26 23:35:27][MYSOCKET]Decoding : {"resulttime":"20211126233527","fcltSn":5,"errorCode":0,"orgnztSn":3}
+[2021-11-26 23:35:27][MYSOCKET]Call taskProcess
+[2021-11-26 23:35:27][TASK]taskProcess dic : {'resulttime': '20211126233527', 'fcltSn': 5, 'errorCode': 0, 'orgnztSn': 3}
+[2021-11-26 23:35:27][COMMAND]Write System Configuration File
+[2021-11-26 23:35:29][MAIN][Key] K2
+[2021-11-26 23:35:31][MAIN][Key] K1
+[2021-11-26 23:35:32][MAIN][Key] K4
+[2021-11-26 23:35:34][MAIN]0
+[2021-11-26 23:35:35][MAIN]0
+[2021-11-26 23:35:42][MAIN]0
+[2021-11-26 23:35:44][MAIN][Key] K2
+[2021-11-26 23:35:45][MAIN][Key] K1
+[2021-11-26 23:35:46][MAIN][Key] K2
+[2021-11-26 23:35:49][MAIN]0
+[2021-11-26 23:35:50][MAIN][Key] K5
+[2021-11-26 23:35:51][MAIN][Key] K4
+[2021-11-26 23:35:51][MAIN][Key] K4
+[2021-11-26 23:35:53][MAIN][Key] K4
+[2021-11-26 23:36:01][MAIN][Key] K4
+[2021-11-26 23:36:03][MAIN]0
+[2021-11-26 23:36:05][MAIN][Key] K#
+[2021-11-26 23:36:06][MAIN][Key] K4
+[2021-11-26 23:36:09][MAIN]0
+[2021-11-26 23:36:19][MAIN]접속 종료

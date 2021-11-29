@@ -1,0 +1,31 @@
+[2021-11-21 00:16:44][COMMAND]Read System Configuration File
+[2021-11-21 00:16:44][MAIN]입출력 초기화
+[2021-11-21 00:16:44][MAIN]LCD 초기화
+[2021-11-21 00:16:44][MAIN]사운드 초기화
+[2021-11-21 00:16:44][MAIN]네트워크 정보 로드
+[2021-11-21 00:16:44][MAIN]Send to BLE
+[2021-11-21 00:16:44][COMMAND]##################################################
+[2021-11-21 00:16:44][COMMAND]> CMD : Get BLE Infor.
+[2021-11-21 00:16:44][COMMAND]{'enckey': '2D65F6C9F0DF759A', 'mac': 'FD:09:2F:DC:7A:56'}
+[2021-11-21 00:16:44][COMMAND]##################################################
+[2021-11-21 00:16:44][COMMAND]Write System Configuration File
+[2021-11-21 00:16:44][UTIL]key : 20FD092FDC7A562D65F6C9F0DF759A21
+[2021-11-21 00:16:44][UTIL]iv : 2D65F6C9F0DF759A
+[2021-11-21 00:16:45][MAIN]터치초기화
+[2021-11-21 00:16:47][MAIN]카드리더초기화
+[2021-11-21 00:16:47][MAIN]소켓서버 연결
+[2021-11-21 00:16:47][MYSOCKET]접속 완료
+[2021-11-21 00:16:48][MYSOCKET]{'result': 0}
+[2021-11-21 00:16:48][MYSOCKET]## Send Message ##
+[2021-11-21 00:16:48][MYSOCKET]orig : {'method': 'getDeviceFcltInfo', 'macAddr': 'FD:09:2F:DC:7A:56'}
+[2021-11-21 00:16:48][MYSOCKET]dec : {"resulttime":"20211121001648","fcltSn":1,"errorCode":0,"orgnztSn":2}
+[2021-11-21 00:16:48][MYSOCKET]recvData : b'.\x02\xe2e?\xce\x92\xad\x10k-C\xe0\xaaq\xa0\xb0\xa3\xaa\xf3s\xdf\x13C\x18\x13\x7f\xdfK\xa5\xf1~4\xa3\x83\xa8\x1c\x8b\xdc\xdax4\xb5\xd5"\xf7\x0fl_\x97\x1c\xd3p\r\xa1\xce~\xab\x99!\xc4\xa0L\xde\x9a\xef\xaeC\xee\xf1\xed\xbe\xa6q\xa8f\xb3\xd4\x86P'
+[2021-11-21 00:16:48][MYSOCKET]dicdata : {'resulttime': '20211121001648', 'fcltSn': 1, 'errorCode': 0, 'orgnztSn': 2}
+[2021-11-21 00:16:48][MYSOCKET]resulttime : 20211121001648
+[2021-11-21 00:16:48][MYSOCKET]Receive Socket
+[2021-11-21 00:16:48][MYSOCKET]Decoding : {"resulttime":"20211121001648","fcltSn":1,"errorCode":0,"orgnztSn":2}
+[2021-11-21 00:16:48][MYSOCKET]Call taskProcess
+[2021-11-21 00:16:48][TASK]taskProcess dic : {'resulttime': '20211121001648', 'fcltSn': 1, 'errorCode': 0, 'orgnztSn': 2}
+[2021-11-21 00:16:48][COMMAND]Write System Configuration File
+[2021-11-21 00:16:53][UTIL]{'interval': 15, 'opetime': 5, 'lcd': 1, 'lcdtxt': 2, 'spk': 3, 'mic': 3, 'bluepwr': 3, 'brkyn': 0}
+[2021-11-21 00:16:58][MAIN]접속 종료

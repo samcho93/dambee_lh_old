@@ -1,0 +1,53 @@
+[2021-11-20 19:01:31][COMMAND]Read System Configuration File
+[2021-11-20 19:01:31][MAIN]입출력 초기화
+[2021-11-20 19:01:31][MAIN]LCD 초기화
+[2021-11-20 19:01:32][MAIN]사운드 초기화
+[2021-11-20 19:01:32][MAIN]네트워크 정보 로드
+[2021-11-20 19:01:32][MAIN]Send to BLE
+[2021-11-20 19:01:32][COMMAND]##################################################
+[2021-11-20 19:01:32][COMMAND]> CMD : Get BLE Infor.
+[2021-11-20 19:01:32][COMMAND]{'enckey': '2D65F6C9F0DF759A', 'mac': 'FD:09:2F:DC:7A:56'}
+[2021-11-20 19:01:32][COMMAND]##################################################
+[2021-11-20 19:01:32][COMMAND]Write System Configuration File
+[2021-11-20 19:01:32][UTIL]key : 20FD092FDC7A562D65F6C9F0DF759A21
+[2021-11-20 19:01:32][UTIL]iv : 2D65F6C9F0DF759A
+[2021-11-20 19:01:33][MAIN]터치초기화
+[2021-11-20 19:01:35][MAIN]소켓서버 연결
+[2021-11-20 19:01:35][MYSOCKET]접속 완료
+[2021-11-20 19:01:35][MYSOCKET]{'result': 0}
+[2021-11-20 19:01:35][MYSOCKET]## Send Message ##
+[2021-11-20 19:01:35][MYSOCKET]orig : {'method': 'getDeviceFcltInfo', 'macAddr': 'FD:09:2F:DC:7A:56'}
+[2021-11-20 19:01:35][MYSOCKET]dec : {"resulttime":"20211120190135","fcltSn":1,"errorCode":0,"orgnztSn":2}
+[2021-11-20 19:01:35][MYSOCKET]recvData : b".\x02\xe2e?\xce\x92\xad\x10k-C\xe0\xaaq\xa0<\t\xdf\xd9m\xa4\xa6&~\xbb\xdd\x05\x04\x0e\xd5c|\xef\xfd\xea'.\x96\xd7GHl~\xb5\xfd\x95\x10j\x94\xfbC!+N\xa9\xaf\xe8Ze\xc1U!\xca\xd0,\x07$R\x7f\xf0*\xdf\xab\xb2\x1c\xcbJC\x9f"
+[2021-11-20 19:01:35][MYSOCKET]dicdata : {'resulttime': '20211120190135', 'fcltSn': 1, 'errorCode': 0, 'orgnztSn': 2}
+[2021-11-20 19:01:35][MYSOCKET]Receive Socket
+[2021-11-20 19:01:35][MYSOCKET]resulttime : 20211120190135
+[2021-11-20 19:01:35][MYSOCKET]Decoding : {"resulttime":"20211120190135","fcltSn":1,"errorCode":0,"orgnztSn":2}
+[2021-11-20 19:01:35][MYSOCKET]Call taskProcess
+[2021-11-20 19:01:35][TASK]taskProcess dic : {'resulttime': '20211120190135', 'fcltSn': 1, 'errorCode': 0, 'orgnztSn': 2}
+[2021-11-20 19:01:35][COMMAND]Write System Configuration File
+[2021-11-20 19:01:40][MAIN]UID :4C297DE2
+[2021-11-20 19:01:40][MYSOCKET]## Send Message ##
+[2021-11-20 19:01:40][MYSOCKET]orig : {'method': 'reqFingerCardCheck', 'cardNumber': '4C297DE2', 'fcltSn': 1}
+[2021-11-20 19:01:40][MYSOCKET]dec : {"resulttime":"20211120190140","errorCode":1}
+[2021-11-20 19:01:40][MYSOCKET]recvData : b'.\x02\xe2e?\xce\x92\xad\x10k-C\xe0\xaaq\xa0\x91\x0fj\x93\x14H5\xda\x9c\xa0fN\xb3\x82\x93\r+\xdc\xc7\x83>\xab\x1f\xc4pa\xa1\x84D\xfdU\xd0'
+[2021-11-20 19:01:40][MYSOCKET]dicdata : {'resulttime': '20211120190140', 'errorCode': 1}
+[2021-11-20 19:01:40][MYSOCKET]Receive Socket
+[2021-11-20 19:01:40][MYSOCKET]resulttime : 20211120190140
+[2021-11-20 19:01:40][MYSOCKET]Decoding : {"resulttime":"20211120190140","errorCode":1}
+[2021-11-20 19:01:40][MYSOCKET]Call taskProcess
+[2021-11-20 19:01:40][TASK]taskProcess dic : {'resulttime': '20211120190140', 'errorCode': 1}
+[2021-11-20 19:01:40][TASK]ErrorCode : 1
+[2021-11-20 19:01:43][MAIN]UID :4C297DE2
+[2021-11-20 19:01:43][MYSOCKET]## Send Message ##
+[2021-11-20 19:01:43][MYSOCKET]orig : {'method': 'reqFingerCardCheck', 'cardNumber': '4C297DE2', 'fcltSn': 1}
+[2021-11-20 19:01:43][MYSOCKET]dec : {"resulttime":"20211120190143","errorCode":1}
+[2021-11-20 19:01:43][MYSOCKET]recvData : b'.\x02\xe2e?\xce\x92\xad\x10k-C\xe0\xaaq\xa0\xa1=^\x03\x87\x18\xa8\xa0m\x16\x87P\x8b,X{Z\xf4\xea\xf1\x1f \xb5\x97r\xaf\x13S1\x8d\xd7$'
+[2021-11-20 19:01:43][MYSOCKET]dicdata : {'resulttime': '20211120190143', 'errorCode': 1}
+[2021-11-20 19:01:43][MYSOCKET]resulttime : 20211120190143
+[2021-11-20 19:01:43][MYSOCKET]Receive Socket
+[2021-11-20 19:01:43][MYSOCKET]Decoding : {"resulttime":"20211120190143","errorCode":1}
+[2021-11-20 19:01:43][MYSOCKET]Call taskProcess
+[2021-11-20 19:01:43][TASK]taskProcess dic : {'resulttime': '20211120190143', 'errorCode': 1}
+[2021-11-20 19:01:43][TASK]ErrorCode : 1
+[2021-11-20 19:02:11][MAIN]접속 종료

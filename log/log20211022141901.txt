@@ -1,0 +1,70 @@
+[2021-10-22 14:19:01][COMMAND]Read System Configuration File
+[2021-10-22 14:19:01][MAIN]입출력 초기화
+[2021-10-22 14:19:01][MAIN]LCD 초기화
+[2021-10-22 14:19:02][MAIN]사운드 초기화
+[2021-10-22 14:19:02][MAIN]네트워크 정보 로드
+[2021-10-22 14:19:02][MAIN]Send to BLE
+[2021-10-22 14:19:02][MAIN]소켓서버 연결
+[2021-10-22 14:19:02][COMMAND]##################################################
+[2021-10-22 14:19:02][COMMAND]> CMD : Get BLE Infor.
+[2021-10-22 14:19:02][COMMAND]{'enckey': '9873CE4DAB0BCF6F', 'mac': 'C0:BD:9B:84:CF:F7'}
+[2021-10-22 14:19:02][COMMAND]##################################################
+[2021-10-22 14:19:02][COMMAND]Write System Configuration File
+[2021-10-22 14:19:02][UTIL]key : 20C0BD9B84CFF79873CE4DAB0BCF6F21
+[2021-10-22 14:19:02][UTIL]iv : 9873CE4DAB0BCF6F
+[2021-10-22 14:19:03][MYSOCKET]접속 완료
+[2021-10-22 14:19:03][MYSOCKET]{'result': 1}
+[2021-10-22 14:19:03][MYSOCKET]## Send Message ##
+[2021-10-22 14:19:03][MYSOCKET]orig : {'method': 'getDeviceFcltInfo', 'macAddr': 'C0:BD:9B:84:CF:F7'}
+[2021-10-22 14:19:03][MYSOCKET]dec : "cÚ=õ`»öbdÈÄÈ¥Å¿SÔOEçî7òy°Q·wÀ¨'zØbèÊØ¢
+[2021-10-22 14:19:03][MYSOCKET]recvData : b'{"resulttime":"20211022143726","errorCode":999}'
+[2021-10-22 14:19:03][MYSOCKET]Error!!!!!
+[2021-10-22 14:19:03][MYSOCKET]b'{"resulttime":"20211022143726","errorCode":999}'"cÚ=õ`»öbdÈÄÈ¥Å¿SÔOEçî7òy°Q·wÀ¨'zØbèÊØ¢
+[2021-10-22 14:19:03][MYSOCKET]Receive Socket
+[2021-10-22 14:19:03][COMMAND]Write System Configuration File
+[2021-10-22 14:39:07][UTIL]Error Getkey
+[2021-10-22 14:39:07][MAIN]None
+[2021-10-22 17:34:58][UTIL]Error Getkey
+[2021-10-22 17:34:58][MAIN]None
+[2021-10-22 17:34:58][UTIL]Error Getkey
+[2021-10-22 17:34:58][MAIN]None
+[2021-10-22 17:34:58][UTIL]Error Getkey
+[2021-10-22 17:34:58][MAIN]None
+[2021-10-22 17:34:58][MAIN][Key] K1
+[2021-10-22 17:34:58][UTIL]Error Getkey
+[2021-10-22 17:34:58][MAIN]None
+[2021-10-22 17:34:58][UTIL]Error Getkey
+[2021-10-22 17:34:58][MAIN]None
+[2021-10-22 17:34:58][UTIL]Error Getkey
+[2021-10-22 17:34:58][MAIN]None
+[2021-10-22 17:34:58][UTIL]Error Getkey
+[2021-10-22 17:34:58][MAIN]None
+[2021-10-22 18:35:47][MAIN][Key] K3
+[2021-10-22 18:37:54][MAIN][Key] K3
+[2021-10-22 18:37:55][MAIN][Key] K6
+[2021-10-22 18:37:55][MAIN][Key] K9
+[2021-10-22 18:37:56][MAIN][Key] K8
+[2021-10-22 18:37:56][MAIN][Key] K4
+[2021-10-22 18:37:57][MAIN][Key] K2
+[2021-10-22 18:37:57][MAIN][Key] K6
+[2021-10-22 18:54:39][UTIL]Error Getkey
+[2021-10-22 18:54:39][MAIN]None
+[2021-10-22 18:54:39][UTIL]Error Getkey
+[2021-10-22 18:54:39][MAIN]None
+[2021-10-25 14:45:40][UTIL]Error Getkey
+[2021-10-25 14:45:40][MAIN]None
+[2021-10-25 14:47:11][UTIL]Error Getkey
+[2021-10-25 14:47:11][MAIN]None
+[2021-10-25 14:47:11][UTIL]Error Getkey
+[2021-10-25 14:47:11][MAIN]None
+[2021-10-25 14:53:21][UTIL]Error Getkey
+[2021-10-25 14:53:21][MAIN]None
+[2021-10-25 14:56:00][UTIL]Error Getkey
+[2021-10-25 14:56:00][MAIN]None
+[2021-10-25 14:57:08][UTIL]Error Getkey
+[2021-10-25 14:57:08][MAIN]None
+[2021-10-25 15:25:33][MAIN][Key] K3
+[2021-10-26 13:05:24][UTIL]Error Getkey
+[2021-10-26 13:05:24][MAIN]None
+[2021-10-26 13:05:34][MAIN][Key] K4
+[2021-10-26 13:05:42][MAIN][Key] K0

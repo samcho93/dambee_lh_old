@@ -1,0 +1,58 @@
+[2021-11-18 20:22:52][COMMAND]Read System Configuration File
+[2021-11-18 20:22:52][MAIN]입출력 초기화
+[2021-11-18 20:22:52][MAIN]LCD 초기화
+[2021-11-18 20:22:53][MAIN]사운드 초기화
+[2021-11-18 20:22:53][MAIN]네트워크 정보 로드
+[2021-11-18 20:22:53][MAIN]Send to BLE
+[2021-11-18 20:22:53][COMMAND]##################################################
+[2021-11-18 20:22:53][COMMAND]> CMD : Get BLE Infor.
+[2021-11-18 20:22:53][COMMAND]{'enckey': '2D65F6C9F0DF759A', 'mac': 'FD:09:2F:DC:7A:56'}
+[2021-11-18 20:22:53][COMMAND]##################################################
+[2021-11-18 20:22:53][COMMAND]Write System Configuration File
+[2021-11-18 20:22:53][UTIL]key : 20FD092FDC7A562D65F6C9F0DF759A21
+[2021-11-18 20:22:53][UTIL]iv : 2D65F6C9F0DF759A
+[2021-11-18 20:22:54][MAIN]터치초기화
+[2021-11-18 20:22:57][MAIN]소켓서버 연결
+[2021-11-18 20:22:57][MYSOCKET]접속 완료
+[2021-11-18 20:22:57][MYSOCKET]{'result': 0}
+[2021-11-18 20:22:57][MYSOCKET]## Send Message ##
+[2021-11-18 20:22:57][MYSOCKET]orig : {'method': 'getDeviceFcltInfo', 'macAddr': 'FD:09:2F:DC:7A:56'}
+[2021-11-18 20:22:57][MYSOCKET]dec : {"resulttime":"20211118202257","fcltSn":1,"errorCode":0,"orgnztSn":2}
+[2021-11-18 20:22:57][MYSOCKET]recvData : b'.\x02\xe2e?\xce\x92\xad\x10k-C\xe0\xaaq\xa0\x1fz\xa7\xc6\x93x\xf5\xcd\xbap7\x96\xb91T\x871\xd7\x00\x1f\x82JB\xd7\xf6\x85\xc9c04\xa3\xb3,\\\x1d\xdb\xbcs@\x90\xde\x0f~\x8cc=\xbeOb\xcc^\\\xb3pG9\xdc\x17TM!\xe9p6'
+[2021-11-18 20:22:57][MYSOCKET]dicdata : {'resulttime': '20211118202257', 'fcltSn': 1, 'errorCode': 0, 'orgnztSn': 2}
+[2021-11-18 20:22:57][MYSOCKET]Receive Socket
+[2021-11-18 20:22:57][MYSOCKET]resulttime : 20211118202257
+[2021-11-18 20:22:57][MYSOCKET]Decoding : {"resulttime":"20211118202257","fcltSn":1,"errorCode":0,"orgnztSn":2}
+[2021-11-18 20:22:57][MYSOCKET]Call taskProcess
+[2021-11-18 20:22:57][TASK]taskProcess dic : {'resulttime': '20211118202257', 'fcltSn': 1, 'errorCode': 0, 'orgnztSn': 2}
+[2021-11-18 20:22:57][COMMAND]Write System Configuration File
+[2021-11-18 20:23:02][COMMAND]+067cmd:setsyn,authkey:0905142444RYSTWU,timesync:20211118202302fcltsn:1
+[2021-11-18 20:23:03][COMMAND]+071cmd:setope,authkey:0905142444RYSTWU,gender:1,reqtime:20211118202303,cardcnt:0001,pw1:497383,pw2:454766,pw3:897714,btry:0,error:0
+[2021-11-18 20:23:03][COMMAND]##################################################
+[2021-11-18 20:23:03][COMMAND]> CMD : door open
+[2021-11-18 20:23:03][COMMAND]> Authkey : 0905142444RYSTWU
+[2021-11-18 20:23:03][COMMAND]> Gender : Man
+[2021-11-18 20:23:03][COMMAND]> Request Time : 20211118202303
+[2021-11-18 20:23:03][COMMAND]> pw1 : 497383
+[2021-11-18 20:23:03][COMMAND]> pw2 : 454766
+[2021-11-18 20:23:03][COMMAND]> pw3 : 897714
+[2021-11-18 20:23:03][COMMAND]> Current Time : 20211118202303
+[2021-11-18 20:23:03][COMMAND]Respons Time(sec) : 0(s)
+[2021-11-18 20:23:03][COMMAND]##################################################
+[2021-11-18 20:23:03][COMMAND]BLE인증완료
+[2021-11-18 20:23:03][MYSOCKET]## Send Message ##
+[2021-11-18 20:23:03][MYSOCKET]orig : {'method': 'getAuthKeyInfo', 'orgnztSn': 1, 'fcltSn': 1}
+[2021-11-18 20:23:03][MYSOCKET]dec : {"authKey":"0905142444RYSTWU","resulttime":"20211118202303","errorCode":0}
+[2021-11-18 20:23:03][MYSOCKET]recvData : b"\xc6a\xf0>\xecX\xe9\xc8\x82\xe5c]\xd7|\xa8(\x13XgM\xb8\xe4\xa8=\n\x7f\xb2\xe1Q\xf0\x96r\x93\xed\xa4\x91\xcf\\\xb9\xbd\xe3\xaa'y\xbb\x13\xf9\x17\x0f\xfb\r|\xf0\x1c\xae\x02\xb2\x14.\xee\xba+\xe2\xb0g\xa7\xea\xde\xd6\xa5\xcd\x95\x9d\x00N\xe6\xd7\xd5\x1b\n"
+[2021-11-18 20:23:03][MYSOCKET]dicdata : {'authKey': '0905142444RYSTWU', 'resulttime': '20211118202303', 'errorCode': 0}
+[2021-11-18 20:23:03][MYSOCKET]Receive Socket
+[2021-11-18 20:23:03][MYSOCKET]resulttime : 20211118202303
+[2021-11-18 20:23:03][MYSOCKET]Decoding : {"authKey":"0905142444RYSTWU","resulttime":"20211118202303","errorCode":0}
+[2021-11-18 20:23:03][MYSOCKET]Valid Authkey...
+[2021-11-18 20:23:03][MYSOCKET]Call taskProcess
+[2021-11-18 20:23:03][TASK]taskProcess dic : {'authKey': '0905142444RYSTWU', 'resulttime': '20211118202303', 'errorCode': 0}
+[2021-11-18 20:23:03][MAIN]서버인증요청
+[2021-11-18 20:23:03][MAIN]Door Open
+[2021-11-18 20:23:08][MAIN]Door Close
+[2021-11-18 20:23:08][MAIN]Display Init...
+[2021-11-18 20:23:18][MAIN]접속 종료

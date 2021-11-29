@@ -1,0 +1,32 @@
+[2021-11-26 21:42:59][COMMAND]Read System Configuration File
+[2021-11-26 21:42:59][MAIN]입출력 초기화
+[2021-11-26 21:42:59][MAIN]LCD 초기화
+[2021-11-26 21:42:59][MAIN]사운드 초기화
+[2021-11-26 21:42:59][MAIN]네트워크 정보 로드
+[2021-11-26 21:42:59][MAIN]Send to BLE
+[2021-11-26 21:42:59][COMMAND]##################################################
+[2021-11-26 21:42:59][COMMAND]> CMD : Get BLE Infor.
+[2021-11-26 21:42:59][COMMAND]{'enckey': 'BBCCD728663FF5F2', 'mac': 'D3:68:BF:B2:F2:5C'}
+[2021-11-26 21:42:59][COMMAND]##################################################
+[2021-11-26 21:42:59][COMMAND]Write System Configuration File
+[2021-11-26 21:42:59][UTIL]key : 20D368BFB2F25CBBCCD728663FF5F221
+[2021-11-26 21:42:59][UTIL]iv : BBCCD728663FF5F2
+[2021-11-26 21:43:00][MAIN]터치초기화
+[2021-11-26 21:43:02][MAIN]카드리더초기화
+[2021-11-26 21:43:02][MAIN]소켓서버 연결
+[2021-11-26 21:43:03][MYSOCKET]접속 완료
+[2021-11-26 21:43:03][MYSOCKET]{'result': 0}
+[2021-11-26 21:43:03][MYSOCKET]## Send Message ##
+[2021-11-26 21:43:03][MYSOCKET]orig : {'method': 'getDeviceFcltInfo', 'macAddr': 'D3:68:BF:B2:F2:5C'}
+[2021-11-26 21:43:03][MYSOCKET]dec : {"resulttime":"20211126214303","fcltSn":5,"errorCode":0,"orgnztSn":3}
+[2021-11-26 21:43:03][MYSOCKET]recvData : b'\xcd\x9b\xcbw\x7f,\xeb\x8f(\x9bk\x12\x83\x85#\xe2\r \xb9\xb5\x85R\x01\x9fNwL\xc7\xe65\xafA/\xf0\xae\xd6\xd9\xbdz\xfa\xf9\x9d>\xb6\xc7\xb2\x7f\x8f\x92\xf9\x9e\xfb\x12q\x0fD\t\xab\x95:w;\x17\x91p\xf5\xffS\xe2\x9cJA|t\xc2S{\x1f\x9c\xaa'
+[2021-11-26 21:43:03][MYSOCKET]dicdata : {'resulttime': '20211126214303', 'fcltSn': 5, 'errorCode': 0, 'orgnztSn': 3}
+[2021-11-26 21:43:03][MYSOCKET]resulttime : 20211126214303
+[2021-11-26 21:43:03][MYSOCKET]Receive Socket
+[2021-11-26 21:43:03][MYSOCKET]Decoding : {"resulttime":"20211126214303","fcltSn":5,"errorCode":0,"orgnztSn":3}
+[2021-11-26 21:43:03][MYSOCKET]Call taskProcess
+[2021-11-26 21:43:03][TASK]taskProcess dic : {'resulttime': '20211126214303', 'fcltSn': 5, 'errorCode': 0, 'orgnztSn': 3}
+[2021-11-26 21:43:03][COMMAND]Write System Configuration File
+[2021-11-26 21:43:15][MAIN]UID :4C297DE2
+[2021-11-26 21:43:15][MAIN]'str' object has no attribute 'len'
+[2021-11-26 21:43:58][MAIN]접속 종료

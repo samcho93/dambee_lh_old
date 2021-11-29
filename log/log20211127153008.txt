@@ -1,0 +1,190 @@
+[2021-11-27 15:30:08][COMMAND]Read System Configuration File
+[2021-11-27 15:30:08][MAIN]입출력 초기화
+[2021-11-27 15:30:08][MAIN]LCD 초기화
+[2021-11-27 15:30:09][MAIN]사운드 초기화
+[2021-11-27 15:30:09][MAIN]네트워크 정보 로드
+[2021-11-27 15:30:09][MAIN]Send to BLE
+[2021-11-27 15:30:09][COMMAND]##################################################
+[2021-11-27 15:30:09][COMMAND]> CMD : Get BLE Infor.
+[2021-11-27 15:30:09][COMMAND]{'enckey': 'BBCCD728663FF5F2', 'mac': 'D3:68:BF:B2:F2:5C'}
+[2021-11-27 15:30:09][COMMAND]##################################################
+[2021-11-27 15:30:09][COMMAND]Write System Configuration File
+[2021-11-27 15:30:09][UTIL]key : 20D368BFB2F25CBBCCD728663FF5F221
+[2021-11-27 15:30:09][UTIL]iv : BBCCD728663FF5F2
+[2021-11-27 15:30:10][MAIN]터치초기화
+[2021-11-27 15:30:12][MAIN]카드리더초기화
+[2021-11-27 15:30:12][MAIN]소켓서버 연결
+[2021-11-27 15:30:12][MYSOCKET]접속 완료
+[2021-11-27 15:30:12][MYSOCKET]{'result': 0}
+[2021-11-27 15:30:12][MYSOCKET]## Send Message ##
+[2021-11-27 15:30:12][MYSOCKET]orig : {'method': 'getDeviceFcltInfo', 'macAddr': 'D3:68:BF:B2:F2:5C'}
+[2021-11-27 15:30:12][MYSOCKET]dec : {"resulttime":"20211127153012","fcltSn":5,"errorCode":0,"orgnztSn":3}
+[2021-11-27 15:30:12][MYSOCKET]recvData : b'\xcd\x9b\xcbw\x7f,\xeb\x8f(\x9bk\x12\x83\x85#\xe2\xac{g\xdc"\xf1/k\x14\xf6L\xa2\x9f\xb5K\xd0r\x16\x85o\xc5p\x0ci[+\xe8u6j\x87\xb0\xa9\xcd\xb7)\xc2m_\x9f+\xc3\x9a\xd2\xdfX\x90j\x03\x86\x15\xb8i\xf6\xfd\xfb\\\x96\xa3\x89o\\\x9c\xe6'
+[2021-11-27 15:30:12][MYSOCKET]dicdata : {'resulttime': '20211127153012', 'fcltSn': 5, 'errorCode': 0, 'orgnztSn': 3}
+[2021-11-27 15:30:12][MYSOCKET]resulttime : 20211127153012
+[2021-11-27 15:30:12][MYSOCKET]Receive Socket
+[2021-11-27 15:30:12][MYSOCKET]Decoding : {"resulttime":"20211127153012","fcltSn":5,"errorCode":0,"orgnztSn":3}
+[2021-11-27 15:30:12][MYSOCKET]Call taskProcess
+[2021-11-27 15:30:12][TASK]taskProcess dic : {'resulttime': '20211127153012', 'fcltSn': 5, 'errorCode': 0, 'orgnztSn': 3}
+[2021-11-27 15:30:12][COMMAND]Write System Configuration File
+[2021-11-27 15:30:23][UTIL]Request Calling....
+[2021-11-27 15:30:23][TASK]TASK_REQUEST_CALL
+[2021-11-27 15:30:23][MYSOCKET]## Send Message ##
+[2021-11-27 15:30:23][MYSOCKET]orig : {'method': 'reqVideoCall', 'macAddr': 'D3:68:BF:B2:F2:5C'}
+[2021-11-27 15:30:23][MYSOCKET]dec : {"resulttime":"20211127153023","errorCode":0,"videocallSn":736}
+[2021-11-27 15:30:23][MYSOCKET]recvData : b"\xcd\x9b\xcbw\x7f,\xeb\x8f(\x9bk\x12\x83\x85#\xe2+\x8c|\x90\x89\x14%'\x90\xd9\xde\x8a\xe4\x08\xdbq\x94\xbfw(\x06\x99\xecF\x90\x8bs\xe6\x15\x87\xd3 \xc6\xb4\xaa\x16\x9f\xf53CX\xf0TKS\x90\x87\xb5"
+[2021-11-27 15:30:23][MYSOCKET]dicdata : {'resulttime': '20211127153023', 'errorCode': 0, 'videocallSn': 736}
+[2021-11-27 15:30:23][MYSOCKET]resulttime : 20211127153023
+[2021-11-27 15:30:23][MYSOCKET]Receive Socket
+[2021-11-27 15:30:23][MYSOCKET]Decoding : {"resulttime":"20211127153023","errorCode":0,"videocallSn":736}
+[2021-11-27 15:30:23][MYSOCKET]Call taskProcess
+[2021-11-27 15:30:23][TASK]taskProcess dic : {'resulttime': '20211127153023', 'errorCode': 0, 'videocallSn': 736}
+[2021-11-27 15:30:23][TASK]TASK_REQUEST_CALL_RESP
+[2021-11-27 15:30:23][TASK]VideoCallSn : 736
+[2021-11-27 15:30:23][TASK]TASK_REQUEST_CALL_RESULT
+[2021-11-27 15:30:23][MYSOCKET]## Send Message ##
+[2021-11-27 15:30:23][MYSOCKET]orig : {'method': 'reqVideoCallResult', 'macAddr': 'D3:68:BF:B2:F2:5C', 'videocallSn': 736, 'videoCallResult': 0}
+[2021-11-27 15:30:23][MYSOCKET]dec : {"result":0,"resulttime":"20211127153023","errorCode":0}
+[2021-11-27 15:30:23][MYSOCKET]recvData : b'#\xc4p\xbf\xe5F\xe3\xc3\xf5\xed\x9c\t\x95\xb4z\xbcYe\xf6\x9fZ\t\x1fB#\xadQ\x8at\t\xaf\xae\x1a\xa1\xd1\xcf\x9d\xfd\x17\x14\x06\x99\x8c+\xe0er\x16Y\xb9\xbdd\x18\x1f5\xd0\x84.\x97\xeejn\xca\xdb'
+[2021-11-27 15:30:23][MYSOCKET]dicdata : {'result': 0, 'resulttime': '20211127153023', 'errorCode': 0}
+[2021-11-27 15:30:23][MYSOCKET]resulttime : 20211127153023
+[2021-11-27 15:30:23][MYSOCKET]Receive Socket
+[2021-11-27 15:30:23][MYSOCKET]Decoding : {"result":0,"resulttime":"20211127153023","errorCode":0}
+[2021-11-27 15:30:23][MYSOCKET]Call taskProcess
+[2021-11-27 15:30:23][TASK]taskProcess dic : {'result': 0, 'resulttime': '20211127153023', 'errorCode': 0}
+[2021-11-27 15:30:43][TASK]videoCallTimeout!!!
+[2021-11-27 15:30:43][TASK]TASK_REQUEST_CALL_TIMEOUT
+[2021-11-27 15:30:43][MYSOCKET]## Send Message ##
+[2021-11-27 15:30:43][MYSOCKET]orig : {'method': 'videoCallTimeout', 'macAddr': 'D3:68:BF:B2:F2:5C', 'videocallSn': 736}
+[2021-11-27 15:30:43][MYSOCKET]dec : {"resulttime":"20211127153043","errorCode":0}
+[2021-11-27 15:30:43][MYSOCKET]recvData : b'\xcd\x9b\xcbw\x7f,\xeb\x8f(\x9bk\x12\x83\x85#\xe2\xa8\x0e\xcf.?\x13\x0ek\xc9\x12\x0c\x91\xba\xa2-\x8eVvL\x9d\x99C\x8e\x08)z\xbd\xea\x82\xc3\xad\x80'
+[2021-11-27 15:30:43][MYSOCKET]dicdata : {'resulttime': '20211127153043', 'errorCode': 0}
+[2021-11-27 15:30:43][MYSOCKET]resulttime : 20211127153043
+[2021-11-27 15:30:43][MYSOCKET]Receive Socket
+[2021-11-27 15:30:44][MYSOCKET]Decoding : {"resulttime":"20211127153043","errorCode":0}
+[2021-11-27 15:30:44][MYSOCKET]Call taskProcess
+[2021-11-27 15:30:44][TASK]taskProcess dic : {'resulttime': '20211127153043', 'errorCode': 0}
+[2021-11-27 15:32:03][UTIL]Request Calling....
+[2021-11-27 15:32:03][TASK]TASK_REQUEST_CALL
+[2021-11-27 15:32:03][MYSOCKET]## Send Message ##
+[2021-11-27 15:32:03][MYSOCKET]orig : {'method': 'reqVideoCall', 'macAddr': 'D3:68:BF:B2:F2:5C'}
+[2021-11-27 15:32:03][MYSOCKET]dec : {"resulttime":"20211127153203","errorCode":0,"videocallSn":737}
+[2021-11-27 15:32:03][MYSOCKET]recvData : b'\xcd\x9b\xcbw\x7f,\xeb\x8f(\x9bk\x12\x83\x85#\xe2\xf1s"\xc2\xd6\xebT|\xa0m\t\xa9\xa4\x9b\xfb\xf4\xb8W\xa5\xd3\xe7\xf8\x80\xb5\xa6\nP\x8a\xd9\xc3\xd7w\x84K|\xbd\xa1/;3\xf9\xb3}o~h\x18\xee'
+[2021-11-27 15:32:03][MYSOCKET]dicdata : {'resulttime': '20211127153203', 'errorCode': 0, 'videocallSn': 737}
+[2021-11-27 15:32:03][MYSOCKET]Receive Socket
+[2021-11-27 15:32:03][MYSOCKET]resulttime : 20211127153203
+[2021-11-27 15:32:03][MYSOCKET]Decoding : {"resulttime":"20211127153203","errorCode":0,"videocallSn":737}
+[2021-11-27 15:32:03][MYSOCKET]Call taskProcess
+[2021-11-27 15:32:03][TASK]taskProcess dic : {'resulttime': '20211127153203', 'errorCode': 0, 'videocallSn': 737}
+[2021-11-27 15:32:03][TASK]TASK_REQUEST_CALL_RESP
+[2021-11-27 15:32:03][TASK]VideoCallSn : 737
+[2021-11-27 15:32:04][TASK]TASK_REQUEST_CALL_RESULT
+[2021-11-27 15:32:04][MYSOCKET]## Send Message ##
+[2021-11-27 15:32:04][MYSOCKET]orig : {'method': 'reqVideoCallResult', 'macAddr': 'D3:68:BF:B2:F2:5C', 'videocallSn': 737, 'videoCallResult': 0}
+[2021-11-27 15:32:04][MYSOCKET]dec : {"result":0,"resulttime":"20211127153204","errorCode":0}
+[2021-11-27 15:32:04][MYSOCKET]recvData : b'#\xc4p\xbf\xe5F\xe3\xc3\xf5\xed\x9c\t\x95\xb4z\xbcYe\xf6\x9fZ\t\x1fB#\xadQ\x8at\t\xaf\xae\xd1\xa0\x0e\xe5\r\x8d\xc2\xf77\xb7\xbb\xc0\xa8\x91\x8e\xc1\x80x\xf7J\x15\xfb\xa7w2\x01\xc5\x9aMqn\x10'
+[2021-11-27 15:32:04][MYSOCKET]dicdata : {'result': 0, 'resulttime': '20211127153204', 'errorCode': 0}
+[2021-11-27 15:32:04][MYSOCKET]Receive Socket
+[2021-11-27 15:32:04][MYSOCKET]resulttime : 20211127153204
+[2021-11-27 15:32:04][MYSOCKET]Decoding : {"result":0,"resulttime":"20211127153204","errorCode":0}
+[2021-11-27 15:32:04][MYSOCKET]Call taskProcess
+[2021-11-27 15:32:04][TASK]taskProcess dic : {'result': 0, 'resulttime': '20211127153204', 'errorCode': 0}
+[2021-11-27 15:32:05][MYSOCKET]dec : {"method":"videoCallComplate","responseId":"549b5a2a1526452e991a94f55541f3c1"}
+[2021-11-27 15:32:05][MYSOCKET]recvData : b'\x80M\xc7\xbe\xe2\xfbs\xdf[\xb5-\xe2\xf3\x8eoW\x95\x1a\xcee\xf5lo\t\xde\x91\xdb\x15)\x97T\x7f\x17\xc0\x8b_m#\x05\xac\x04u\x15c\xf4\xad\xf7\x0f\x92\x88O\xa9\xbbtE/\n2)\xb13\xd3\xccW}\x9c)\xa1\xec\xda\xa8\xb4\xbf=\x01"\x8d\xbcFJ'
+[2021-11-27 15:32:05][MYSOCKET]dicdata : {'method': 'videoCallComplate', 'responseId': '549b5a2a1526452e991a94f55541f3c1'}
+[2021-11-27 15:32:05][MYSOCKET]Method videoCallComplate
+[2021-11-27 15:32:05][MYSOCKET]{"responseId": "549b5a2a1526452e991a94f55541f3c1", "errorCode": 0}
+[2021-11-27 15:32:05][SOCKETCMD]> {'responseId': '549b5a2a1526452e991a94f55541f3c1', 'errorCode': 0}
+[2021-11-27 15:32:06][TASK]TASK_VIDEOCALL_COMPLETE
+[2021-11-27 15:32:09][MYSOCKET]dec : {"method":"callTerminate","responseId":"e1e70d9a288e447c90c8e8eed4e4a886"}
+[2021-11-27 15:32:09][MYSOCKET]recvData : b'\xae\xe6\x0b\x9dY\x87\xbe\xfb\xfd\xec\xe9\xca\x89\x93<L)\xda\x89\xa5\x9b\x00:oQ*\xd5\x14!8ksfl\xef\x01Jp\xf7\xae/0\x0c\n\x8a6&\xcd:J"\xb8\xfd\x0c\x9a\xf1D\xef\xa6\xf6\xc8\x95\xd6\x11\xb3]\xd7Ad;<\x1f\xdd\xef\xa6C\xc5)\xc3\x0b'
+[2021-11-27 15:32:09][MYSOCKET]dicdata : {'method': 'callTerminate', 'responseId': 'e1e70d9a288e447c90c8e8eed4e4a886'}
+[2021-11-27 15:32:09][MYSOCKET]Method callTerminate
+[2021-11-27 15:32:09][MYSOCKET]{"responseId": "e1e70d9a288e447c90c8e8eed4e4a886", "errorCode": 0}
+[2021-11-27 15:32:09][SOCKETCMD]> {'responseId': 'e1e70d9a288e447c90c8e8eed4e4a886', 'errorCode': 0}
+[2021-11-27 15:32:36][UTIL]Request Calling....
+[2021-11-27 15:32:36][TASK]TASK_REQUEST_CALL
+[2021-11-27 15:32:36][MYSOCKET]## Send Message ##
+[2021-11-27 15:32:36][MYSOCKET]orig : {'method': 'reqVideoCall', 'macAddr': 'D3:68:BF:B2:F2:5C'}
+[2021-11-27 15:32:37][MYSOCKET]dec : {"resulttime":"20211127153236","errorCode":0,"videocallSn":738}
+[2021-11-27 15:32:37][MYSOCKET]recvData : b'\xcd\x9b\xcbw\x7f,\xeb\x8f(\x9bk\x12\x83\x85#\xe2[e\x9a\xaa\xe4\xe1`\xe9/8\x06\x02(Z\xf8\xe1\x13\xfd\xda\xd9\x04\x0e\xd2\xe7;$\xe0\x8e6\xc8\xc9\xda\xc1F\xfb\xee\xf5\xdc\x10\xd79w\x11\x8e\xe6K\x03\xf9'
+[2021-11-27 15:32:37][MYSOCKET]dicdata : {'resulttime': '20211127153236', 'errorCode': 0, 'videocallSn': 738}
+[2021-11-27 15:32:37][MYSOCKET]Receive Socket
+[2021-11-27 15:32:37][MYSOCKET]resulttime : 20211127153236
+[2021-11-27 15:32:37][MYSOCKET]Decoding : {"resulttime":"20211127153236","errorCode":0,"videocallSn":738}
+[2021-11-27 15:32:37][MYSOCKET]Call taskProcess
+[2021-11-27 15:32:37][TASK]taskProcess dic : {'resulttime': '20211127153236', 'errorCode': 0, 'videocallSn': 738}
+[2021-11-27 15:32:37][TASK]TASK_REQUEST_CALL_RESP
+[2021-11-27 15:32:37][TASK]VideoCallSn : 738
+[2021-11-27 15:32:37][TASK]TASK_REQUEST_CALL_RESULT
+[2021-11-27 15:32:37][MYSOCKET]## Send Message ##
+[2021-11-27 15:32:37][MYSOCKET]orig : {'method': 'reqVideoCallResult', 'macAddr': 'D3:68:BF:B2:F2:5C', 'videocallSn': 738, 'videoCallResult': 0}
+[2021-11-27 15:32:37][MYSOCKET]dec : {"result":0,"resulttime":"20211127153237","errorCode":0}
+[2021-11-27 15:32:37][MYSOCKET]recvData : b'#\xc4p\xbf\xe5F\xe3\xc3\xf5\xed\x9c\t\x95\xb4z\xbcYe\xf6\x9fZ\t\x1fB#\xadQ\x8at\t\xaf\xae\xed\xf0\x97Q\xb6z\x83\xf7\xa9E_S&\xc6Vh\x01\xf6\xa6\x8b\xabx6\xefnq\xb8\x998\xee\xf7\xa6'
+[2021-11-27 15:32:37][MYSOCKET]dicdata : {'result': 0, 'resulttime': '20211127153237', 'errorCode': 0}
+[2021-11-27 15:32:37][MYSOCKET]Receive Socket
+[2021-11-27 15:32:37][MYSOCKET]resulttime : 20211127153237
+[2021-11-27 15:32:37][MYSOCKET]Decoding : {"result":0,"resulttime":"20211127153237","errorCode":0}
+[2021-11-27 15:32:37][MYSOCKET]Call taskProcess
+[2021-11-27 15:32:37][TASK]taskProcess dic : {'result': 0, 'resulttime': '20211127153237', 'errorCode': 0}
+[2021-11-27 15:32:38][MYSOCKET]dec : {"method":"videoCallComplate","responseId":"fca52ea443e04b88a247878381c0357a"}
+[2021-11-27 15:32:38][MYSOCKET]recvData : b"\x80M\xc7\xbe\xe2\xfbs\xdf[\xb5-\xe2\xf3\x8eoW\x95\x1a\xcee\xf5lo\t\xde\x91\xdb\x15)\x97T\x7f\xb2S\xcf('\xc2\x9a\x0e\x00O\x82\xfd\xf4\x1dZ\x10\xdf\xcb\x9e\xce\xbf#\xf7`!\xcd\xce\xc8\x94\x9f#\x1b\xaa\xae<\xe9*\xa2\x06\x8eT\xbejl\x14\x12\xe1\xc4"
+[2021-11-27 15:32:38][MYSOCKET]dicdata : {'method': 'videoCallComplate', 'responseId': 'fca52ea443e04b88a247878381c0357a'}
+[2021-11-27 15:32:38][MYSOCKET]Method videoCallComplate
+[2021-11-27 15:32:38][MYSOCKET]{"responseId": "fca52ea443e04b88a247878381c0357a", "errorCode": 0}
+[2021-11-27 15:32:38][SOCKETCMD]> {'responseId': 'fca52ea443e04b88a247878381c0357a', 'errorCode': 0}
+[2021-11-27 15:32:38][TASK]TASK_VIDEOCALL_COMPLETE
+[2021-11-27 15:32:41][MYSOCKET]dec : {"method":"openNow","responseId":"cff21c64078f468fb1512a90a2a696c7"}
+[2021-11-27 15:32:41][MYSOCKET]recvData : b' \xc5\\\x1d)&\xad\xb1\n*\xdd\xfe\xd1\x8a\xd3\xc6}\x8c\x103O,\x1e\x0e[\x19\xf3\x98\xe3\x805W{\xad\xbd\xc7\xd38%V\xd0\xbeQ\x80\xf5\xbf\x94\x9f\x14\xb4Bh@|,\x972\x87VJ \xe4\x82\xe3j\x9e\x17(-\xeen\xcd\x87t\xf6|H\xf8\xcfd'
+[2021-11-27 15:32:41][MYSOCKET]dicdata : {'method': 'openNow', 'responseId': 'cff21c64078f468fb1512a90a2a696c7'}
+[2021-11-27 15:32:41][MYSOCKET]Method openNow
+[2021-11-27 15:32:41][MYSOCKET]{"responseId": "cff21c64078f468fb1512a90a2a696c7", "errorCode": 0}
+[2021-11-27 15:32:41][SOCKETCMD]> {'responseId': 'cff21c64078f468fb1512a90a2a696c7', 'errorCode': 0}
+[2021-11-27 15:32:41][MYSOCKET]dec : {"method":"callTerminate","responseId":"c7c25ca7a4664ce2935008856d61a227"}
+[2021-11-27 15:32:41][MYSOCKET]recvData : b"\xae\xe6\x0b\x9dY\x87\xbe\xfb\xfd\xec\xe9\xca\x89\x93<L)\xda\x89\xa5\x9b\x00:oQ*\xd5\x14!8ks]\xd2i\x92\xeaW\x8d\xd1\xb1pq\x1e/\x8d\xc9\xe0\xc7\xf4{A\xdcI\xadx'\xa9\xb1\xce\xc5+3X\xcb\xdc[E\x96od\xaaZ\xa6\x00\xec{%\xa3o"
+[2021-11-27 15:32:41][MYSOCKET]dicdata : {'method': 'callTerminate', 'responseId': 'c7c25ca7a4664ce2935008856d61a227'}
+[2021-11-27 15:32:41][MYSOCKET]Method callTerminate
+[2021-11-27 15:32:41][MAIN]Door Open
+[2021-11-27 15:32:41][MYSOCKET]{"responseId": "c7c25ca7a4664ce2935008856d61a227", "errorCode": 0}
+[2021-11-27 15:32:41][SOCKETCMD]> {'responseId': 'c7c25ca7a4664ce2935008856d61a227', 'errorCode': 0}
+[2021-11-27 15:32:44][MAIN]Door Close
+[2021-11-27 15:32:46][MAIN]Display Init...
+[2021-11-27 15:36:14][UTIL]Request Calling....
+[2021-11-27 15:36:14][TASK]TASK_REQUEST_CALL
+[2021-11-27 15:36:14][MYSOCKET]## Send Message ##
+[2021-11-27 15:36:14][MYSOCKET]orig : {'method': 'reqVideoCall', 'macAddr': 'D3:68:BF:B2:F2:5C'}
+[2021-11-27 15:36:14][MYSOCKET]dec : {"resulttime":"20211127153614","errorCode":0,"videocallSn":739}
+[2021-11-27 15:36:14][MYSOCKET]recvData : b'\xcd\x9b\xcbw\x7f,\xeb\x8f(\x9bk\x12\x83\x85#\xe2\x8d\x06\xe5\x95@)0\x89\xf9\xaa\xcbI\xdd\xb3\xfb\xff\xed\xbb\x82S`\x88\xdb\xd2\xf4i\xbb\x07D\xd1\xeb\xc5<\xeaf\x8b\xd7\x86\x99\xa5\x80,\x05&\x9f\x86\xc4\xc4'
+[2021-11-27 15:36:14][MYSOCKET]dicdata : {'resulttime': '20211127153614', 'errorCode': 0, 'videocallSn': 739}
+[2021-11-27 15:36:14][MYSOCKET]resulttime : 20211127153614
+[2021-11-27 15:36:14][MYSOCKET]Receive Socket
+[2021-11-27 15:36:14][MYSOCKET]Decoding : {"resulttime":"20211127153614","errorCode":0,"videocallSn":739}
+[2021-11-27 15:36:14][MYSOCKET]Call taskProcess
+[2021-11-27 15:36:14][TASK]taskProcess dic : {'resulttime': '20211127153614', 'errorCode': 0, 'videocallSn': 739}
+[2021-11-27 15:36:14][TASK]TASK_REQUEST_CALL_RESP
+[2021-11-27 15:36:14][TASK]VideoCallSn : 739
+[2021-11-27 15:36:14][TASK]TASK_REQUEST_CALL_RESULT
+[2021-11-27 15:36:14][MYSOCKET]## Send Message ##
+[2021-11-27 15:36:14][MYSOCKET]orig : {'method': 'reqVideoCallResult', 'macAddr': 'D3:68:BF:B2:F2:5C', 'videocallSn': 739, 'videoCallResult': 0}
+[2021-11-27 15:36:14][MYSOCKET]dec : {"result":0,"resulttime":"20211127153614","errorCode":0}
+[2021-11-27 15:36:14][MYSOCKET]recvData : b'#\xc4p\xbf\xe5F\xe3\xc3\xf5\xed\x9c\t\x95\xb4z\xbcYe\xf6\x9fZ\t\x1fB#\xadQ\x8at\t\xaf\xaeW\xdfx\xe6\xf2\x11\x1f`Mx\xdaF\x1e\xd6\x83\x99\x10\x11\tK\xab\xcb1\xfe\x7f\x97E\xef\xcbG~s'
+[2021-11-27 15:36:14][MYSOCKET]dicdata : {'result': 0, 'resulttime': '20211127153614', 'errorCode': 0}
+[2021-11-27 15:36:14][MYSOCKET]Receive Socket
+[2021-11-27 15:36:14][MYSOCKET]Decoding : {"result":0,"resulttime":"20211127153614","errorCode":0}
+[2021-11-27 15:36:14][MYSOCKET]resulttime : 20211127153614
+[2021-11-27 15:36:14][MYSOCKET]Call taskProcess
+[2021-11-27 15:36:14][TASK]taskProcess dic : {'result': 0, 'resulttime': '20211127153614', 'errorCode': 0}
+[2021-11-27 15:36:19][MYSOCKET]dec : {"method":"videoCallComplate","responseId":"97fc91cc45524b48b192a9e31bfa70dd"}
+[2021-11-27 15:36:19][MYSOCKET]recvData : b'\x80M\xc7\xbe\xe2\xfbs\xdf[\xb5-\xe2\xf3\x8eoW\x95\x1a\xcee\xf5lo\t\xde\x91\xdb\x15)\x97T\x7f\x03\xd7\xfb\xbd\x98}\x0b*f\xe3\xd5=F\x03T\xb8-\xe0QH\xf35\xf0J\xf1\x1a\xd1\xa8\xd1*<\x84\xf8|\xcb|\xe5G\xed\xf0\x06\xd6\xf8\xd3\x13\x1dM\x8e'
+[2021-11-27 15:36:19][MYSOCKET]dicdata : {'method': 'videoCallComplate', 'responseId': '97fc91cc45524b48b192a9e31bfa70dd'}
+[2021-11-27 15:36:19][MYSOCKET]Method videoCallComplate
+[2021-11-27 15:36:19][MYSOCKET]{"responseId": "97fc91cc45524b48b192a9e31bfa70dd", "errorCode": 0}
+[2021-11-27 15:36:19][SOCKETCMD]> {'responseId': '97fc91cc45524b48b192a9e31bfa70dd', 'errorCode': 0}
+[2021-11-27 15:36:19][TASK]TASK_VIDEOCALL_COMPLETE
+[2021-11-27 15:36:21][MYSOCKET]dec : {"method":"callTerminate","responseId":"66bc59f2a84e4effbe2775a819b410a4"}
+[2021-11-27 15:36:21][MYSOCKET]recvData : b'\xae\xe6\x0b\x9dY\x87\xbe\xfb\xfd\xec\xe9\xca\x89\x93<L)\xda\x89\xa5\x9b\x00:oQ*\xd5\x14!8ksKo/\x1b\xf6\xc2\x86\xafV&#\xcdFZ\xd8h\xd3eR\xc5\xa06\xcf\x11\xe3\r\xa6\xe9\xdc\xa4\xdf.\x12\x8f\xf7\xca\xf6\x0b\x16^\xae\xa9\xee\x04J\x93\xcbS'
+[2021-11-27 15:36:21][MYSOCKET]dicdata : {'method': 'callTerminate', 'responseId': '66bc59f2a84e4effbe2775a819b410a4'}
+[2021-11-27 15:36:21][MYSOCKET]Method callTerminate
+[2021-11-27 15:36:21][MYSOCKET]{"responseId": "66bc59f2a84e4effbe2775a819b410a4", "errorCode": 0}
+[2021-11-27 15:36:21][SOCKETCMD]> {'responseId': '66bc59f2a84e4effbe2775a819b410a4', 'errorCode': 0}
+[2021-11-27 15:40:46][MAIN]접속 종료
