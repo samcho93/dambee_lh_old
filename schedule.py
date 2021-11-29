@@ -32,7 +32,7 @@ def readSchedule():
         date = int(now.strftime('%Y%m%d'))
         week = now.weekday()
         if week == 6: week = 0
-        else: week -= 1
+        else: week += 1
         
         print("Today : ", date, ", week : ", week)
         
