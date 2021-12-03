@@ -62,28 +62,28 @@ class TS20:
           self._write_data(data)
 
           
-          data = b'\x00\x66'
+          data = b'\x00\x44'
           self._write_data(data)
           
-          data = b'\x01\x33'
+          data = b'\x01\x44'
           self._write_data(data)
           
-          data = b'\x02\x33'
+          data = b'\x02\x44'
           self._write_data(data)
           
-          data = b'\x03\x33'
+          data = b'\x03\x44'
           self._write_data(data)
           
-          data = b'\x04\x33'
+          data = b'\x04\x44'
           self._write_data(data)
           
-          data = b'\x05\x66'
+          data = b'\x05\x44'
           self._write_data(data)
           
-          data = b'\x06\x66'
+          data = b'\x06\x44'
           self._write_data(data)
           
-          data = b'\x07\x66'
+          data = b'\x07\x44'
           self._write_data(data)
 
            
