@@ -276,7 +276,7 @@ while True:
           if len(l) > 12:
             mysocket.webcmd[7]["cardNumber"] = l[0:12]
           elif len(l) < 12:
-            mysocket.webcmd[7]["cardNumber"] = "0000"+l
+            mysocket.webcmd[7]["cardNumber"] = "00AABBCCDDEEFF"#"0000"+l
           else:
             mysocket.webcmd[7]["cardNumber"] = l
           mysocket.SendMessage(7)
