@@ -239,7 +239,7 @@ while True:
     
   #if netdiscon == False:
   # Touch Key
-  if task.task == TASK_IDLE and open_time == 0 and nfcbusy == False:
+  if task.task == TASK_IDLE and open_time == 0 and nfcbusy == False and netdiscon == False:
     touch = ts20.getTouch()
     
     if touch != 0 and keybusy == False:
@@ -262,7 +262,7 @@ while True:
       keycnt = 0
                 
   # NFC Check 
-  if task.task == TASK_IDLE and open_time == 0:
+  if task.task == TASK_IDLE and open_time == 0 and netdiscon == False:
     try:
       uid = nfc.getUID()
       #uid = None    
@@ -273,14 +273,12 @@ while True:
           os.system("aplay -D plughw:1,0 /home/pi/dambee_lh/music/beep.wav")
           DEBUGPrint("UID :", l)
           nfcbusy = True
-        
-          mysocket.webcmd[7]["cardNumber"] = "00AABBCCDDEE"#l      
-          #if len(l) > 12:
-          #  mysocket.webcmd[7]["cardNumber"] = l[0:12]
-          #elif len(l) < 12:
-          #  mysocket.webcmd[7]["cardNumber"] = "0000"+l
-          #else:
-          #  mysocket.webcmd[7]["cardNumber"] = l
+          if len(l) > 12:
+            mysocket.webcmd[7]["cardNumber"] = l[0:12]
+          elif len(l) < 12:
+            mysocket.webcmd[7]["cardNumber"] = "0000"+l
+          else:
+            mysocket.webcmd[7]["cardNumber"] = l
           mysocket.SendMessage(7)
           
       else:
@@ -333,8 +331,8 @@ while True:
         DEBUGPrint("접속이 끊겼습니다.")    
         mysocket.exitThread = False
         if mysocket.bRetryCon == False:
-          display.DispSocketDiscon()
-          mysocket.bRetryCon = True
+            display.DispSocketDiscon()
+            mysocket.bRetryCon = True
           
         mysocket.Init(pcmd.Server['IP'], pcmd.Server['PORT'], task) 
         #mysocket.Init('192.168.137.1', 9000, task)
@@ -342,6 +340,7 @@ while True:
         if mysocket.bRetryCon == True:
             display.DispWait()
             mysocket.bRetryCon = False
+            
                     
     net_time = cur_time
     
