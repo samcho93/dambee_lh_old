@@ -167,12 +167,14 @@ def Init(server_ip, server_port, tsk):
         DEBUGPrint("연결이 거부 되었습니다")
         
 def CheckNetwork():
-    st = socket(AF_INET, SOCK_DGRAM)
-    try:       
-        st.connect(('10.255.255.255', 1))
-        IP = st.getsockname()[0]
-    except Exception:
-        IP = '127.0.0.1'
+    url='http://www.google.com/'
+  
+    try:
+        urllib.request.urlopen(url, timeout=5)
+        IP = "192.168.0.1"
+    except :
+        DEBUGPrint("Network Error")
+        IP = "127.0.0.1"
 
     return IP
         
